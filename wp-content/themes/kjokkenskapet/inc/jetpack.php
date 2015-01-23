@@ -10,10 +10,10 @@
  * Add theme support for Infinite Scroll.
  * See: http://jetpack.me/support/infinite-scroll/
  */
-function kjokenskapet_jetpack_setup() {
+function kjokkenskapet_jetpack_setup() {
 	add_theme_support( 'infinite-scroll', array(
 		'container' => 'main',
 		'footer'    => 'page',
 	) );
 }
-add_action( 'after_setup_theme', 'kjokenskapet_jetpack_setup' );
+add_action( 'after_setup_theme', 'kjokkenskapet_jetpack_setup' );

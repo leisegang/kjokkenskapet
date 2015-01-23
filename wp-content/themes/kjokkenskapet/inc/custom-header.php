@@ -18,31 +18,31 @@
 /**
  * Set up the WordPress core custom header feature.
  *
- * @uses kjokenskapet_header_style()
- * @uses kjokenskapet_admin_header_style()
- * @uses kjokenskapet_admin_header_image()
+ * @uses kjokkenskapet_header_style()
+ * @uses kjokkenskapet_admin_header_style()
+ * @uses kjokkenskapet_admin_header_image()
  */
-function kjokenskapet_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'kjokenskapet_custom_header_args', array(
+function kjokkenskapet_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'kjokkenskapet_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'kjokenskapet_header_style',
-		'admin-head-callback'    => 'kjokenskapet_admin_header_style',
-		'admin-preview-callback' => 'kjokenskapet_admin_header_image',
+		'wp-head-callback'       => 'kjokkenskapet_header_style',
+		'admin-head-callback'    => 'kjokkenskapet_admin_header_style',
+		'admin-preview-callback' => 'kjokkenskapet_admin_header_image',
 	) ) );
 }
-add_action( 'after_setup_theme', 'kjokenskapet_custom_header_setup' );
+add_action( 'after_setup_theme', 'kjokkenskapet_custom_header_setup' );
 
-if ( ! function_exists( 'kjokenskapet_header_style' ) ) :
+if ( ! function_exists( 'kjokkenskapet_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
  *
- * @see kjokenskapet_custom_header_setup().
+ * @see kjokkenskapet_custom_header_setup().
  */
-function kjokenskapet_header_style() {
+function kjokkenskapet_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	// If no custom options for text are set, let's bail
@@ -75,15 +75,15 @@ function kjokenskapet_header_style() {
 	</style>
 	<?php
 }
-endif; // kjokenskapet_header_style
+endif; // kjokkenskapet_header_style
 
-if ( ! function_exists( 'kjokenskapet_admin_header_style' ) ) :
+if ( ! function_exists( 'kjokkenskapet_admin_header_style' ) ) :
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
  *
- * @see kjokenskapet_custom_header_setup().
+ * @see kjokkenskapet_custom_header_setup().
  */
-function kjokenskapet_admin_header_style() {
+function kjokkenskapet_admin_header_style() {
 ?>
 	<style type="text/css">
 		.appearance_page_custom-header #headimg {
@@ -103,15 +103,15 @@ function kjokenskapet_admin_header_style() {
 	</style>
 <?php
 }
-endif; // kjokenskapet_admin_header_style
+endif; // kjokkenskapet_admin_header_style
 
-if ( ! function_exists( 'kjokenskapet_admin_header_image' ) ) :
+if ( ! function_exists( 'kjokkenskapet_admin_header_image' ) ) :
 /**
  * Custom header image markup displayed on the Appearance > Header admin panel.
  *
- * @see kjokenskapet_custom_header_setup().
+ * @see kjokkenskapet_custom_header_setup().
  */
-function kjokenskapet_admin_header_image() {
+function kjokkenskapet_admin_header_image() {
 	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
 ?>
 	<div id="headimg">
@@ -123,4 +123,4 @@ function kjokenskapet_admin_header_image() {
 	</div>
 <?php
 }
-endif; // kjokenskapet_admin_header_image
+endif; // kjokkenskapet_admin_header_image

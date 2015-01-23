@@ -12,9 +12,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'kjokenskapet' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'kjokenskapet' ), 'WordPress' ); ?></a>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'kjokkenskapet' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'kjokkenskapet' ), 'WordPress' ); ?></a>
 			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'kjokenskapet' ), 'Kjøkkenskapet', '<a href="http://leisegang.no" rel="designer">Patrick Leisegang</a>' ); ?>
+			<?php printf( __( 'Theme: %1$s by %2$s.', 'kjokkenskapet' ), 'Kjøkkenskapet', '<a href="http://leisegang.no" rel="designer">Patrick Leisegang</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

@@ -12,7 +12,7 @@ if ( ! isset( $content_width ) ) {
 	$content_width = 640; /* pixels */
 }
 
-if ( ! function_exists( 'kjokenskapet_setup' ) ) :
+if ( ! function_exists( 'kjokkenskapet_setup' ) ) :
 /**
  * Sets up theme defaults and registers support for various WordPress features.
  *
@@ -20,15 +20,15 @@ if ( ! function_exists( 'kjokenskapet_setup' ) ) :
  * runs before the init hook. The init hook is too late for some features, such
  * as indicating support for post thumbnails.
  */
-function kjokenskapet_setup() {
+function kjokkenskapet_setup() {
 
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
 	 * If you're building a theme based on Kjøkkenskapet, use a find and replace
-	 * to change 'kjokenskapet' to the name of your theme in all the template files
+	 * to change 'kjokkenskapet' to the name of your theme in all the template files
 	 */
-	load_theme_textdomain( 'kjokenskapet', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'kjokkenskapet', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -50,7 +50,7 @@ function kjokenskapet_setup() {
 
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
-		'primary' => __( 'Primary Menu', 'kjokenskapet' ),
+		'primary' => __( 'Primary Menu', 'kjokkenskapet' ),
 	) );
 
 	/*
@@ -70,22 +70,22 @@ function kjokenskapet_setup() {
 	) );
 
 	// Set up the WordPress core custom background feature.
-	add_theme_support( 'custom-background', apply_filters( 'kjokenskapet_custom_background_args', array(
+	add_theme_support( 'custom-background', apply_filters( 'kjokkenskapet_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
 }
-endif; // kjokenskapet_setup
-add_action( 'after_setup_theme', 'kjokenskapet_setup' );
+endif; // kjokkenskapet_setup
+add_action( 'after_setup_theme', 'kjokkenskapet_setup' );
 
 /**
  * Register widget area.
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
-function kjokenskapet_widgets_init() {
+function kjokkenskapet_widgets_init() {
 	register_sidebar( array(
-		'name'          => __( 'Sidebar', 'kjokenskapet' ),
+		'name'          => __( 'Sidebar', 'kjokkenskapet' ),
 		'id'            => 'sidebar-1',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
@@ -94,23 +94,23 @@ function kjokenskapet_widgets_init() {
 		'after_title'   => '</h1>',
 	) );
 }
-add_action( 'widgets_init', 'kjokenskapet_widgets_init' );
+add_action( 'widgets_init', 'kjokkenskapet_widgets_init' );
 
 /**
  * Enqueue scripts and styles.
  */
-function kjokenskapet_scripts() {
-	wp_enqueue_style( 'kjokenskapet-style', get_stylesheet_uri() );
+function kjokkenskapet_scripts() {
+	wp_enqueue_style( 'kjokkenskapet-style', get_stylesheet_uri() );
 
-	wp_enqueue_script( 'kjokenskapet-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
+	wp_enqueue_script( 'kjokkenskapet-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
-	wp_enqueue_script( 'kjokenskapet-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
+	wp_enqueue_script( 'kjokkenskapet-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
 }
-add_action( 'wp_enqueue_scripts', 'kjokenskapet_scripts' );
+add_action( 'wp_enqueue_scripts', 'kjokkenskapet_scripts' );
 
 /**
  * Implement the Custom Header feature.

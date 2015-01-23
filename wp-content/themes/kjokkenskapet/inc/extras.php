@@ -13,7 +13,7 @@
  * @param array $classes Classes for the body element.
  * @return array
  */
-function kjokenskapet_body_classes( $classes ) {
+function kjokkenskapet_body_classes( $classes ) {
 	// Adds a class of group-blog to blogs with more than 1 published author.
 	if ( is_multi_author() ) {
 		$classes[] = 'group-blog';
@@ -21,7 +21,7 @@ function kjokenskapet_body_classes( $classes ) {
 
 	return $classes;
 }
-add_filter( 'body_class', 'kjokenskapet_body_classes' );
+add_filter( 'body_class', 'kjokkenskapet_body_classes' );
 
 if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 	/**
@@ -31,7 +31,7 @@ if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 	 * @param string $sep Optional separator.
 	 * @return string The filtered title.
 	 */
-	function kjokenskapet_wp_title( $title, $sep ) {
+	function kjokkenskapet_wp_title( $title, $sep ) {
 		if ( is_feed() ) {
 			return $title;
 		}
@@ -49,12 +49,12 @@ if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 
 		// Add a page number if necessary:
 		if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
-			$title .= " $sep " . sprintf( __( 'Page %s', 'kjokenskapet' ), max( $paged, $page ) );
+			$title .= " $sep " . sprintf( __( 'Page %s', 'kjokkenskapet' ), max( $paged, $page ) );
 		}
 
 		return $title;
 	}
-	add_filter( 'wp_title', 'kjokenskapet_wp_title', 10, 2 );
+	add_filter( 'wp_title', 'kjokkenskapet_wp_title', 10, 2 );
 
 	/**
 	 * Title shim for sites older than WordPress 4.1.
@@ -62,10 +62,10 @@ if ( version_compare( $GLOBALS['wp_version'], '4.1', '<' ) ) :
 	 * @link https://make.wordpress.org/core/2014/10/29/title-tags-in-4-1/
 	 * @todo Remove this function when WordPress 4.3 is released.
 	 */
-	function kjokenskapet_render_title() {
+	function kjokkenskapet_render_title() {
 		?>
 		<title><?php wp_title( '|', true, 'right' ); ?></title>
 		<?php
 	}
-	add_action( 'wp_head', 'kjokenskapet_render_title' );
+	add_action( 'wp_head', 'kjokkenskapet_render_title' );
 endif;
