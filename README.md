@@ -2,4 +2,4 @@
 Ny nettside til kjøkkenskapet
 
 
-This is a Bachelor assignment
+This is a Bachelor assignment at the University of Agder, Kristiansand, Norway
