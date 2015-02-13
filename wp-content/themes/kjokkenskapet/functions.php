@@ -124,7 +124,7 @@ require get_template_directory() . '/inc/jetpack.php';
 $args = array(
 	'width'         => 980,
 	'height'        => 60,
-	'default-image' => get_template_directory_uri() . '/images/header.jpg',
+	'default-image' => get_template_directory_uri() . '/images/header.png',
 	'uploads'       => true,
 );
 add_theme_support( 'custom-header', $args );
