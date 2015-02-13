@@ -1033,7 +1033,7 @@ object {
 	width:100%;
 	display:block;
 	padding-top:0.6em;
-	padding-bottom:0.8em;
+	padding-bottom:0.8em;w
 }
 .social-url a {
 	text-align:center;
@@ -1041,4 +1041,9 @@ object {
 	margin:5px 2px;
 	padding:10px 12px 6px 12px;
 	border:1px solid #dedede;
+}
+
+
+.container .five .columns {
+display: none;
 }
