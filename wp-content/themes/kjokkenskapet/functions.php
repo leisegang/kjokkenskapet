@@ -122,8 +122,8 @@ require get_template_directory() . '/inc/customizer.php';
 require get_template_directory() . '/inc/jetpack.php';
 
 $args = array(
-	'width'         => 980,
-	'height'        => 60,
+	'width'         => 350,
+	'height'        => 80,
 	'default-image' => get_template_directory_uri() . '/images/header.png',
 	'uploads'       => true,
 );

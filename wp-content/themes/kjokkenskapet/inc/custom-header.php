@@ -90,13 +90,13 @@ function kjokkenskapet_admin_header_style() {
 			border: none;
 		}
 		#headimg h1,
-		#desc {
+		#desc { display:none;
 		}
 		#headimg h1 {
 		}
 		#headimg h1 a {
 		}
-		#desc {
+		#desc { display:none;
 		}
 		#headimg img {
 		}
