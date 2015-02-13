@@ -1,48 +1,29 @@
 <?php
 /**
  * Sample implementation of the Custom Header feature
- * http://codex.wordpress.org/Custom_Headers
  *
- * You can add an optional custom header image to header.php like so ...
-
-	<?php if ( get_header_image() ) : ?>
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
-	</a>
-	<?php endif; // End header image check. ?>
-
- *
- * @package Kjøkkenskapet
  */
-
-/**
- * Set up the WordPress core custom header feature.
- *
- * @uses kjokkenskapet_header_style()
- * @uses kjokkenskapet_admin_header_style()
- * @uses kjokkenskapet_admin_header_image()
- */
-function kjokkenskapet_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'kjokkenskapet_custom_header_args', array(
+function impresa_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'impresa_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
+		'default-text-color'     => '555555',
+		'width'                  => 1500,
+		'height'                 => 150,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'kjokkenskapet_header_style',
-		'admin-head-callback'    => 'kjokkenskapet_admin_header_style',
-		'admin-preview-callback' => 'kjokkenskapet_admin_header_image',
+		'wp-head-callback'       => 'impresa_header_style',
+		'admin-head-callback'    => 'impresa_admin_header_style',
+		'admin-preview-callback' => 'impresa_admin_header_image',
 	) ) );
 }
-add_action( 'after_setup_theme', 'kjokkenskapet_custom_header_setup' );
+add_action( 'after_setup_theme', 'impresa_custom_header_setup' );
 
-if ( ! function_exists( 'kjokkenskapet_header_style' ) ) :
+if ( ! function_exists( 'impresa_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
  *
- * @see kjokkenskapet_custom_header_setup().
+ * @see impresa_custom_header_setup().
  */
-function kjokkenskapet_header_style() {
+function impresa_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	// If no custom options for text are set, let's bail
@@ -69,21 +50,21 @@ function kjokkenskapet_header_style() {
 	?>
 		.site-title a,
 		.site-description {
-			color: #<?php echo esc_attr( $header_text_color ); ?>;
+			color: #<?php echo $header_text_color; ?>;
 		}
 	<?php endif; ?>
 	</style>
 	<?php
 }
-endif; // kjokkenskapet_header_style
+endif; // impresa_header_style
 
-if ( ! function_exists( 'kjokkenskapet_admin_header_style' ) ) :
+if ( ! function_exists( 'impresa_admin_header_style' ) ) :
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
  *
- * @see kjokkenskapet_custom_header_setup().
+ * @see impresa_custom_header_setup().
  */
-function kjokkenskapet_admin_header_style() {
+function impresa_admin_header_style() {
 ?>
 	<style type="text/css">
 		.appearance_page_custom-header #headimg {
@@ -103,15 +84,15 @@ function kjokkenskapet_admin_header_style() {
 	</style>
 <?php
 }
-endif; // kjokkenskapet_admin_header_style
+endif; // impresa_admin_header_style
 
-if ( ! function_exists( 'kjokkenskapet_admin_header_image' ) ) :
+if ( ! function_exists( 'impresa_admin_header_image' ) ) :
 /**
  * Custom header image markup displayed on the Appearance > Header admin panel.
  *
- * @see kjokkenskapet_custom_header_setup().
+ * @see impresa_custom_header_setup().
  */
-function kjokkenskapet_admin_header_image() {
+function impresa_admin_header_image() {
 	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
 ?>
 	<div id="headimg">
@@ -123,4 +104,4 @@ function kjokkenskapet_admin_header_image() {
 	</div>
 <?php
 }
-endif; // kjokkenskapet_admin_header_image
+endif; // impresa_admin_header_image

@@ -1,32 +1,32 @@
 <?php
 /**
- * The template for displaying all single posts.
- *
- * @package Kjøkkenskapet
+ * The Template for displaying all single posts.
  */
 
 get_header(); ?>
 
-	<div id="primary" class="content-area">
+	<?php if ( of_get_option('sidebar-post') == '2c-l-fixed twelve columns' ) {
+  		get_sidebar();
+	}?>
+    
+	<div id="primary" class="content-area <?php echo of_get_option( 'sidebar-post' ); ?>">
 		<main id="main" class="site-main" role="main">
-
+	<?php ImpresaBreadcrumb(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'content', 'single' ); ?>
-
-			<?php the_post_navigation(); ?>
-
+			<?php get_template_part( 'content/content', 'single' ); ?>
+			<?php impresa_post_nav(); ?>
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template
-				if ( comments_open() || get_comments_number() ) :
+				if ( comments_open() || '0' != get_comments_number() ) :
 					comments_template();
 				endif;
 			?>
-
 		<?php endwhile; // end of the loop. ?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
-
-<?php get_sidebar(); ?>
+	
+	<?php if ( of_get_option('sidebar-post') == '2c-r-fixed twelve columns' ) {
+  		get_sidebar();
+	}?>
+    
 <?php get_footer(); ?>
