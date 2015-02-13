@@ -1076,7 +1076,7 @@ hr {
 .site
 {
 	width:1040px;
-	margin:0px auto 50px;
+	margin:0px auto;
 	padding:0 40px 40px 40px;
 	background:#000;
 	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
@@ -1093,6 +1093,8 @@ h1.site-title
 {
 	padding:0 0 24px 0;
 }
+
+
 
 .site-header h1 a, .site-header h2 a {
 color: #515151;
@@ -1113,20 +1115,25 @@ h2.site-description
 	font-size:14px;
 }
 
-
+#headimg {
+margin-top: 40px;
+}
  
 .main-navigation
 {
-	margin-top: 24px;
-	font-size:12px;
+	margin-top: 0px;
+	font-size:16px;
+	
 }
 
 .main-navigation > div > ul
 {
 	width:100%;
-	border-bottom: 1px solid #ededed;
-	border-top: 1px solid #ededed;
+/*	border-bottom: 1px solid #ededed;
+	border-top: 1px solid #ededed;*/
 	display: inline-block !important;
+	position: fixed;
+    background-color: #000;
 }
 
 .main-navigation li {
@@ -1137,7 +1144,7 @@ position: relative;
 
 .main-navigation li a {
 	border-bottom: 0;
-	color: #6a6a6a;
+	color: #eee;
 	line-height: 3.2;
 	text-transform: uppercase;
 	white-space: nowrap;
@@ -1156,7 +1163,7 @@ white-space: normal;
 }
 
 .main-navigation li ul li a:hover {
-	background: #e3e3e3;
+	background: #ccc;
 	color: #444;
 }
 
