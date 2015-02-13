@@ -4,7 +4,7 @@
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Style 59
+ * @package kjokkenskapet
  */
 
 get_header(); ?>
@@ -24,46 +24,46 @@ get_header(); ?>
 							single_tag_title();
 
 						elseif ( is_author() ) :
-							printf( __( 'Author: %s', 'style_59' ), '<span class="vcard">' . get_the_author() . '</span>' );
+							printf( __( 'Author: %s', 'kjokkenskapet' ), '<span class="vcard">' . get_the_author() . '</span>' );
 
 						elseif ( is_day() ) :
-							printf( __( 'Day: %s', 'style_59' ), '<span>' . get_the_date() . '</span>' );
+							printf( __( 'Day: %s', 'kjokkenskapet' ), '<span>' . get_the_date() . '</span>' );
 
 						elseif ( is_month() ) :
-							printf( __( 'Month: %s', 'style_59' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'style_59' ) ) . '</span>' );
+							printf( __( 'Month: %s', 'kjokkenskapet' ), '<span>' . get_the_date( _x( 'F Y', 'monthly archives date format', 'kjokkenskapet' ) ) . '</span>' );
 
 						elseif ( is_year() ) :
-							printf( __( 'Year: %s', 'style_59' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'style_59' ) ) . '</span>' );
+							printf( __( 'Year: %s', 'kjokkenskapet' ), '<span>' . get_the_date( _x( 'Y', 'yearly archives date format', 'kjokkenskapet' ) ) . '</span>' );
 
 						elseif ( is_tax( 'post_format', 'post-format-aside' ) ) :
-							_e( 'Asides', 'style_59' );
+							_e( 'Asides', 'kjokkenskapet' );
 
 						elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
-							_e( 'Galleries', 'style_59');
+							_e( 'Galleries', 'kjokkenskapet');
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', 'style_59');
+							_e( 'Images', 'kjokkenskapet');
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
-							_e( 'Videos', 'style_59' );
+							_e( 'Videos', 'kjokkenskapet' );
 
 						elseif ( is_tax( 'post_format', 'post-format-quote' ) ) :
-							_e( 'Quotes', 'style_59' );
+							_e( 'Quotes', 'kjokkenskapet' );
 
 						elseif ( is_tax( 'post_format', 'post-format-link' ) ) :
-							_e( 'Links', 'style_59' );
+							_e( 'Links', 'kjokkenskapet' );
 
 						elseif ( is_tax( 'post_format', 'post-format-status' ) ) :
-							_e( 'Statuses', 'style_59' );
+							_e( 'Statuses', 'kjokkenskapet' );
 
 						elseif ( is_tax( 'post_format', 'post-format-audio' ) ) :
-							_e( 'Audios', 'style_59' );
+							_e( 'Audios', 'kjokkenskapet' );
 
 						elseif ( is_tax( 'post_format', 'post-format-chat' ) ) :
-							_e( 'Chats', 'style_59' );
+							_e( 'Chats', 'kjokkenskapet' );
 
 						else :
-							_e( 'Archives', 'style_59' );
+							_e( 'Archives', 'kjokkenskapet' );
 
 						endif;
 					?>
@@ -90,7 +90,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php style_59_paging_nav(); ?>
+			<?php kjokkenskapet_paging_nav(); ?>
 
 		<?php else : ?>
 

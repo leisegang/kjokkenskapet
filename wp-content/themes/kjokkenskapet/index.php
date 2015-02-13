@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package Style 59
+ * @package kjokkenskapet
  */
 
 get_header(); ?>
@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php style_59_paging_nav(); ?>
+			<?php kjokkenskapet_paging_nav(); ?>
 
 		<?php else : ?>
 

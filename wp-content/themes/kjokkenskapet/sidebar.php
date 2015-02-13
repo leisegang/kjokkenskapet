@@ -2,7 +2,7 @@
 /**
  * The Sidebar containing the main widget areas.
  *
- * @package Style 59
+ * @package kjokkenskapet
  */
 ?>
 	<div id="secondary" class="widget-area" role="complementary">
@@ -13,14 +13,14 @@
 			</aside>
 
 			<aside id="archives" class="widget">
-				<h1 class="widget-title"><?php _e( 'Archives', 'style_59' ); ?></h1>
+				<h1 class="widget-title"><?php _e( 'Archives', 'kjokkenskapet' ); ?></h1>
 				<ul>
 					<?php wp_get_archives( array( 'type' => 'monthly' ) ); ?>
 				</ul>
 			</aside>
 
 			<aside id="meta" class="widget">
-				<h1 class="widget-title"><?php _e( 'Meta', 'style_59' ); ?></h1>
+				<h1 class="widget-title"><?php _e( 'Meta', 'kjokkenskapet' ); ?></h1>
 				<ul>
 					<?php wp_register(); ?>
 					<li><?php wp_loginout(); ?></li>
