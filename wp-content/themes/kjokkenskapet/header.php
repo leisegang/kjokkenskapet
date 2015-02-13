@@ -31,7 +31,6 @@
        <div class="five columns branding">
 		<?php if ( of_get_option('logo_uploader') ) : ?>
        		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 		
-            <img src="<?php echo of_get_option('logo_uploader'); ?>" alt="<?php echo esc_attr( bloginfo( 'name' )); ?>"></a></h1>
 		<?php else : ?>
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
             <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
@@ -39,8 +38,8 @@
       </div> <!-- .five columns branding--> 
       <div class="eleven columns navmenu">
         <nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'impresa' ); ?></h1>
-			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'impresa' ); ?></a>
+			<h1 class="menu-toggle"><?php _e( 'Menu', 'kjokkenskapet' ); ?></h1>
+			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'kjokkenskapet' ); ?></a>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
       </div> <!-- .eleven columns navmenu-->
