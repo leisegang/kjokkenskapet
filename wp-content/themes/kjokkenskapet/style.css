@@ -712,13 +712,13 @@ textarea {
 }
 
 body {
-	color: #141412;
+	color: #eee;
 	line-height: 1.5;
 	margin: 0;
-	background-color: #e6e6e6;
+	background-color: #000;
 	font-size:86%;
 	font-family:"open sans",sans-serif,arial;
-	background:#eee;
+	background:#000;
 }
 
 a {
