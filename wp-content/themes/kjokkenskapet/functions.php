@@ -1,8 +1,8 @@
 <?php
 /**
- * Style 59 functions and definitions
+ * kjokkenskapet functions and definitions
  *
- * @package Style 59
+ * @package kjokkenskapet
  */
 
 /**
@@ -25,7 +25,7 @@ function kjokkenskapet_setup() {
 	/*
 	 * Make theme available for translation.
 	 * Translations can be filed in the /languages/ directory.
-	 * If you're building a theme based on Style 59, use a find and replace
+	 * If you're building a theme based on kjokkenskapet, use a find and replace
 	 * to change 'kjokkenskapet' to the name of your theme in all the template files
 	 */
 	load_theme_textdomain( 'kjokkenskapet', get_template_directory() . '/languages' );
