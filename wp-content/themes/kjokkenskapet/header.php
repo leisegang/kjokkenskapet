@@ -29,12 +29,9 @@
 		<?php endif; // End header image check. ?>
         
        <div class="five columns branding">
-		<?php if ( of_get_option('logo_uploader') ) : ?>
+		
        		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 		
-		<?php else : ?>
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-            <h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
-		<?php endif; ?>
+            <img src="<?php echo of_get_option('logo_uploader'); ?>" alt="<?php echo esc_attr( bloginfo( 'name' )); ?>"></a></h1>
       </div> <!-- .five columns branding--> 
       <div class="eleven columns navmenu">
         <nav id="site-navigation" class="main-navigation" role="navigation">
