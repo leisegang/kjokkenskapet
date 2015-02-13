@@ -715,10 +715,10 @@ body {
 	color: #eee;
 	line-height: 1.5;
 	margin: 0;
-	background-color: #000;
-	font-size:86%;
+	background-color: #fff;
+	font-size:90%;
 	font-family:"open sans",sans-serif,arial;
-	background:#000;
+	background:#eee;
 }
 
 a {
