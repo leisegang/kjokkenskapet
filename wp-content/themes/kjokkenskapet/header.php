@@ -24,14 +24,11 @@
 	<header id="masthead" class="site-header" role="banner">
 		<div class="container site-branding">
         
-        <?php if ( get_header_image() ) : ?>
-			<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="" class="header-image">
-		<?php endif; // End header image check. ?>
-        
-       <div class="five columns branding">
-		
-       		<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" id="site-logo" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"> 		
-            <img src="<?php echo of_get_option('logo_uploader'); ?>" alt="<?php echo esc_attr( bloginfo( 'name' )); ?>"></a></h1>
+	<?php if ( get_header_image() ) : ?>
+	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+		<img src="<?php header_image(); ?>" width="<?php echo esc_attr( get_custom_header()->width ); ?>" height="<?php echo esc_attr( get_custom_header()->height ); ?>" alt="">
+	</a>
+	<?php endif; // End header image check. ?>
       </div> <!-- .five columns branding--> 
       <div class="eleven columns navmenu">
         <nav id="site-navigation" class="main-navigation" role="navigation">
