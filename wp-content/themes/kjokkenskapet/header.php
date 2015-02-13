@@ -19,15 +19,17 @@
 </head>
 
 <body <?php body_class(); ?>>
-<div id="page" class="hfeed site">
 
-	<header id="masthead" class="site-header" role="banner">
        <nav id="site-navigation" class="main-navigation" role="navigation">
            <h1 class="menu-toggle"><?php _e( 'Menu', 'kjokkenskapet' ); ?></h1>
            <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'kjokkenskapet' ); ?></a>
 
            <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
        </nav><!-- #site-navigation -->
+
+<div id="page" class="hfeed site">
+
+	<header id="masthead" class="site-header" role="banner">
        <div id="headimg">
            <?php if ( get_header_image() ) : ?>
            <img src="<?php header_image(); ?>" alt="">
