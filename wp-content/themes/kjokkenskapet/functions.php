@@ -136,3 +136,16 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+$wp_customize->add_section( 'kjokkenskapet_logo_section' , array(
+    'title'       => __( 'Logo', 'kjokkenskapet' ),
+    'priority'    => 30,
+    'description' => 'Upload a logo to replace the default site name and description in the header',
+) );
+$wp_customize->add_setting( 'kjokkenskapet_logo' );
+
+$wp_customize->add_control( new WP_Customize_Image_Control( $wp_customize, 'kjokkenskapet_logo', array(
+    'label'    => __( 'Logo', 'kjokkenskapet' ),
+    'section'  => 'kjokkenskapet_logo_section',
+    'settings' => 'kjokkenskapet_logo',
+) ) );
