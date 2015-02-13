@@ -4,7 +4,7 @@
  *
  * Contains the closing of the #content div and all content after
  *
- * @package Kjøkkenskapet
+ * @package Style 59
  */
 ?>
 
@@ -12,9 +12,8 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'kjokkenskapet' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'kjokkenskapet' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( __( 'Theme: %1$s by %2$s.', 'kjokkenskapet' ), 'Kjøkkenskapet', '<a href="http://leisegang.no" rel="designer">Patrick Leisegang</a>' ); ?>
+			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'style_59' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'style_59' ), 'WordPress' ); ?></a>
+			 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
