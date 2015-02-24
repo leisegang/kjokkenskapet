@@ -2,6 +2,7 @@
 /*
 !.gitignore
 !wp-content/
+!wp-plugins/
 
 # Ignoring
 .DS_Store
