@@ -19,7 +19,6 @@ Layout: Sidebar right
     padding: 30px;
     background: #fff;
     background: hsl(0, 0%, 100%);
-    margin-left: 30px;
 }
 
 .site-footer {
@@ -72,7 +71,7 @@ Layout: Sidebar right
     max-width: 780px;
     max-width: 78rem;
     padding: 1em 0 2em;
-    margin: 0 auto 2em;
+    margin: 0 2em 2em;
     background: #fff;
     background: hsl(0, 0%, 100%);
 }
