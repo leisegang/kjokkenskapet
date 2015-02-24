@@ -14,7 +14,7 @@ Layout: Sidebar right
 }
 
 .site-content .widget-area {   
-    float: left;
+    float: right;
     width: 340px;
     padding: 30px;
     background: #fff;
@@ -71,7 +71,7 @@ Layout: Sidebar right
     max-width: 780px;
     max-width: 78rem;
     padding: 1em 0 2em;
-    margin: 0 2em 2em;
+    margin: 0 0em 2em;
     background: #fff;
     background: hsl(0, 0%, 100%);
 }

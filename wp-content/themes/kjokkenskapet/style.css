@@ -383,18 +383,31 @@ a:active {
     text-decoration: underline; 
 }
 
+
+/*--------------------------------------------------------------
+Width
+--------------------------------------------------------------*/
+#side {
+    width:1080px;
+    max-width: 100%;
+    margin: 3em auto;
+}
+
+
 /*--------------------------------------------------------------
 5.2 Main Menu
 --------------------------------------------------------------*/
 .main-navigation {
     position: relative;
     display: block;
-    width: 100%;
+    width: 1080px;
+    max-width: 100%;
     clear: both;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
     background: #313131;
     background: hsl(0, 0%, 19%);
+    margin: 0 auto;
 }
 
 .main-navigation ul {
@@ -1795,3 +1808,18 @@ object { max-width: 100%; }
 }
 
 .site-info { text-align: center; }
+
+
+/*--------------------------------------------------------------
+15 Slider
+--------------------------------------------------------------*/
+
+#slider {
+    width: 100%;
+    clear: both;
+    margin-bottom: 2em;
+}
+
+.metaslider {
+    margin: 0 auto
+}

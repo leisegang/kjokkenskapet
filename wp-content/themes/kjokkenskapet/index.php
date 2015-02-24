@@ -13,7 +13,16 @@
 
 get_header(); ?>
 
+<div id="slider">
+<?php 
+    if (is_home() || is_front_page()) {
+        echo do_shortcode("[metaslider id=1762]");
+    }
+?>
+</div>
+<div id="side">
 	<div id="primary" class="content-area">
+
 		<main id="main" class="site-main" role="main">
 
 		<?php if ( have_posts() ) : ?>
@@ -41,6 +50,7 @@ get_header(); ?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
+<div><!-- #side -->
 
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>
