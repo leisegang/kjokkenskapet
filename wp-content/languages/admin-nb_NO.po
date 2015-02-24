@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Administration package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2015-01-10 16:35:13+0000\n"
+"PO-Revision-Date: 2015-02-18 11:09:37+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,17 +10,17 @@ msgstr ""
 "X-Generator: GlotPress/1.0-alpha-1000\n"
 "Project-Id-Version: Administration\n"
 
-#: wp-admin/about.php:137
+#: wp-admin/about.php:145
 msgid "Expanded JavaScript APIs in the customizer enable a new media experience as well as dynamic and contextual controls, sections, and panels."
 msgstr "Utvidet JavaScript-API i tematilpasseren gjør en ny medieopplevelse mulig, i tillegg til dynamiske og kontekstavhengige kontroller, seksjoner og paneler."
 
-#: wp-admin/about.php:134
+#: wp-admin/about.php:142
 msgid "Metadata, date, and term queries now support advanced conditional logic, like nested clauses and multiple operators &mdash; %s."
 msgstr "Metadata-, dato- og term-spørringer støtter nå avansert betinget logikk, som nøstede betingelser og flere operander &mdash; %s."
 
 #: wp-admin/user-edit.php:494
 msgid "You are only logged in at this location."
-msgstr "Du er kun logget inn på denne lokasjonen."
+msgstr "Du er bare innlogget herfra."
 
 #: wp-admin/includes/template.php:2058
 msgid "Distraction-Free Writing"
@@ -34,88 +34,88 @@ msgstr "Disse anbefalingene er basert på utvidelsene som du og andre brukere ha
 msgid "You can enable distraction-free writing mode using the icon to the right. This feature is not available for old browsers or devices with small screens, and requires that the full-height editor be enabled in Screen Options."
 msgstr "Du kan aktivere distraksjonsfri skrivemodud med ikonet til høyre. Denne funksjonen er ikke støttet på eldre nettlesere eller på enheter med små skjermer, og krever at hele høyden-redigering er aktivert i skjerminnstillingene."
 
-#: wp-admin/about.php:116
+#: wp-admin/about.php:124
 msgid "The <a href=\"%s\">plugin installer</a> suggests plugins for you to try. Recommendations are based on the plugins you and other users have installed."
 msgstr "<a href=\"%s\">Utvidelsesinstallereren</a> anbefaler utvidelser som du kan prøve. Anbefalingene er basert på utvidelser som du og andre brukere har installert."
 
-#: wp-admin/about.php:103
+#: wp-admin/about.php:111
 msgid "Embedding videos from Vine is as simple as pasting a URL onto its own line in a post. See the <a href=\"%s\">full list</a> of supported embeds."
 msgstr "Å bygge inn videoer fra Vine er så enkelt som å lime inn en URL på en egen linje i et innlegg. Se <a href=\"%s\">hele listen</a> med støttede innbygginger."
 
-#: wp-admin/about.php:109
+#: wp-admin/about.php:117
 msgid "If you&#8217;ve ever worried you forgot to sign out from a shared computer, you can now go to <a href=\"%s\">your profile</a> and log out everywhere."
 msgstr "Hvis du noen gang har vært urolig for at du har glemt å logge ut fra en offentlig datamaskin, så kan du nå gå til <a href=\"%s\">profilen din</a> og logge ut overalt."
 
-#: wp-admin/about.php:45
+#: wp-admin/about.php:53
 msgid "Introducing Twenty&nbsp;Fifteen"
 msgstr "Introduserer Twenty&nbsp;Fifteen"
 
-#: wp-admin/about.php:77
+#: wp-admin/about.php:85
 msgid "Sometimes, you just need to concentrate on putting your thoughts into words. Try turning on <strong>distraction-free writing mode</strong>. When you start typing, all the distractions will fade away, letting you focus solely on your writing. All your editing tools instantly return when you need them."
 msgstr "Noen ganger trenger du bare å konsentrere deg om å få skrevet ned tankene dine. Prøv å skru på <strong>distraksjonsfri skrivemodus</strong>. Når du begynner å skrive, vil alle distraksjoner tones ned, og du kan fokusere på å skrive. Alle redigeringsverktøy kommer tilbake med en gang du trenger dem."
 
-#: wp-admin/about.php:54
+#: wp-admin/about.php:62
 msgid "The straightforward typography is readable on any screen size."
 msgstr "Den enkle typografien er lesbar på alle skjermstørrelser."
 
-#: wp-admin/about.php:53
+#: wp-admin/about.php:61
 msgid "Twenty Fifteen has flawless language support, with help from <a href=\"%s\">Google&#8217;s Noto font family</a>."
 msgstr "Twenty Fifteen har fullstendig språkstøtte, med hjelp fra <a href=\"%s\">Google&#8217;s Noto-skrifttype</a>."
 
-#: wp-admin/about.php:52
+#: wp-admin/about.php:60
 msgid "Our newest default theme, Twenty Fifteen, is a blog-focused theme designed for clarity."
 msgstr "Vårt nyeste standardtema, Twenty Fifteen, er et bloggfokusert tema som er designet for tydelighet."
 
-#: wp-admin/about.php:89
+#: wp-admin/about.php:97
 msgid "Choose a language"
 msgstr "Velg et språk"
 
-#: wp-admin/about.php:55
+#: wp-admin/about.php:63
 msgid "Your content always takes center stage, whether viewed on a phone, tablet, laptop, or desktop computer."
 msgstr "Ditt innhold får alltid hovedfokus, uansett om det vises på en telefon, et nettbrett, en bærbar eller en stasjonær datamaskin."
 
-#: wp-admin/about.php:84
+#: wp-admin/about.php:92
 msgid "The Finer Points"
 msgstr "De små godsakene"
 
-#: wp-admin/about.php:149
+#: wp-admin/about.php:157
 msgid "Continued improvements to inline code documentation have made the <a href=\"%s\">developer reference</a> more complete than ever."
 msgstr "Stadige forbedringer i kodedokumentasjonen har gjort <a href=\"%s\">utviklerhåndboken</a> mer komplett enn noen gang tidligere."
 
-#: wp-admin/about.php:148
+#: wp-admin/about.php:156
 msgid "Developer Reference"
 msgstr "Utviklerhåndbok"
 
-#: wp-admin/about.php:145
+#: wp-admin/about.php:153
 msgid "%s tells WordPress to handle the complexities of document titles."
 msgstr "%s får WordPress til å håndtere kompleksiteten i dokumenttitler."
 
-#: wp-admin/about.php:114
+#: wp-admin/about.php:122
 msgid "Plugin recommendations"
 msgstr "Utvidelsesanbefalinger"
 
-#: wp-admin/about.php:133
+#: wp-admin/about.php:141
 msgid "Complex Queries"
 msgstr "Komplekse spørringer"
 
-#: wp-admin/about.php:102
+#: wp-admin/about.php:110
 msgid "Vine embeds"
 msgstr "Vine-innbygginger"
 
-#: wp-admin/about.php:108
+#: wp-admin/about.php:116
 msgid "Log out everywhere"
 msgstr "Logg ut overalt"
 
-#: wp-admin/about.php:92
+#: wp-admin/about.php:100
 msgid "Right now, WordPress %1$s is already translated into %2$s languages, with more always in progress. You can switch to any translation on the <a href=\"%3$s\">General Settings</a> screen."
 msgstr "Akkurat nå er WordPress %1$s allerede oversatt til %2$s språk, med flere underveis. Du kan bytte språk i skjermen for <a href=\"%3$s\">generelle innstillinger</a>."
 
-#: wp-admin/about.php:68
+#: wp-admin/about.php:76
 msgid "Distraction-free writing"
 msgstr "Distraksjonsfri skrivemodus"
 
 #. translators: %s: "<title>" tag
-#: wp-admin/about.php:142
+#: wp-admin/about.php:150
 msgid "%s tags in themes"
 msgstr "%s-tagger i temaer"
 
@@ -259,11 +259,11 @@ msgstr ""
 msgid "Untested with your version of WordPress"
 msgstr "Ikke testet med din versjon av WordPress"
 
-#: wp-admin/includes/ajax-actions.php:1847
+#: wp-admin/includes/ajax-actions.php:1859
 msgid "You don't have permission to attach files to this post."
 msgstr "Du har ikke adgang til å legge ved filer til dette innlegget."
 
-#: wp-admin/includes/ajax-actions.php:1838
+#: wp-admin/includes/ajax-actions.php:1845
 msgid "You don't have permission to upload files."
 msgstr "Du har ikke adgang til å laste opp filer."
 
@@ -324,20 +324,20 @@ msgstr "Alle kategorier"
 msgid "Filter by comment type"
 msgstr "Filtrer etter kommentartype"
 
-#: wp-admin/includes/ajax-actions.php:2793
+#: wp-admin/includes/ajax-actions.php:2823
 msgid "You are now logged out everywhere else."
 msgstr "Du er nå logget ut alle andre steder."
 
 #. translators: 1: User's display name.
-#: wp-admin/includes/ajax-actions.php:2797
+#: wp-admin/includes/ajax-actions.php:2827
 msgid "%s has been logged out."
 msgstr "%s har blitt logget ut."
 
-#: wp-admin/includes/ajax-actions.php:2785
+#: wp-admin/includes/ajax-actions.php:2815
 msgid "Could not log out user sessions. Please try again."
 msgstr "Kunne ikke logge ut brukersesjoner. Vennligst prøv igjen."
 
-#: wp-admin/includes/ajax-actions.php:2708
+#: wp-admin/includes/ajax-actions.php:2738
 msgid "This preview is unavailable in the editor."
 msgstr "Denne forhåndsvisningen er ikke tilgjengelig i redigereren."
 
@@ -405,7 +405,7 @@ msgstr "Hvis du klikker på en fil, vil Vedleggsdetaljer-dialogen vises. Her kan
 msgid "You can also delete individual items and access the extended edit screen from the details dialog."
 msgstr "Du kan også slette individuelle filer og få tilgang til den utvidede redigeringsskjermen fra detaljer-dialogen."
 
-#: wp-admin/about.php:136
+#: wp-admin/about.php:144
 msgid "Customizer API"
 msgstr "Tematilpasser-API"
 
@@ -579,7 +579,7 @@ msgstr "Bidragsytere"
 msgid "The WordPress team is willing to help you. Forward this email to %s and the team will work with you to make sure your site is working."
 msgstr "Wordpress-teamet er klare for å hjelpe deg. Send denne e-posten videre til %s, og teamet vil jobbe for å få ditt nettsted til å fungere."
 
-#: wp-admin/includes/ajax-actions.php:2678
+#: wp-admin/includes/ajax-actions.php:2708
 msgid "%s failed to embed."
 msgstr "%s klarte ikke å bygges inn."
 
@@ -1182,8 +1182,8 @@ msgid "Quick Draft"
 msgstr "Hurtigkladd"
 
 #: wp-admin/includes/class-wp-upgrader.php:2024
-#: wp-admin/includes/update-core.php:817 wp-admin/includes/update-core.php:892
-#: wp-admin/includes/update-core.php:915
+#: wp-admin/includes/update-core.php:818 wp-admin/includes/update-core.php:893
+#: wp-admin/includes/update-core.php:916
 msgid "The update cannot be installed because we will be unable to copy some files. This is usually due to inconsistent file permissions."
 msgstr "Oppdateringen kan ikke installeres fordi at noen av filene ikke vil kunne kopieres. Dette er som regel på grunn av inkonsekvente filrettigheter."
 
@@ -1353,7 +1353,7 @@ msgstr "Oppdaterer tema: %s"
 msgid "Updating plugin: %s"
 msgstr "Oppdaterer utvidelse: %s"
 
-#: wp-admin/includes/update-core.php:948
+#: wp-admin/includes/update-core.php:949
 msgid "There is not enough free disk space to complete the update."
 msgstr "Det er ikke nok plass på serveren for å fullføre oppdateringen."
 
@@ -1377,7 +1377,7 @@ msgstr "Størrelsene under bestemmer maks antall piksler du kan bruke når du le
 msgid "By default WordPress uses web <abbr title=\"Universal Resource Locator\">URL</abbr>s which have question marks and lots of numbers in them; however, WordPress offers you the ability to create a custom URL structure for your permalinks and archives. This can improve the aesthetics, usability, and forward-compatibility of your links. A <a href=\"http://codex.wordpress.org/Using_Permalinks\">number of tags are available</a>, and here are some examples to get you started."
 msgstr "Som standard bruker WordPress <abbr title=\"Universal Resource Locator\">URL</abbr>-er som har spørsmålstegn og mange tall i dem. Men, med WordPress kan du lage tilpassede URL-strukturer for dine permalenker og arkiver. Dette kan forbedre lesbarheten og bruken av dine lenker. Mange <a href=\"http://codex.wordpress.org/Using_Permalinks\">muligheter er tilgjengelige</a>, og her er noen eksempler for å komme i gang."
 
-#: wp-admin/includes/update-core.php:905
+#: wp-admin/includes/update-core.php:906
 msgid "Copying the required files&#8230;"
 msgstr "Kopierer de nødvendige filene&#8230;"
 
@@ -1477,7 +1477,7 @@ msgstr "Sjekksummen til filen (%1$s) er ikke lik den forventede sjekksumverdien 
 msgid "This password will not be stored on the server."
 msgstr "Dette passordet vil ikke lagres på serveren."
 
-#: wp-admin/includes/update-core.php:845
+#: wp-admin/includes/update-core.php:846
 msgid "Preparing to install the latest version&#8230;"
 msgstr "Forbereder installasjon av den nyeste versjonen&#8230;"
 
@@ -2196,7 +2196,7 @@ msgid "Uploaded to"
 msgstr "Lastet opp til"
 
 #: wp-admin/custom-background.php:432 wp-admin/custom-header.php:871
-#: wp-admin/includes/ajax-actions.php:1862
+#: wp-admin/includes/ajax-actions.php:1879
 msgid "The uploaded file is not a valid image. Please try again."
 msgstr "Den opplastede filen er ikke et gyldig bilde. Vennligst prøv igjen."
 
@@ -2401,7 +2401,7 @@ msgstr "Hent favoritter"
 msgid "The \"%s\" options group has been removed. Use another settings group."
 msgstr "Gruppen med innstillinger for \"%s\" har blitt fjernet. Bruk en annen gruppe med innstillinger."
 
-#: wp-admin/includes/update-core.php:1174 wp-admin/update-core.php:431
+#: wp-admin/includes/update-core.php:1175 wp-admin/update-core.php:431
 msgid "Welcome to WordPress %1$s. You will be redirected to the About WordPress screen. If not, click <a href=\"%2$s\">here</a>."
 msgstr "Velkommen til WordPress %1$s. Du vil bli omdirigert til Om WordPress-skjermen. Hvis ikke, klikk <a href=\"%2$s\">her</a>."
 
@@ -2978,6 +2978,16 @@ msgstr "<strong>Velkommen</strong> - Viser lenker for noen av de vanligste tinge
 msgid "%1$s (%2$s)"
 msgstr "%1$s (%2$s)"
 
+#. translators: default GMT offset or timezone string. Must be either a valid
+#. offset (-12 to 14)
+#. or a valid timezone string (America/New_York). See
+#. http:us3.php.net/manual/en/timezones.php
+#. for all timezone strings supported by PHP.
+#: wp-admin/includes/schema.php:361
+msgctxt "default GMT offset or timezone string"
+msgid "0"
+msgstr "Europe/Oslo"
+
 #. translators: default start of the week. 0 = Sunday, 1 = Monday
 #: wp-admin/includes/schema.php:376
 msgctxt "start of week"
@@ -3541,12 +3551,12 @@ msgstr "Vis verktøylinjen når du ser på nettstedet"
 msgid "Contributing Developers"
 msgstr "Medvirkende utviklere"
 
-#: wp-admin/about.php:206
+#: wp-admin/about.php:48 wp-admin/about.php:214
 msgid "For more information, see <a href=\"%s\">the release notes</a>."
 msgstr "For mer informasjon, se <a href=\"%s\">versjonsmerknadene</a>."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs.
-#: wp-admin/about.php:195
+#: wp-admin/about.php:46 wp-admin/about.php:203
 msgid "<strong>Version %1$s</strong> addressed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed %2$s bugs."
 msgstr[0] "<strong>Versjon %1$s</strong> rettet %2$s programfeil."
@@ -3554,7 +3564,7 @@ msgstr[1] "<strong>Versjon %1$s</strong> rettet %2$s programfeil."
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. Singular
 #. security issue.
-#: wp-admin/about.php:199
+#: wp-admin/about.php:207
 msgid "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs."
 msgstr[0] "<strong>Versjon %1$s</strong> tettet et sikkerhetshull og rettet %2$s programfeil."
@@ -3562,7 +3572,7 @@ msgstr[1] "<strong>Versjon %1$s</strong> tettet et sikkerhetshull og rettet %2$s
 
 #. translators: 1: WordPress version number, 2: plural number of bugs. More
 #. than one security issue.
-#: wp-admin/about.php:203
+#: wp-admin/about.php:211
 msgid "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bug."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues and fixed %2$s bugs."
 msgstr[0] "<strong>Versjon %1$s</strong> tettet noen sikkerhetshull og rettet %2$s programfeil."
@@ -3572,7 +3582,7 @@ msgstr[1] "<strong>Versjon %1$s</strong> tettet noen sikkerhetshull og rettet %2
 msgid "Welcome to your WordPress Dashboard! This is the screen you will see when you log in to your site, and gives you access to all the site management features of WordPress. You can get help for any screen by clicking the Help tab in the upper corner."
 msgstr "Velkommen til kontrollpanelet i WordPress. Dette er det skjermbildet vil du se hver gang du logger inn på nettstedet, og gir deg tilgang alle administrative funksjoner i WordPress. Du kan få mer informasjon om hvert enkelt skjermbilde om du klikker Hjelp-fanen i øvre høyre hjørne."
 
-#: wp-admin/about.php:187
+#: wp-admin/about.php:195
 msgid "Security Release"
 msgid_plural "Security Releases"
 msgstr[0] "Sikkerhetsoppdatering"
@@ -3582,20 +3592,20 @@ msgstr[1] "Sikkerhetsoppdateringer"
 msgid "What&#8217;s New"
 msgstr "Hva er nytt"
 
-#: wp-admin/about.php:188
+#: wp-admin/about.php:196
 msgid "Maintenance and Security Release"
 msgid_plural "Maintenance and Security Releases"
 msgstr[0] "Vedlikeholds- og sikkerhetsoppdatering"
 msgstr[1] "Vedlikeholds- og sikkerhetsoppdateringer"
 
-#: wp-admin/about.php:186
+#: wp-admin/about.php:45 wp-admin/about.php:194
 msgid "Maintenance Release"
 msgid_plural "Maintenance Releases"
 msgstr[0] "Vedlikeholdsoppdatering"
 msgstr[1] "Vedlikeholdsoppdateringer"
 
 #. translators: 1: WordPress version number.
-#: wp-admin/about.php:191
+#: wp-admin/about.php:199
 msgid "<strong>Version %1$s</strong> addressed a security issue."
 msgid_plural "<strong>Version %1$s</strong> addressed some security issues."
 msgstr[0] "<strong>Versjon %1$s</strong> tettet et sikkerhetshull"
@@ -3605,11 +3615,11 @@ msgstr[1] "<strong>Versjon %1$s</strong> tettet noen sikkerhetshull."
 msgid "This screen allows you to choose your default permalink structure. You can choose from common settings or create custom URL structures."
 msgstr "Dette skjermbildet lar deg velge strukturen på permalenkene dine. Du kan velge blant de vanligste eller opprette din egen URL-struktur."
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:166
 msgid "Return to Updates"
 msgstr "Tilbake til oppdateringer"
 
-#: wp-admin/includes/update-core.php:1175 wp-admin/update-core.php:432
+#: wp-admin/includes/update-core.php:1176 wp-admin/update-core.php:432
 msgid "Welcome to WordPress %1$s. <a href=\"%2$s\">Learn more</a>."
 msgstr "Velkommen til WordPress %1$s. <a href=\"%2$s\">Lær mer</a>."
 
@@ -3905,11 +3915,11 @@ msgstr "Sannsynligvis direkte inkludering av wp-admin/includes/template.php for 
 msgid "Welcome to WordPress %s"
 msgstr "Velkommen til WordPress %s"
 
-#: wp-admin/about.php:158
+#: wp-admin/about.php:166
 msgid "Return to Dashboard &rarr; Updates"
 msgstr "Tilbake til Kontrollpanel &rarr; Oppdateringer"
 
-#: wp-admin/about.php:162
+#: wp-admin/about.php:170
 msgid "Go to Dashboard &rarr; Home"
 msgstr "Gå til Kontrollpanel &rarr; Hjem"
 
@@ -3921,7 +3931,7 @@ msgstr "WordPress er blitt til av et nettverk med ihuga entusiaster i hele verde
 msgid "Core Developers"
 msgstr "Kjerneutviklere"
 
-#: wp-admin/about.php:129
+#: wp-admin/about.php:137
 msgid "Under the Hood"
 msgstr "Under panseret"
 
@@ -6469,7 +6479,7 @@ msgid "You cannot update because <a href=\"http://codex.wordpress.org/Version_%1
 msgstr "Du kan ikke oppdatere fordi <a href=\"http://codex.wordpress.org/Version_%1$s\">WordPress %1$s</a> krever PHP versjon %2$s eller høyere og MySQL versjon %3$s eller høyere. Du bruker PHP versjon %4$s og MySQL verson %5$s."
 
 #: wp-admin/includes/class-wp-upgrader.php:2671
-#: wp-admin/includes/update-core.php:1171 wp-admin/update-core.php:430
+#: wp-admin/includes/update-core.php:1172 wp-admin/update-core.php:430
 msgid "WordPress updated successfully"
 msgstr "Oppdateringen av WordPress var vellykket"
 
@@ -6547,7 +6557,7 @@ msgid_plural "Drop-ins <span class=\"count\">(%s)</span>"
 msgstr[0] "Innslipp <span class=\"count\">(%s)</span>"
 msgstr[1] "Innslipp <span class=\"count\">(%s)</span>"
 
-#: wp-admin/about.php:162
+#: wp-admin/about.php:170
 msgid "Go to Dashboard"
 msgstr "Gå til kontrollpanel"
 
@@ -6792,23 +6802,23 @@ msgstr "Klarte ikke å finne WordPress temamappen."
 msgid "Could not fully remove the theme %s."
 msgstr "Kunne ikke fjerne %s-temaet fullstendig."
 
-#: wp-admin/includes/update-core.php:838
+#: wp-admin/includes/update-core.php:839
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher and MySQL version %3$s or higher. You are running PHP version %4$s and MySQL version %5$s."
 msgstr "Oppdateringen kunne ikke installeres fordi WordPress %1$s krever PHP versjon %2$s eller høyere og MySQL versjon %3$s eller høyere. Du bruker PHP versjon %4$s og MySQL verson %5$s."
 
-#: wp-admin/includes/update-core.php:840
+#: wp-admin/includes/update-core.php:841
 msgid "The update cannot be installed because WordPress %1$s requires PHP version %2$s or higher. You are running version %3$s."
 msgstr "Oppdateringen kunne ikke installeres fordi WordPress %1$s krever PHP versjon %2$s eller høyere. Du bruker versjon %3$s."
 
-#: wp-admin/includes/update-core.php:842
+#: wp-admin/includes/update-core.php:843
 msgid "The update cannot be installed because WordPress %1$s requires MySQL version %2$s or higher. You are running version %3$s."
 msgstr "Oppdateringen kunne ikke installeres fordi WordPress %1$s krever MySQL versjon %2$s eller høyere. Du bruker versjon %3$s."
 
-#: wp-admin/includes/update-core.php:796
+#: wp-admin/includes/update-core.php:797
 msgid "Verifying the unpacked files&#8230;"
 msgstr "Verifiserer utpakkede filer&#8230;"
 
-#: wp-admin/includes/update-core.php:809
+#: wp-admin/includes/update-core.php:810
 msgid "The update could not be unpacked"
 msgstr "Oppdateringen kunne ikke pakkes ut"
 
@@ -8000,7 +8010,7 @@ msgstr "Ingen brukere funnet."
 msgid "Screen Options"
 msgstr "Skjerminnstillinger"
 
-#: wp-admin/includes/update-core.php:1052
+#: wp-admin/includes/update-core.php:1053
 msgid "Upgrading database&#8230;"
 msgstr "Oppgraderer database&#8230;"
 
@@ -8806,7 +8816,7 @@ msgstr "Målmappen finnes allerede."
 
 #: wp-admin/includes/class-wp-upgrader.php:133 wp-admin/includes/file.php:632
 #: wp-admin/includes/file.php:735 wp-admin/includes/file.php:786
-#: wp-admin/includes/update-core.php:1125
+#: wp-admin/includes/update-core.php:1126
 msgid "Could not create directory."
 msgstr "Kunne ikke lage mappe."
 
@@ -8815,12 +8825,12 @@ msgid "Incompatible Archive."
 msgstr "Ikke kompatibelt arkiv."
 
 #: wp-admin/includes/class-wp-upgrader.php:136
-#: wp-admin/includes/update-core.php:897
+#: wp-admin/includes/update-core.php:898
 msgid "Enabling Maintenance mode&#8230;"
 msgstr "Aktiverer vedlikeholdstilstand&#8230;"
 
 #: wp-admin/includes/class-wp-upgrader.php:137
-#: wp-admin/includes/update-core.php:980
+#: wp-admin/includes/update-core.php:981
 msgid "Disabling Maintenance mode&#8230;"
 msgstr "Deaktiverer vedlikeholdstilstand&#8230;"
 
@@ -9120,8 +9130,8 @@ msgid "Could not extract file from archive."
 msgstr "Kunne ikke pakke ut fil fra arkivet."
 
 #: wp-admin/includes/file.php:651 wp-admin/includes/file.php:748
-#: wp-admin/includes/file.php:781 wp-admin/includes/update-core.php:1017
-#: wp-admin/includes/update-core.php:1120
+#: wp-admin/includes/file.php:781 wp-admin/includes/update-core.php:1018
+#: wp-admin/includes/update-core.php:1121
 msgid "Could not copy file."
 msgstr "Kunne ikke kopiere fil."
 
@@ -9729,7 +9739,7 @@ msgstr "Populære stikkord"
 msgid "Install Now"
 msgstr "Installer nå"
 
-#: wp-admin/includes/ajax-actions.php:2627
+#: wp-admin/includes/ajax-actions.php:2657
 #: wp-admin/includes/plugin-install.php:471
 msgid "(based on %s rating)"
 msgid_plural "(based on %s ratings)"
@@ -10098,11 +10108,11 @@ msgstr "FTP tjenernavn er obligatorisk"
 msgid "SSH2 hostname is required"
 msgstr "SSH2 tjenernavn er obligatorisk"
 
-#: wp-admin/edit-form-advanced.php:541 wp-admin/includes/ajax-actions.php:2059
+#: wp-admin/edit-form-advanced.php:541 wp-admin/includes/ajax-actions.php:2089
 msgid "Last edited by %1$s on %2$s at %3$s"
 msgstr "Sist endret av %1$s, %2$s kl. %3$s"
 
-#: wp-admin/edit-form-advanced.php:543 wp-admin/includes/ajax-actions.php:2061
+#: wp-admin/edit-form-advanced.php:543 wp-admin/includes/ajax-actions.php:2091
 msgid "Last edited on %1$s at %2$s"
 msgstr "Sist endret %1$s kl. %2$s"
 
@@ -10375,7 +10385,7 @@ msgstr "&raquo;"
 msgid "Comment %d does not exist"
 msgstr "Kommentar %d finnes ikke."
 
-#: wp-admin/includes/taxonomy.php:113
+#: wp-admin/includes/taxonomy.php:116
 msgid "You did not enter a category name."
 msgstr "Du skrev ikke inn navnet på kategorien."
 

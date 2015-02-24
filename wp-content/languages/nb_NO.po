@@ -16,6 +16,16 @@ msgctxt "text direction"
 msgid "ltr"
 msgstr "ltr"
 
+#: wp-includes/link-template.php:2313
+msgctxt "previous post"
+msgid "Previous"
+msgstr "Forrige"
+
+#: wp-includes/link-template.php:2314
+msgctxt "next post"
+msgid "Next"
+msgstr "Neste"
+
 #: wp-includes/class-wp-editor.php:998
 #: wp-includes/js/tinymce/wp-mce-help.php:118 wp-includes/script-loader.php:98
 msgid "Distraction-free writing mode"
@@ -63,7 +73,7 @@ msgid "Rich Text Area. Press Alt-Shift-H for help"
 msgstr "Område for rik tekst. Trykk Alt-Shift-H for hjelp"
 
 #. translators: 1: month, 2: day of month
-#: wp-includes/date.php:437
+#: wp-includes/date.php:449
 msgid "The following values do not describe a valid date: month %1$s, day %2$s."
 msgstr "Følgende verdier beskriver ikke en gyldig dato: måned %1$s, dag %2$s."
 
@@ -156,10 +166,6 @@ msgstr "Du kan se alle kommenterer på dette innlegget her:"
 #: wp-includes/media-template.php:578
 msgid "Edit Selection"
 msgstr "Rediger utvalg"
-
-#: wp-includes/link-template.php:2313
-msgid "Previous"
-msgstr "Forrige"
 
 #: wp-includes/link-template.php:2259
 msgid "Newer posts"
@@ -254,13 +260,13 @@ msgid "Category: %s"
 msgstr "Kategori: %s"
 
 #. translators: 1: year, 2: month, 3: day of month
-#: wp-includes/date.php:420
+#: wp-includes/date.php:432
 msgid "The following values do not describe a valid date: year %1$s, month %2$s, day %3$s."
 msgstr "De følgende verdiene beskriver ikke en gyldig dato: år %1$s, måned %2$s, dag %3$s."
 
 #. translators: Date query invalid date message: 1: invalid value, 2: type of
 #. value, 3: minimum valid value, 4: maximum valid value
-#: wp-includes/date.php:391
+#: wp-includes/date.php:402
 msgid "Invalid value %1$s for %2$s. Expected value should be between %3$s and %4$s."
 msgstr "Ugyldig verdi %1$s for %2$s. Forventet verdi skulle vært mellom %3$s og %4$s."
 
@@ -1540,22 +1546,22 @@ msgstr "Høyrejustert"
 msgid "Could not find the specified string."
 msgstr "Kunne ikke finne det oppgitte søkeuttrykket."
 
-#: wp-includes/general-template.php:2780
+#: wp-includes/general-template.php:2793
 msgctxt "admin color scheme"
 msgid "Sunrise"
 msgstr "Soloppgang"
 
-#: wp-includes/general-template.php:2786
+#: wp-includes/general-template.php:2799
 msgctxt "admin color scheme"
 msgid "Ectoplasm"
 msgstr "Ektoplasma"
 
-#: wp-includes/general-template.php:2792
+#: wp-includes/general-template.php:2805
 msgctxt "admin color scheme"
 msgid "Ocean"
 msgstr "Osean"
 
-#: wp-includes/general-template.php:2798
+#: wp-includes/general-template.php:2811
 msgctxt "admin color scheme"
 msgid "Coffee"
 msgstr "Kaffe"
@@ -1620,12 +1626,12 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
-#: wp-includes/general-template.php:2762
+#: wp-includes/general-template.php:2775
 msgctxt "admin color scheme"
 msgid "Light"
 msgstr "Lys"
 
-#: wp-includes/general-template.php:2774
+#: wp-includes/general-template.php:2787
 msgctxt "admin color scheme"
 msgid "Midnight"
 msgstr "Mørk"
@@ -1639,7 +1645,7 @@ msgctxt "Open Sans font: add new subset (greek, cyrillic, vietnamese)"
 msgid "no-subset"
 msgstr "no-subset"
 
-#: wp-includes/general-template.php:2752
+#: wp-includes/general-template.php:2765
 msgctxt "admin color scheme"
 msgid "Default"
 msgstr "Standard"
@@ -1652,7 +1658,7 @@ msgstr "Bruk kommaer istedenfor %s for å skille utelatte oppføringer."
 msgid "Menu"
 msgstr "Meny"
 
-#: wp-includes/update.php:555
+#: wp-includes/update.php:553
 msgid "Translation Updates"
 msgstr "Oppdateringer for oversettelser"
 
@@ -2417,11 +2423,11 @@ msgstr "Øvre navigasjonsmeny."
 msgid "Hex Value"
 msgstr "Heksadesimalverdi"
 
-#: wp-includes/class-wp-customize-manager.php:1033
+#: wp-includes/class-wp-customize-manager.php:1056
 msgid "Header Text Color"
 msgstr "Farge på topptekst"
 
-#: wp-includes/class-wp-customize-manager.php:1011
+#: wp-includes/class-wp-customize-manager.php:1034
 msgid "Colors"
 msgstr "Farger"
 
@@ -2454,12 +2460,12 @@ msgstr "Manglende argumenter sendt for denne XML-RPC-metoden."
 msgid "Sorry, you cannot stick a private post."
 msgstr "Beklager, du kan ikke feste et privat innlegg på forsiden."
 
-#: wp-includes/class-wp-customize-manager.php:1158
+#: wp-includes/class-wp-customize-manager.php:1181
 msgid "You can edit your menu content on the Menus screen in the Appearance section."
 msgstr "Du kan redigere ditt menyinnhold i Meny-skjermen under menyseksjonen Utseende."
 
 #: wp-includes/class-wp-customize-control.php:925
-#: wp-includes/class-wp-customize-manager.php:1056
+#: wp-includes/class-wp-customize-manager.php:1079
 msgid "Header Image"
 msgstr "Toppbilde"
 
@@ -2503,32 +2509,32 @@ msgstr "Det navnet er ikke tillatt."
 msgid "Username must be at least 4 characters."
 msgstr "Brukernavnet må bestå av minst 4 tegn."
 
-#: wp-includes/class-wp-customize-manager.php:1207
+#: wp-includes/class-wp-customize-manager.php:1230
 msgid "A static page"
 msgstr "En statisk side"
 
-#: wp-includes/class-wp-customize-manager.php:1027
+#: wp-includes/class-wp-customize-manager.php:1050
 msgid "Display Header Text"
 msgstr "Vis tittelfelt"
 
-#: wp-includes/class-wp-customize-manager.php:1048
+#: wp-includes/class-wp-customize-manager.php:1071
 msgid "Background Color"
 msgstr "Bakgrunnsfarge"
 
 #: wp-includes/class-wp-customize-control.php:894
-#: wp-includes/class-wp-customize-manager.php:1076
+#: wp-includes/class-wp-customize-manager.php:1099
 msgid "Background Image"
 msgstr "Bakgrunnsbilde"
 
-#: wp-includes/class-wp-customize-manager.php:1098
+#: wp-includes/class-wp-customize-manager.php:1121
 msgid "Background Repeat"
 msgstr "Gjenta bakgrunn"
 
-#: wp-includes/class-wp-customize-manager.php:1115
+#: wp-includes/class-wp-customize-manager.php:1138
 msgid "Background Position"
 msgstr "Justering bakgrunn"
 
-#: wp-includes/class-wp-customize-manager.php:1131
+#: wp-includes/class-wp-customize-manager.php:1154
 msgid "Background Attachment"
 msgstr "Bakgrunnsvedlegg"
 
@@ -2540,35 +2546,35 @@ msgstr "Bytt bilde"
 msgid "Sorry, you are not allowed to edit this post type."
 msgstr "Beklager, du har ikke adgang til å redigere denne typen innlegg."
 
-#: wp-includes/class-wp-customize-manager.php:1135
+#: wp-includes/class-wp-customize-manager.php:1158
 msgid "Scroll"
 msgstr "Rull"
 
-#: wp-includes/class-wp-customize-manager.php:1136
+#: wp-includes/class-wp-customize-manager.php:1159
 msgid "Fixed"
 msgstr "Fast"
 
-#: wp-includes/class-wp-customize-manager.php:1102
+#: wp-includes/class-wp-customize-manager.php:1125
 msgid "No Repeat"
 msgstr "Ikke gjenta"
 
-#: wp-includes/class-wp-customize-manager.php:1103
+#: wp-includes/class-wp-customize-manager.php:1126
 msgid "Tile"
 msgstr "Gjenta"
 
-#: wp-includes/class-wp-customize-manager.php:1104
+#: wp-includes/class-wp-customize-manager.php:1127
 msgid "Tile Horizontally"
 msgstr "Gjenta horisontalt"
 
-#: wp-includes/class-wp-customize-manager.php:1105
+#: wp-includes/class-wp-customize-manager.php:1128
 msgid "Tile Vertically"
 msgstr "Gjenta vertikalt"
 
-#: wp-includes/class-wp-customize-manager.php:1218
+#: wp-includes/class-wp-customize-manager.php:1241
 msgid "Front page"
 msgstr "Forside"
 
-#: wp-includes/class-wp-customize-manager.php:1230
+#: wp-includes/class-wp-customize-manager.php:1253
 msgid "Posts page"
 msgstr "Side med innlegg"
 
@@ -2676,43 +2682,43 @@ msgstr "Temaet \"%s\" er ikke et gyldig foreldretema."
 msgid "Stylesheet is not readable."
 msgstr "Stilarket er ikke lesbart."
 
-#: wp-includes/class-wp-customize-manager.php:1155
+#: wp-includes/class-wp-customize-manager.php:1178
 msgid "Navigation"
 msgstr "Navigasjon"
 
-#: wp-includes/class-wp-customize-manager.php:1158
+#: wp-includes/class-wp-customize-manager.php:1181
 msgid "Your theme supports %s menu. Select which menu you would like to use."
 msgid_plural "Your theme supports %s menus. Select which menu appears in each location."
 msgstr[0] "Temaet ditt støtter %s meny. Velg hvilken meny du vil bruke."
 msgstr[1] "Temaet ditt støtter %s menyer. Velg hvilke menyer du vil bruke."
 
-#: wp-includes/class-wp-customize-manager.php:1191
+#: wp-includes/class-wp-customize-manager.php:1214
 msgid "Your theme supports a static front page."
 msgstr "Temaet ditt støtter en statisk forside."
 
-#: wp-includes/class-wp-customize-manager.php:1206
+#: wp-includes/class-wp-customize-manager.php:1229
 msgid "Your latest posts"
 msgstr "Dine siste innlegg"
 
-#: wp-includes/class-wp-customize-manager.php:1202
+#: wp-includes/class-wp-customize-manager.php:1225
 msgid "Front page displays"
 msgstr "Forsidevisning"
 
-#: wp-includes/class-wp-customize-manager.php:982
+#: wp-includes/class-wp-customize-manager.php:1005
 msgid "Site Title & Tagline"
 msgstr "Nettstedets navn og slagord"
 
-#: wp-includes/class-wp-customize-manager.php:1004
+#: wp-includes/class-wp-customize-manager.php:1027
 msgid "Tagline"
 msgstr "Slagord"
 
 #: wp-includes/class-wp-customize-control.php:475
-#: wp-includes/class-wp-customize-manager.php:1162
+#: wp-includes/class-wp-customize-manager.php:1185
 #: wp-includes/default-widgets.php:1362
 msgid "&mdash; Select &mdash;"
 msgstr "&mdash; Velg &mdash;"
 
-#: wp-includes/class-wp-customize-manager.php:1188
+#: wp-includes/class-wp-customize-manager.php:1211
 msgid "Static Front Page"
 msgstr "Statisk forside"
 
@@ -3029,7 +3035,7 @@ msgstr "Dokumentasjon"
 msgid "Support Forums"
 msgstr "Supportforum"
 
-#: wp-includes/formatting.php:2598 wp-includes/general-template.php:2678
+#: wp-includes/formatting.php:2598 wp-includes/general-template.php:2691
 msgid "&hellip;"
 msgstr "&hellip;"
 
@@ -3105,7 +3111,7 @@ msgstr "Denne filen er ikke et bilde. Vennligst prøv med en annen."
 msgid "This is larger than the maximum size. Please try another."
 msgstr "Dette er mer enn maksimal størrelse. Vennligst prøv med en annen."
 
-#: wp-includes/general-template.php:2768
+#: wp-includes/general-template.php:2781
 msgctxt "admin color scheme"
 msgid "Blue"
 msgstr "Blå"
@@ -4117,17 +4123,17 @@ msgstr ""
 msgid "This is the short link."
 msgstr "Dette er den korte lenken."
 
-#: wp-includes/update.php:549
+#: wp-includes/update.php:547
 msgid "%d WordPress Update"
 msgstr "%d WordPress-oppdatering"
 
-#: wp-includes/update.php:553
+#: wp-includes/update.php:551
 msgid "%d Theme Update"
 msgid_plural "%d Theme Updates"
 msgstr[0] "%d Temaoppdatering"
 msgstr[1] "%d Temaoppdateringer"
 
-#: wp-includes/update.php:551
+#: wp-includes/update.php:549
 msgid "%d Plugin Update"
 msgid_plural "%d Plugin Updates"
 msgstr[0] "%d Utvidelsesoppdatering"
@@ -4834,11 +4840,11 @@ msgstr "%1$s %2$s %3$s stikkord-strøm"
 msgid "%1$s %2$s Posts by %3$s Feed"
 msgstr "%1$s %2$s innlegg etter %3$s-strøm"
 
-#: wp-includes/general-template.php:2614
+#: wp-includes/general-template.php:2612
 msgid "&laquo; Previous"
 msgstr "&laquo; Forrige"
 
-#: wp-includes/general-template.php:2615
+#: wp-includes/general-template.php:2613
 msgid "Next &raquo;"
 msgstr "Neste &raquo;"
 
@@ -6017,7 +6023,7 @@ msgstr "Få din egen %s-konto på få sekunder"
 msgid "Just a username, please."
 msgstr "Kun et brukernavn, takk."
 
-#: wp-includes/link-template.php:2314 wp-signup.php:453
+#: wp-signup.php:453
 msgid "Next"
 msgstr "Neste"
 
@@ -6259,7 +6265,7 @@ msgstr "Det er ingen innstillinger for denne widget."
 msgid "Dashboard"
 msgstr "Kontrollpanel"
 
-#: wp-includes/class-wp-customize-manager.php:993
+#: wp-includes/class-wp-customize-manager.php:1016
 #: wp-includes/class-wp-xmlrpc-server.php:430
 msgid "Site Title"
 msgstr "Nettstedstittel"
@@ -6425,71 +6431,6 @@ msgid_plural "%s topics"
 msgstr[0] "%s innlegg"
 msgstr[1] "%s innlegg"
 
-#: wp-includes/class-pop3.php:90 wp-includes/class-pop3.php:102
-#: wp-includes/class-pop3.php:123 wp-includes/class-pop3.php:246
-#: wp-includes/class-pop3.php:300 wp-includes/class-pop3.php:311
-#: wp-includes/class-pop3.php:359 wp-includes/class-pop3.php:393
-#: wp-includes/class-pop3.php:426 wp-includes/class-pop3.php:525
-#: wp-includes/class-pop3.php:548
-msgid "Error "
-msgstr "Feil "
-
-#: wp-includes/class-pop3.php:115
-msgid "no login ID submitted"
-msgstr "ingen bruker-ID oppgitt"
-
-#: wp-includes/class-pop3.php:118 wp-includes/class-pop3.php:138
-msgid "connection not established"
-msgstr "tilkobling er ikke opprettet"
-
-#: wp-includes/class-pop3.php:135 wp-includes/class-pop3.php:171
-msgid "No password submitted"
-msgstr "Ingen passord oppgitt"
-
-#: wp-includes/class-pop3.php:143
-msgid "Authentication failed"
-msgstr "Autentisering feilet"
-
-#: wp-includes/class-pop3.php:162 wp-includes/class-pop3.php:205
-#: wp-includes/class-pop3.php:230 wp-includes/class-pop3.php:272
-#: wp-includes/class-pop3.php:346 wp-includes/class-pop3.php:386
-#: wp-includes/class-pop3.php:416 wp-includes/class-pop3.php:450
-#: wp-includes/class-pop3.php:513 wp-includes/class-pop3.php:578
-msgid "No connection to server"
-msgstr "Ingen tilkobling til serveren"
-
-#: wp-includes/class-pop3.php:168
-msgid "No login ID submitted"
-msgstr "Ingen bruker-ID oppgitt"
-
-#: wp-includes/class-pop3.php:176 wp-includes/class-pop3.php:186
-msgid "abort"
-msgstr "avbryt"
-
-#: wp-includes/class-pop3.php:186
-msgid "apop authentication failed"
-msgstr "apop-autentisering feilet"
-
-#: wp-includes/class-pop3.php:323
-msgid "Premature end of list"
-msgstr "Listen ble avsluttet for tidlig"
-
-#: wp-includes/class-pop3.php:456
-msgid "Empty command string"
-msgstr "Tom kommandostreng"
-
-#: wp-includes/class-pop3.php:476
-msgid "connection does not exist"
-msgstr "tilkoblingen finnes ikke"
-
-#: wp-includes/class-pop3.php:583
-msgid "No msg number submitted"
-msgstr "Meldingsnummer ikke oppgitt"
-
-#: wp-includes/class-pop3.php:589
-msgid "Command failed "
-msgstr "Kommandoen feilet "
-
 #: wp-includes/category-template.php:998
 msgid "Feed for all posts filed under %s"
 msgstr "Nyhetsstrøm for alle innlegg arkivert under %s"
@@ -6645,14 +6586,6 @@ msgstr "Denne siden består av gyldig XHTML 1.0 Transitional"
 msgid "Valid <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 msgstr "Gyldig <abbr title=\"eXtensible HyperText Markup Language\">XHTML</abbr>"
 
-#: wp-includes/class-pop3.php:82
-msgid "No server specified"
-msgstr "Ingen server er oppgitt"
-
-#: wp-includes/class-pop3.php:176
-msgid "No server banner"
-msgstr "Ingen serveroverskrift"
-
 #: wp-includes/author-template.php:168
 msgid "Visit %s&#8217;s website"
 msgstr "Besøk nettstedet til %s"
@@ -6714,19 +6647,19 @@ msgstr "Nei"
 msgid "Preview"
 msgstr "Forhåndsvis"
 
-#: wp-includes/class-wp-customize-manager.php:1119
+#: wp-includes/class-wp-customize-manager.php:1142
 #: wp-includes/class-wp-editor.php:952 wp-includes/media-template.php:600
 #: wp-includes/media-template.php:831 wp-includes/media-template.php:897
 msgid "Left"
 msgstr "Venstre"
 
-#: wp-includes/class-wp-customize-manager.php:1120
+#: wp-includes/class-wp-customize-manager.php:1143
 #: wp-includes/class-wp-editor.php:953 wp-includes/media-template.php:603
 #: wp-includes/media-template.php:834 wp-includes/media-template.php:900
 msgid "Center"
 msgstr "Senter"
 
-#: wp-includes/class-wp-customize-manager.php:1121
+#: wp-includes/class-wp-customize-manager.php:1144
 #: wp-includes/class-wp-editor.php:954 wp-includes/media-template.php:606
 #: wp-includes/media-template.php:837 wp-includes/media-template.php:903
 msgid "Right"
