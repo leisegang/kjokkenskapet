@@ -66,3 +66,6 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
+<div id="slider">
+<?php echo do_shortcode("[metaslider id=1762]"); ?>
+</div>
