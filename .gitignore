@@ -2,3 +2,6 @@
 /*
 !.gitignore
 !wp-content/
+
+# Ignoring
+.DS_Store
