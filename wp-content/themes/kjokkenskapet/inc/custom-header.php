@@ -1,17 +1,6 @@
 <?php
 /**
- * Sample implementation of the Custom Header feature
- * http://codex.wordpress.org/Custom_Headers
- *
- * You can add an optional custom header image to header.php like so ...
-
-	<?php if ( get_header_image() ) : ?>
-	<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
-		<img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" alt="">
-	</a>
-	<?php endif; // End header image check. ?>
-
- *
+ * Custom header feature
  * @package kjokkenskapet
  */
 
@@ -25,10 +14,10 @@
 function kjokkenskapet_custom_header_setup() {
 	add_theme_support( 'custom-header', apply_filters( 'kjokkenskapet_custom_header_args', array(
 		'default-image'          => '',
-		'default-text-color'     => '000000',
-		'width'                  => 1000,
-		'height'                 => 250,
-		'flex-height'            => true,
+		'default-text-color'     => 'ffffff',
+		'width'                  => 1280,
+		'height'                 => 300,
+		'flex-height'            => false,
 		'wp-head-callback'       => 'kjokkenskapet_header_style',
 		'admin-head-callback'    => 'kjokkenskapet_admin_header_style',
 		'admin-preview-callback' => 'kjokkenskapet_admin_header_image',
@@ -58,8 +47,7 @@ function kjokkenskapet_header_style() {
 		// Has the text been hidden?
 		if ( 'blank' == $header_text_color ) :
 	?>
-		.site-title,
-		.site-description {
+		.site-branding {
 			position: absolute;
 			clip: rect(1px, 1px, 1px, 1px);
 		}
@@ -86,7 +74,74 @@ if ( ! function_exists( 'kjokkenskapet_admin_header_style' ) ) :
 function kjokkenskapet_admin_header_style() {
 ?>
 	<style type="text/css">
-		.appearance_page_custom-header #headimg {
+            @import url(http://fonts.googleapis.com/css?family=Lato:100,700);
+            
+            .site-branding {
+                background: #651329;
+                background: hsl(344, 68%, 24%);
+                text-align: center;
+                padding: 4em 0;    
+                font-family: 'Lato', sans-serif;
+            }
+
+            .header-image {
+                padding: 0;
+                max-height: 300px;
+            }
+
+            .the-header-image {
+                display: block;
+                margin: 0 auto;
+            }
+
+            .header-background-image {
+                background: no-repeat center;
+                background-size: cover;
+                -moz-background-size: cover;
+                -webkit-background-size: cover;
+            }
+
+            .title-box {
+                padding: 4em;
+                margin: 0 auto;
+                background: #333;
+                background: hsla(0, 0%, 0%, .3);
+                border: solid 1px #fff;
+                border: solid 1px hsla(0, 0%, 100%, .3);
+                width: 600px;
+                max-width: 75%;
+            }
+
+            .header-background-image .title-box {
+                background: hsla(0, 0%, 0%, .7);
+            }
+
+
+            h1.site-title {
+                font-size: 40px;
+                font-weight: 700;
+                text-transform: uppercase;
+                line-height: normal;
+                margin:0;
+                padding:0;
+            }
+
+            .site-description {
+                font-size: 20px;
+                font-weight: 100;
+            }
+
+            .site-branding a {
+                text-decoration: none;
+                color: #fff;
+            }
+
+            .site-title a,
+            .site-description {
+                color: white;
+            }	
+            
+            .appearance_page_custom-header #headimg {
 			border: none;
 		}
 		#headimg h1,
@@ -114,13 +169,31 @@ if ( ! function_exists( 'kjokkenskapet_admin_header_image' ) ) :
 function kjokkenskapet_admin_header_image() {
 	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
 ?>
-	<div id="headimg">
-		<h1 class="displaying-header-text"><a id="name"<?php echo $style; ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-		<div class="displaying-header-text" id="desc"<?php echo $style; ?>><?php bloginfo( 'description' ); ?></div>
-		<?php if ( get_header_image() ) : ?>
-		<img src="<?php header_image(); ?>" alt="">
-		<?php endif; ?>
-	</div>
+        
+        <div id="headimg">
+                <?php 
+                if ( get_header_image() ) { // Is there a header image?
+                    if  ( 'blank' == get_header_textcolor() ) { // If Header Text is set to hide ?> 
+                        <div class="site-branding clear header-image">
+                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" title="<?php bloginfo( 'name' ); ?> home page">
+                                <img src="<?php header_image(); ?>" width="<?php echo get_custom_header()->width; ?>" height="<?php echo get_custom_header()->height; ?>" class="the-header-image" alt="">
+                            </a>
+                    <?php 
+                    } else { // End header text check.?>
+                        <div class="site-branding clear header-background-image" style="background-image: url(<?php header_image(); ?>);">  
+                    <?php    
+                    }    
+                } else { // End header image check. ?>
+                        <div class="site-branding clear">
+                <?php } ?>
+                            <div class="title-box">
+                                <h1 class="displaying-header-text site-title"><a id="name"<?php echo $style; ?> onclick="return false;" href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a></h1>
+                                <h2 class="displaying-header-text site-description" id="desc"<?php echo $style; ?>><?php bloginfo( 'description' ); ?></h2>
+                            </div> <!-- .title-box -->
+                        </div>
+        </div>
+
+	
 <?php
 }
 endif; // kjokkenskapet_admin_header_image
