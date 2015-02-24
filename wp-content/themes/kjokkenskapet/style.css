@@ -1074,15 +1074,14 @@ a:focus.page-numbers{
 .footer-widgets .widget-title,
 .footer-widgets .widget a:hover,
 .footer-widgets .widget a:focus {
-    color: #fff;
-    color: hsl(0, 0%, 100%);
+    color: #313131;
     border-color: #fff;
     border-color: hsl(0, 0%, 100%);
 }
 
 .footer-widgets .widget {
     float: left;
-    width: 320px;
+    width: 300px;
     margin: 0 4rem 8rem 4rem;
 }
 
