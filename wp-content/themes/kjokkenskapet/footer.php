@@ -13,7 +13,7 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
             <?php get_sidebar( 'footer' ); ?>
 		<div class="site-info">
-			<?php do_action( 'kjokkenskapet_credits' ); ?>
+		Matboks Holding AS &copy; Kjøkkenskapet
 			<span class="sep"> | </span>
 Design og hosting av DittNett.com
 		</div><!-- .site-info -->

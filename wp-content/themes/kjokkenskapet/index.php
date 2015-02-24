@@ -13,13 +13,6 @@
 
 get_header(); ?>
 
-<div id="slider">
-<?php 
-    if (is_home() || is_front_page()) {
-        echo do_shortcode("[metaslider id=1762]");
-    }
-?>
-</div>
 <div id="side">
 	<div id="primary" class="content-area">
 

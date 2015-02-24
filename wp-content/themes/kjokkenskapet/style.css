@@ -1807,7 +1807,7 @@ object { max-width: 100%; }
     color: hsl(0, 0%, 100%);
 }
 
-.site-info { text-align: center; }
+.site-info { text-align: center; clear:both; }
 
 
 /*--------------------------------------------------------------
