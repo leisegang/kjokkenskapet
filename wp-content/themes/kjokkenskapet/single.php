@@ -26,7 +26,6 @@ get_header(); ?>
 			<?php kjokkenskapet_post_nav(); ?>
 
 		<?php endwhile; // end of the loop. ?>
-
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
