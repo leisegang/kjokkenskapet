@@ -24,9 +24,7 @@ get_header(); ?>
                         <?php 
                     if (has_post_thumbnail()) {
                         echo '<div class="single-post-thumbnail clear">';
-                        echo '<div class="image-shifter">';
-                        kjokkenskapet_the_responsive_thumbnail( get_the_ID() );
-                        echo '</div>';
+                        the_post_thumbnail();
                         echo '</div>';
                     }
                     ?>
@@ -56,9 +54,7 @@ get_header(); ?>
                         <?php 
                     if (has_post_thumbnail()) {
                         echo '<div class="single-post-thumbnail clear">';
-                        echo '<div class="image-shifter">';
-                        kjokkenskapet_the_responsive_thumbnail( get_the_ID() );
-                        echo '</div>';
+                        the_post_thumbnail();
                         echo '</div>';
                     }
                     ?>
@@ -91,10 +87,8 @@ get_header(); ?>
 				<article <?php post_class(); ?>>
                         <?php 
                     if (has_post_thumbnail()) {
-                        echo '<div class="single-post-thumbnail-box clear">';
-                        echo '<div class="image-shifter">';
-                        kjokkenskapet_the_responsive_thumbnail( get_the_ID() );
-                        echo '</div>';
+                        echo '<div class="single-post-thumbnail clear">';
+                        the_post_thumbnail( 'medium' );
                         echo '</div>';
                     }
                     ?>
