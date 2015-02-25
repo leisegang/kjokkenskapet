@@ -1836,24 +1836,6 @@ object { max-width: 100%; }
 
 .site-header{   
 background: url(images/wood-1.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-}
-
-
-
-.column-box-1,
-.column-box-2,
-.column-box-3,
-.column-box-4	{  
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;  
-padding: 4em 0em 4em;
-display: table;
 }
 
 .column-box-1{   
@@ -1881,6 +1863,18 @@ background-size: cover;
 }
 */
 
+.column-box-1,
+.column-box-2,
+.column-box-3,
+.column-box-4,
+.site-header{   
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+}
+
+
 .column-box-1:after,
 .column-box-2:after,
 .column-box-3:after,
@@ -1894,14 +1888,16 @@ background-size: cover;
     width:1080px;
     max-width: 100%;
     margin: 0 auto;
-    display: table-row;
+    display:block;
+    overflow:auto;
 }
+
 
 .column-box-inside, #supplementary{
     width:1080px;
     max-width: 100%;
-    margin: 0 auto;
-    padding: 4em;
+    margin: 4em auto;
+    padding: 1em 4em;
 }
 
 .column-box-inside{
@@ -1934,3 +1930,6 @@ background-size: cover;
     padding: 0;
 }
 
+.entry-content-box{
+    width: 60%;
+}

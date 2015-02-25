@@ -14,13 +14,11 @@ Layout: Sidebar right
 }
 
 .site-content .widget-area {
-float: left!important;
-position: relative!important;
-width: 340px;
-padding: 30px;
+float: right;
+width: 300px;
+padding: 3em 2em 2em 2em;
 background: #fff;
-height: 100%;
-margin: 4em 0 1em 2em;
+margin: 4em 0 0 2em;
 }
 
 .entry-header,
@@ -32,8 +30,8 @@ margin: 4em 0 1em 2em;
 .comments-area,
 .paging-navigation {
     position: relative;
-    max-width: 780px;
-    max-width: 78rem;
+    max-width: 740px;
+    max-width: 74rem;
     padding: 0 4rem;
     margin: 0 auto;
 }
@@ -65,8 +63,8 @@ margin: 4em 0 1em 2em;
 
 .index-box,
 .author-index {
-    max-width: 780px;
-    max-width: 78rem;
+    max-width: 740px;
+    max-width: 74rem;
     padding: 1em 0 1em;
     margin: 4em 0em 4em;
     background: #fff;
