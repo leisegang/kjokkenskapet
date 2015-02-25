@@ -14,13 +14,13 @@
 
 get_header(); ?>
 
-<div class="column-box-1">  
-<div id="side">
-		<main id="main" class="site-main" role="main">
+
+		<main id="featured" class="featured-posts" role="main">
+		<div class="column-box-1">  
              <?php $query = new WP_Query( 'cat=194&posts_per_page=3' ); ?>
 			<?php $countposts = 0; while ( $query->have_posts() ) : $query->the_post(); $countposts++;?>
 
-				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> <?php if($countposts == 3  ) { echo 'class="last"'; } ?>>
+				<article id="<?php if($countposts == 3) { ?>last<?php } ?>" <?php post_class(); ?>>
                         <?php 
                     if (has_post_thumbnail()) {
                         echo '<div class="single-post-thumbnail clear">';
@@ -30,7 +30,7 @@ get_header(); ?>
                         echo '</div>';
                     }
                     ?>
-                    <div class="index-box">
+                    <div class="featured-box">
                     <header class="entry-header">
                         <h1 class="entry-title"><?php the_title(); ?></h1>
                     </header><!-- .entry-header -->
@@ -48,10 +48,9 @@ get_header(); ?>
                 </article><!-- #post-## -->
 
 			<?php endwhile; // end of the loop. ?>
-
-		</main><!-- #main -->
-</div><!-- #side -->
 </div>
+		</main><!-- #main -->
+
 
 
 <div class="column-box-1">  

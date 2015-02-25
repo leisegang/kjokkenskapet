@@ -257,7 +257,7 @@ input,
 select,
 textarea {
     vertical-align: baseline; /* Improves appearance and consistency in all browsers */
-    *vertical-align: middle; /* Improves appearance and consistency in IE6/IE7 */
+    vertical-align: middle; /* Improves appearance and consistency in IE6/IE7 */
     margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
     font-size: 100%; /* Corrects font size not being inherited in all browsers */
 }
@@ -1805,8 +1805,14 @@ object { max-width: 100%; }
     color: #fff;
     color: hsl(0, 0%, 100%);
 /*    background: #313131;
-    background: hsl(0, 0%, 19%);*/
-    margin: 0em 3em 4em;
+    background: hsl(0, 0%, 19%);
+    margin: 0em 3em 4em;*/
+    background: url(images/wood-1.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;  
+    clear: both; 
 }
 
 .site-footer a {
@@ -1874,7 +1880,7 @@ background-size: cover;
 }
 
 
-#side{   
+.site-content, .supplementary{   
 background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc7bfa1b22_o.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -1882,9 +1888,7 @@ background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc
 background-size: cover;   
 }
 
-
-.column-box-inside{
-    padding: 40px;
+.column-box-inside, #supplementary{
     clear: both;
     width:1080px;
     max-width: 100%;
@@ -1895,9 +1899,25 @@ background-size: cover;
 .category-featured {
     float: left;
     width: 340px;
-    margin-right: 20px;
+    margin-right: 30px;
+    background: #fff;
+    -moz-box-shadow: 5px 5px 0 rgba(0,0,0,0.15);
+    -webkit-box-shadow: 5px 5px 0 rgba(0,0,0,0.15);
+    box-shadow: 5px 5px 0 rgba(0,0,0,0.15);
 }
 
-.last{
+#last{
     margin-right: 0px;
+}
+
+.featured-posts {
+    padding: 4em 0;
+    width:1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.featured-box {
+    margin: 0;
+    padding: 0;
 }
