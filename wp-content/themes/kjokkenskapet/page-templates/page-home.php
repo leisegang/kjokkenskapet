@@ -17,7 +17,7 @@ get_header(); ?>
 
 		<main id="featured" class="featured-posts" role="main">
 		<div class="column-box-1">  
-             <?php $query = new WP_Query( 'cat=194&posts_per_page=3' ); ?>
+             <?php $query = new WP_Query( 'cat=194&posts_per_page=3&orderby=ID&order=ASC' ); ?>
 			<?php $countposts = 0; while ( $query->have_posts() ) : $query->the_post(); $countposts++;?>
 
 				<article id="<?php if($countposts == 3) { ?>last<?php } ?>" <?php post_class(); ?>>
@@ -48,7 +48,7 @@ get_header(); ?>
                 </article><!-- #post-## -->
 
 			<?php endwhile; // end of the loop. ?>
-</div>
+        </div>
 		</main><!-- #main -->
 
 
