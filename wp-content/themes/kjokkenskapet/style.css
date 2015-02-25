@@ -1853,41 +1853,34 @@ background: url(images/wood-1.jpg) no-repeat center center fixed;
 background-size: cover;
 }
 
-.column-box-1{   
-background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/4840938959_0bd626da29_o.jpg) no-repeat center center fixed; 
+
+
+.column-box-1,
+.column-box-2,
+.column-box-3,
+.column-box-4{  
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
 padding: 4em 0em 4em;
+display: table;
 }
 
+.column-box-1{   
+background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/4840938959_0bd626da29_o.jpg) no-repeat center center fixed; 
+}
 
 .column-box-2{   
 background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/2552077094_c628b3bf04_o.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;   
-padding: 4em 0em 4em;
 }
 
 .column-box-3{   
 background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc7bfa1b22_o.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;   
-padding: 4em 0em 4em;
 }
 
 .column-box-4{   
 background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/4722328806_5fd96e775c_o.jpg) no-repeat center center fixed; 
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;   
-padding: 4em 0em 4em;
 }
 
 /*.site-content{   
