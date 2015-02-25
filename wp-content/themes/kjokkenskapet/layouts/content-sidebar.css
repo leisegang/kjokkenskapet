@@ -9,16 +9,17 @@ Layout: Sidebar right
 
 .single .site-content,
 .page .site-content { 
-    background: #fff; 
-    background: hsl(0, 0%, 100%);
+   /* background: #313131; 
+    background: hsl(0, 0%, 19%);*/
 }
 
-.site-content .widget-area {   
-    float: right;
-    width: 340px;
-    padding: 30px;
-    background: #fff;
-    background: hsl(0, 0%, 100%);
+.site-content .widget-area {
+float: left;
+width: 340px;
+padding: 30px;
+background: #fff;
+height: 100%;
+margin: 0 0 0 40px;
 }
 
 .site-footer {

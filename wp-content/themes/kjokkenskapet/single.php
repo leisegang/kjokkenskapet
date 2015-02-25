@@ -6,10 +6,11 @@
  */
 
 get_header(); ?>
+<div id="side">
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
-
+<div class="index-box">  
 		<?php while ( have_posts() ) : the_post(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
@@ -24,10 +25,12 @@ get_header(); ?>
                         ?>
 
 			<?php kjokkenskapet_post_nav(); ?>
-
+    </div>
 		<?php endwhile; // end of the loop. ?>
+</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
+</div><!-- #side -->
 <?php get_sidebar(); ?>
 <?php get_footer(); ?>

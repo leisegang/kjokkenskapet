@@ -30,7 +30,9 @@
                     </a>
                 </figure>
                 <?php } // End header image check. ?>
-            <?php
+
+		<nav id="site-navigation" class="main-navigation clear" role="navigation">
+		            <?php
                 if ( get_header_image() && !('blank' == get_header_textcolor()) ) {
                     echo '<div class="site-branding header-background-image" style="background-image: url(' . get_header_image() . ')">';
                 } else {
@@ -39,11 +41,9 @@
             ?>
                     <div class="title-box">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+			<!--<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>-->
                     </div>
 		</div>
-
-		<nav id="site-navigation" class="main-navigation clear" role="navigation">
                     <h1 class="menu-toggle"><a href="#"><?php _e( 'Menu', 'kjokkenskapet' ); ?></a></h1>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
@@ -66,6 +66,4 @@
 	</header><!-- #masthead -->
 
 	<div id="content" class="site-content">
-<div id="slider">
-<?php echo do_shortcode("[metaslider id=1762]"); ?>
-</div>
+	<div id="slider"><?php echo do_shortcode("[metaslider id=1762]"); ?></div>

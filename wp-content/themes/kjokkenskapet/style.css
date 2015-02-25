@@ -88,7 +88,13 @@ html {
 	box-sizing:         border-box;
 }
 
-body { background: #313131; }
+body { 
+background: #313131 url(images/wood-1.jpg);
+background-repeat: repeat;
+background-position: center top;
+background-attachment: fixed;
+
+}
 
 article,
 aside,
@@ -856,34 +862,33 @@ a:focus.page-numbers{
 --------------------------------------------------------------*/
 
 .site-branding {
-    padding: 6rem 0;
+    padding: 0;
     text-align: center;
     background: #0587BF;
     background: hsl(198, 95%, 38%);
+    width: 300;
+    float: left;
 }
 
 .title-box {
-    width: 600px;
-    max-width: 75%;
-    padding: 4rem;
-    margin: 0 auto;
-    border: solid 1px #fff;
-    border: solid 1px hsla(0, 0%, 100%, .3);
+    width: 300px;
+    padding: 0rem;
+    margin: 0;
 }
 
 .site-title {
     font-weight: 700;
-    font-size: 40px;
-    font-size: 4.5rem;
+    font-size: 24px;
+    font-size: 2.5rem;
     text-transform: uppercase;
     line-height: normal;
-    padding-bottom: 1rem;
+    padding-bottom: 0rem;
 }
 
 .site-description {
     font-weight: 300;
-    font-size: 20px;
-    font-size: 2rem;
+    font-size: 10px;
+    font-size: 1rem;
 }
 
 .site-branding a { text-decoration: none; }
@@ -1069,7 +1074,11 @@ a:focus.page-numbers{
 /* Search widget */
 .widget_search .search-submit {	display: none; }
 
-.footer-widgets { margin: 0 auto; }
+.footer-widgets {
+    width:1080px!important;
+    max-width: 100%;
+    margin: 0 auto;
+}
 
 .footer-widgets .widget-title,
 .footer-widgets .widget a:hover,
@@ -1080,9 +1089,9 @@ a:focus.page-numbers{
 }
 
 .footer-widgets .widget {
-    float: left;
-    width: 300px;
-    margin: 0 4rem 8rem 4rem;
+    float: right;
+    width: 200px;
+    margin: 0;
 }
 
 /* Footer widgets responsive */
@@ -1090,7 +1099,7 @@ a:focus.page-numbers{
     #footer-widgets { width: 100%!important; }
     
     .footer-widgets .widget {
-        float: none;
+        float: left;
         width: 100%;
         margin: 0 0 8rem;
     }
@@ -1790,15 +1799,18 @@ object { max-width: 100%; }
 14 Footer
 --------------------------------------------------------------*/
 
+
+
 .site-footer {
-    padding: 2em;
+    padding: 0;
     font-size: 16px;
     font-size: 1.6rem;
     font-family: 'Lato';
     color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #313131;
-    background: hsl(0, 0%, 19%);
+/*    background: #313131;
+    background: hsl(0, 0%, 19%);*/
+    margin: 0em 3em 4em;
 }
 
 .site-footer a {
@@ -1806,7 +1818,7 @@ object { max-width: 100%; }
     color: hsl(0, 0%, 100%);
 }
 
-.site-info { text-align: center; clear:both; }
+.site-info { text-align: center; clear:both; margin-top: 2em;}
 
 
 /*--------------------------------------------------------------
@@ -1820,5 +1832,5 @@ object { max-width: 100%; }
 }
 
 .metaslider {
-    margin: 0 auto
+    margin: 0 auto;
 }

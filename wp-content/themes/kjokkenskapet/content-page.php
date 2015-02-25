@@ -16,6 +16,7 @@
         echo '</div>';
     }
     ?>
+<div class="index-box">
 	<header class="entry-header">
 		<h1 class="entry-title"><?php the_title(); ?></h1>
 	</header><!-- .entry-header -->
@@ -30,4 +31,5 @@
 		?>
 	</div><!-- .entry-content -->
 	<?php edit_post_link( __( 'Edit', 'kjokkenskapet' ), '<footer class="entry-footer"><span class="edit-link">', '</span></footer>' ); ?>
+</div>
 </article><!-- #post-## -->

@@ -17,7 +17,7 @@
         echo '</div>';
     }
     ?>
-    
+      
 	<header class="entry-header clear">
             
             <?php
