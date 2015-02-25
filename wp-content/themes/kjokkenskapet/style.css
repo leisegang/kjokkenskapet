@@ -932,8 +932,7 @@ a:focus.page-numbers{
 
 .search-toggle:hover,
 .search-toggle.active {
-    background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
+    background: #0587BF;
 }
 
 .search-toggle .screen-reader-text {
@@ -946,8 +945,7 @@ a:focus.page-numbers{
 }
 .search-box {
     padding: 1em;
-    background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
+    background: #0587BF;
 }
 
 .search-box .search-field {
