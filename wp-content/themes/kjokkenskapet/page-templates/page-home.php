@@ -32,7 +32,7 @@ get_header(); ?>
                     ?>
                     <div class="featured-box">
                     <header class="entry-header">
-                        <h1 class="entry-title"><?php the_title(); ?></h1>
+                        <h2 class="entry-title"><?php the_title(); ?></h2>
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">
@@ -53,7 +53,7 @@ get_header(); ?>
 
 
 
-<div class="column-box-1">  
+<div class="column-box-2">  
 <div id="side">
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -72,7 +72,7 @@ get_header(); ?>
                     ?>
                     <div class="index-box">
                     <header class="entry-header">
-                        <h1 class="entry-title"><?php the_title(); ?></h1>
+                        <h2 class="entry-title"><?php the_title(); ?></h2>
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">

@@ -406,8 +406,8 @@ Width
     clear: both;
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    background: #313131;
-    background: hsl(0, 0%, 19%);
+    background: #7CA52C;
+    /*background: hsl(0, 0%, 19%);*/
     margin: 0 auto;
 }
 
@@ -457,8 +457,8 @@ Width
 .main-navigation li > a:focus {
     color: #fff;
     color: hsl(0, 0%, 100%);
-    background: #4d4d4d;
-    background: hsl(0, 0%, 30%);
+    background: #0587BF;
+    /*background: hsl(0, 0%, 30%);*/
 }
 
 .main-navigation ul ul :hover > a { }
@@ -582,7 +582,7 @@ Width
     .main-navigation .current_page_parent .current_page_item > a  {
         color: #fff;
         color: hsl(0, 0%, 100%);
-        background: #4d4d4d;
+        background: #0587BF;
         background: hsl(0, 0%, 30%);    
     }
 
@@ -1820,7 +1820,7 @@ object { max-width: 100%; }
     color: hsl(0, 0%, 100%);
 }
 
-.site-info { text-align: center; clear:both; margin-top: 2em;}
+.site-info { text-align: center; clear:both; margin: 4em;}
 
 
 /*--------------------------------------------------------------
