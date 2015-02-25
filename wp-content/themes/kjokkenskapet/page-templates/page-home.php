@@ -14,9 +14,9 @@
 
 get_header(); ?>
 
-
+	<div class="column-box-1">  
 		<main id="featured" class="featured-posts" role="main">
-		<div class="column-box-1">  
+
              <?php $query = new WP_Query( 'cat=194&posts_per_page=3&orderby=ID&order=ASC' ); ?>
 			<?php $countposts = 0; while ( $query->have_posts() ) : $query->the_post(); $countposts++;?>
 
@@ -37,21 +37,13 @@ get_header(); ?>
 
                     <div class="entry-content">
                         <?php the_content(); ?>
-                        <?php
-                            wp_link_pages( array(
-                                'before' => '<div class="page-links">' . __( 'Pages:', 'kjokkenskapet' ),
-                                'after'  => '</div>',
-                            ) );
-                        ?>
                     </div><!-- .entry-content -->
-                     </div>
+                    </div>
                 </article><!-- #post-## -->
-
 			<?php endwhile; // end of the loop. ?>
-        </div>
 		</main><!-- #main -->
-
-
+    </div>
+        
 
 <div class="column-box-2">  
 <div id="side">
@@ -77,12 +69,6 @@ get_header(); ?>
 
                     <div class="entry-content">
                         <?php the_content(); ?>
-                        <?php
-                            wp_link_pages( array(
-                                'before' => '<div class="page-links">' . __( 'Pages:', 'kjokkenskapet' ),
-                                'after'  => '</div>',
-                            ) );
-                        ?>
                     </div><!-- .entry-content -->
                      </div>
                 </article><!-- #post-## -->
@@ -95,33 +81,35 @@ get_header(); ?>
 </div>
 
 <?php get_sidebar(); ?>
+<div class="clear"></div>  
 
-<div class="column-box-2">  
-    <div class="column-box-inside">             
-        <?php
-        $post_id = 1813;
-        $queried_post = get_post($post_id);
-        $content = $queried_post->post_title;
-        $content = $queried_post->post_content;
-        $content = apply_filters('the_content', $content);
-        $content = str_replace(']]>', ']]&gt;', $content);
-        echo $content;
-        ?>
+	<div class="column-box-3">  
+
+             <?php $query = new WP_Query( 'page_id=1843' ); ?>
+			<?php while ( $query->have_posts() ) : $query->the_post();?>
+
+				<article <?php post_class(); ?>>
+                        <?php 
+                    if (has_post_thumbnail()) {
+                        echo '<div class="single-post-thumbnail-box clear">';
+                        echo '<div class="image-shifter">';
+                        kjokkenskapet_the_responsive_thumbnail( get_the_ID() );
+                        echo '</div>';
+                        echo '</div>';
+                    }
+                    ?>
+                    <div class="column-box-inside">  
+                    <header class="entry-header-box">
+                        <h2 class="entry-title"><?php the_title(); ?></h2>
+                    </header><!-- .entry-header -->
+<br>
+                    <div class="entry-content-box">
+                        <?php the_content(); ?>
+                    </div><!-- .entry-content -->
+                    </div>
+                </article><!-- #post-## -->
+			<?php endwhile; // end of the loop. ?>
     </div>
-</div>
-    
-<div class="column-box-3">  
-    <div class="column-box-inside">             
-        <?php
-        $post_id = 1806;
-        $queried_post = get_post($post_id);
-        $content = $queried_post->post_title;
-        $content = $queried_post->post_content;
-        $content = apply_filters('the_content', $content);
-        $content = str_replace(']]>', ']]&gt;', $content);
-        echo $content;
-        ?>
-    </div>
-</div>
+
 
 <?php get_footer(); ?>

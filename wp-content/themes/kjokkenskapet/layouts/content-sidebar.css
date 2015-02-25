@@ -4,7 +4,7 @@ Layout: Sidebar right
 */
 
 .site-content {
-    padding-bottom: 4em;
+    padding-bottom: 0em;
 }
 
 .single .site-content,
@@ -14,12 +14,13 @@ Layout: Sidebar right
 }
 
 .site-content .widget-area {
-float: left;
+float: left!important;
+position: relative!important;
 width: 340px;
 padding: 30px;
 background: #fff;
 height: 100%;
-margin: 2em 0 1em 2em;
+margin: 4em 0 1em 2em;
 }
 
 .entry-header,
@@ -67,7 +68,7 @@ margin: 2em 0 1em 2em;
     max-width: 780px;
     max-width: 78rem;
     padding: 1em 0 1em;
-    margin: 2em 1em 2em;
+    margin: 4em 0em 4em;
     background: #fff;
     background: hsl(0, 0%, 100%);
 }

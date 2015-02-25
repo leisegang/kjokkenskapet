@@ -1074,6 +1074,7 @@ a:focus.page-numbers{
     width:1080px!important;
     max-width: 100%;
     margin: 0 auto;
+    height: 160px!important;
 }
 
 .footer-widgets .widget-title,
@@ -1086,11 +1087,9 @@ a:focus.page-numbers{
 
 .footer-widgets .widget {
     float: left;
-    width: 360px;
+    width: 315px;
     margin: 0;
     position: initial!important;
-    border: 1px solid white;
-    padding: 4em;
 }
 
 /* Footer widgets responsive */
@@ -1851,8 +1850,7 @@ background: url(images/wood-1.jpg) no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;  
-clear: both; 
+background-size: cover;
 }
 
 .column-box-1{   
@@ -1861,7 +1859,7 @@ background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/4840938959_0b
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;  
-clear: both; 
+padding: 4em 0em 4em;
 }
 
 
@@ -1871,7 +1869,7 @@ background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/2552077094_c6
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;   
-clear: both;
+padding: 4em 0em 4em;
 }
 
 .column-box-3{   
@@ -1880,24 +1878,48 @@ background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;   
+padding: 4em 0em 4em;
 }
 
+.column-box-4{   
+background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/4722328806_5fd96e775c_o.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+padding: 4em 0em 4em;
+}
 
-.site-content, .supplementary{   
+/*.site-content{   
 background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc7bfa1b22_o.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;   
 }
+*/
+
+.column-box-1:after,
+.column-box-2:after,
+.column-box-3:after,
+.column-box-4:after,
+.site-content:after { 
+    clear: both; 
+    content: '';
+}
+
+
 
 .column-box-inside, #supplementary{
-    clear: both;
     width:1080px;
     max-width: 100%;
     margin: 0 auto;
+    padding: 4em;
 }
 
+.column-box-inside{
+    background: #fff;
+}
 
 .category-featured {
     float: left;
