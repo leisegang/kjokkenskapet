@@ -13,9 +13,9 @@
 	<footer id="colophon" class="site-footer" role="contentinfo">
             <?php get_sidebar( 'footer' ); ?>
 		<div class="site-info">
-		Matboks Holding AS &copy; Kjøkkenskapet
+		Matboks Holding AS Orgnr: 992 401 028 &copy; Kjøkkenskapet
 			<span class="sep"> | </span>
-Design og hosting av DittNett.com
+Design og hosting av <a href="http://dittnett.com/">DittNett.com</a>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->

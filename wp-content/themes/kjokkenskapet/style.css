@@ -1085,9 +1085,12 @@ a:focus.page-numbers{
 }
 
 .footer-widgets .widget {
-    float: right;
-    width: 200px;
+    float: left;
+    width: 360px;
     margin: 0;
+    position: initial!important;
+    border: 1px solid white;
+    padding: 4em;
 }
 
 /* Footer widgets responsive */
