@@ -89,11 +89,6 @@ html {
 }
 
 body { 
-background: #313131 url(images/wood-1.jpg);
-background-repeat: repeat;
-background-position: center top;
-background-attachment: fixed;
-
 }
 
 article,
@@ -396,7 +391,7 @@ Width
 #side {
     width:1080px;
     max-width: 100%;
-    margin: 3em auto;
+    margin: 0 auto;
 }
 
 
@@ -862,33 +857,34 @@ a:focus.page-numbers{
 --------------------------------------------------------------*/
 
 .site-branding {
-    padding: 0;
+    padding: 4rem 0;
     text-align: center;
-    background: #0587BF;
-    background: hsl(198, 95%, 38%);
-    width: 300;
-    float: left;
+    /*background: #0587BF;
+    background: hsl(198, 95%, 38%);*/
 }
 
 .title-box {
-    width: 300px;
-    padding: 0rem;
-    margin: 0;
+    width: 600px;
+    max-width: 75%;
+    padding: 3rem;
+    margin: 0 auto;
+    border: solid 5px #fff;
+    border: solid 5px hsla(0, 0%, 100%, .3);
 }
 
 .site-title {
     font-weight: 700;
-    font-size: 24px;
-    font-size: 2.5rem;
+    font-size: 40px;
+    font-size: 4.5rem;
     text-transform: uppercase;
     line-height: normal;
-    padding-bottom: 0rem;
+    padding-bottom: 1rem;
 }
 
 .site-description {
     font-weight: 300;
-    font-size: 10px;
-    font-size: 1rem;
+    font-size: 20px;
+    font-size: 2rem;
 }
 
 .site-branding a { text-decoration: none; }
@@ -1833,4 +1829,75 @@ object { max-width: 100%; }
 
 .metaslider {
     margin: 0 auto;
+}
+
+/*--------------------------------------------------------------
+16 Home Page
+--------------------------------------------------------------*/
+
+
+
+.site-header{   
+background: url(images/wood-1.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+clear: both; 
+}
+
+.column-box-1{   
+background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/4840938959_0bd626da29_o.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;  
+clear: both; 
+}
+
+
+.column-box-2{   
+background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/2552077094_c628b3bf04_o.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+clear: both;
+}
+
+.column-box-3{   
+background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc7bfa1b22_o.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+}
+
+
+#side{   
+background: url(http://uia.leisegang.no/wp-content/uploads/2015/02/6425356211_bc7bfa1b22_o.jpg) no-repeat center center fixed; 
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;   
+}
+
+
+.column-box-inside{
+    padding: 40px;
+    clear: both;
+    width:1080px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+
+.category-featured {
+    float: left;
+    width: 340px;
+    margin-right: 20px;
+}
+
+.last{
+    margin-right: 0px;
 }

@@ -19,7 +19,7 @@ width: 340px;
 padding: 30px;
 background: #fff;
 height: 100%;
-margin: 0 0 0 40px;
+margin: 2em 0 1em 2em;
 }
 
 .site-footer {
@@ -71,8 +71,8 @@ margin: 0 0 0 40px;
 .author-index {
     max-width: 780px;
     max-width: 78rem;
-    padding: 1em 0 2em;
-    margin: 0 0em 2em;
+    padding: 1em 0 1em;
+    margin: 2em 1em 2em;
     background: #fff;
     background: hsl(0, 0%, 100%);
 }
