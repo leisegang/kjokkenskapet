@@ -384,17 +384,6 @@ a:active {
     text-decoration: underline; 
 }
 
-
-/*--------------------------------------------------------------
-Width
---------------------------------------------------------------*/
-#side {
-    width:1080px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-
 /*--------------------------------------------------------------
 5.2 Main Menu
 --------------------------------------------------------------*/
@@ -1858,7 +1847,7 @@ background-size: cover;
 .column-box-1,
 .column-box-2,
 .column-box-3,
-.column-box-4{  
+.column-box-4	{  
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -1901,7 +1890,12 @@ background-size: cover;
     content: '';
 }
 
-
+#side {
+    width:1080px;
+    max-width: 100%;
+    margin: 0 auto;
+    display: table-row;
+}
 
 .column-box-inside, #supplementary{
     width:1080px;
@@ -1939,3 +1933,4 @@ background-size: cover;
     margin: 0;
     padding: 0;
 }
+

@@ -15,6 +15,7 @@
 get_header(); ?>
 
 	<div class="column-box-1">  
+	<div id="side">
 		<main id="featured" class="featured-posts" role="main">
 
              <?php $query = new WP_Query( 'cat=194&posts_per_page=3&orderby=ID&order=ASC' ); ?>
@@ -40,6 +41,7 @@ get_header(); ?>
                 </article><!-- #post-## -->
 			<?php endwhile; // end of the loop. ?>
 		</main><!-- #main -->
+		</div><!-- #side -->
     </div>
         
 
@@ -80,7 +82,7 @@ get_header(); ?>
 <div class="clear"></div>  
 
 	<div class="column-box-3">  
-
+<div id="side">
              <?php $query = new WP_Query( 'page_id=1843' ); ?>
 			<?php while ( $query->have_posts() ) : $query->the_post();?>
 
@@ -103,6 +105,7 @@ get_header(); ?>
                     </div>
                 </article><!-- #post-## -->
 			<?php endwhile; // end of the loop. ?>
+			</div><!-- #side -->
     </div>
 
 
