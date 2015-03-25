@@ -1,0 +1,66 @@
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+## MELDINGER ##
+RewriteRule ^meldinger/?$ ansatt/controllers/message_controller.php?action=index [L]
+RewriteRule ^meldinger/ny/?$ ansatt/controllers/message_controller.php?action=new [L]
+RewriteRule ^meldinger/rediger/([0-9]+)/?$ ansatt/controllers/message_controller.php?action=edit&id=$1 [L]
+RewriteRule ^meldinger/slett/([0-9]+)$ ansatt/controllers/message_controller.php?action=delete&id=$1 [QSA]
+RewriteRule ^meldinger/arkiv/?$ ansatt/controllers/message_controller.php?action=show_archive [L]
+RewriteRule ^meldinger/arkiver/([0-9]+)/?$ ansatt/controllers/message_controller.php?action=archive&id=$1 [QSA]
+
+## VAKTLISTER ##
+RewriteRule ^vaktlister/ny/?$ ansatt/controllers/timetable_controller.php?action=new [L]
+RewriteRule ^vaktlister/rediger/([0-9]+)/?$ ansatt/controllers/timetable_controller.php?action=edit&id=$1 [L]
+RewriteRule ^vaktlister/rediger/([0-9]+)/slett-bilde?$ ansatt/controllers/timetable_controller.php?action=delete_image&id=$1 [QSA,L]
+RewriteRule ^vaktlister/slett/([0-9]+)$ ansatt/controllers/timetable_controller.php?action=delete&id=$1 [QSA,L]
+RewriteRule ^vaktlister/arkiv/?$ ansatt/controllers/timetable_controller.php?action=show_archive [L]
+RewriteRule ^vaktlister/arkiver/([0-9]+)/?$ ansatt/controllers/timetable_controller.php?action=archive&id=$1 [QSA]
+
+## ARBEIDSTIMER ##
+RewriteRule ^timer/?$ ansatt/controllers/workspan_controller.php?action=index [L]
+RewriteRule ^timer/ny/([0-9]+)/([0-9.]+)/?$ ansatt/controllers/workspan_controller.php?action=new&user=$1&date=$2 [L]
+RewriteRule ^timer/rediger/([0-9]+)?$ ansatt/controllers/workspan_controller.php?action=edit&id=$1 [L]
+RewriteRule ^timer/vis/([0-9]+)/([0-9.]+)/?$ ansatt/controllers/workspan_controller.php?action=show&id=$1&date=$2 [L]
+RewriteRule ^timer/slett/([0-9]+)/?$ ansatt/controllers/workspan_controller.php?action=delete&id=$1 [QSA,L]
+
+## RAPPORTER ##
+RewriteRule ^rapporter/?$ ansatt/controllers/workspan_controller.php?action=show_report [QSA]
+RewriteRule ^rapporter/excel/?$ ansatt/helpers/Excel.php [QSA]
+
+## BRUKERE ##
+RewriteRule ^brukere/?$ ansatt/controllers/user_controller.php?action=index [L]
+RewriteRule ^brukere/ny/?$ ansatt/controllers/user_controller.php?action=new [L]
+RewriteRule ^brukere/rediger/([0-9]+)/?$ ansatt/controllers/user_controller.php?action=edit&id=$1 [L]
+RewriteRule ^brukere/slett/([0-9]+)$ ansatt/controllers/user_controller.php?action=delete&id=$1 [QSA,L]
+
+## INNSTILLINGER ##
+RewriteRule ^innstillinger/?$ ansatt/controllers/settings_controller.php?action=edit [L]
+
+## AVDELINGER ##
+RewriteRule ^innstillinger/avdelinger/?$ ansatt/controllers/department_controller.php?action=index [L]
+RewriteRule ^innstillinger/avdelinger/ny/?$ ansatt/controllers/department_controller.php?action=new [L]
+RewriteRule ^innstillinger/avdelinger/rediger/([0-9]+)/?$ ansatt/controllers/department_controller.php?action=edit&id=$1 [L]
+
+## HELLIGDAGER ##
+RewriteRule ^innstillinger/helligdager/?$ ansatt/controllers/holiday_controller.php?action=index [L]
+RewriteRule ^innstillinger/helligdager/ny/?$ ansatt/controllers/holiday_controller.php?action=new [L]
+RewriteRule ^innstillinger/helligdager/slett/([0-9]+)/?$ ansatt/controllers/holiday_controller.php?action=delete&id=$1 [QSA,L]
+
+## FORSIDE ##
+RewriteRule ^avdeling/([0-9]+)/?$ ansatt/?avdeling=$1 [L]
+
+## INNLOGGING ##
+RewriteRule ^innlogging/?$ ansatt/controllers/login_controller.php?action=login [QSA]
+RewriteRule ^logg-ut/?$ ansatt/controllers/login_controller.php?action=logout [L]
+RewriteRule ^innlogging/glemt/?$ ansatt/controllers/login_controller.php?action=forgot [QSA,L]
+RewriteRule ^innlogging/reset/?$ ansatt/controllers/login_controller.php?action=reset [QSA]
+RewriteRule ^innlogging/endre-passord/?$ ansatt/controllers/login_controller.php?action=change [QSA]
+
+## HOVEDSIDE
+RewriteRule ^/?$ ansatt/controllers/default_controller.php [L]
+
+</IfModule>

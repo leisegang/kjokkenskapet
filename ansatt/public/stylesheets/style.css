@@ -1,0 +1,473 @@
+/* @override 
+	http://gateway.bjornartollaksen.dev/expert/app/public/stylesheets/style.css
+	http://kjokkenskapet.dev/ansatt/public/stylesheets/style.css
+*/
+
+/* By Eric Meyer, with some adjustments: http://meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/ */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: inherit;
+	vertical-align: baseline;
+	}
+
+img { -ms-interpolation-mode: bicubic; }
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+ol, ul {
+	/* list-style: none; */
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: separate;
+	border-spacing: 0;
+}
+caption, th, td {
+	text-align: left;
+	font-weight: normal;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+blockquote, q {
+	quotes: "" "";
+}
+
+
+/* By Bjornar Tollaksen */
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 80%;
+}
+
+h1, h2, h3, h4, h5 { margin: .6em 0; line-height: 1.1em; }
+
+h1, h2 {letter-spacing: -2px;line-height: 1em;}
+h3, h4, h5 { letter-spacing: -1px;}
+
+
+h1 {font-size: 2.6em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.75em;}
+h4 {font-size: 1.3em;}
+h5 {font-size: 1.1em;}
+
+a:hover {
+	color: black;
+}
+
+.ansattesider h1 {
+	font-size: 3.5em;
+	margin-bottom: .1em;
+}
+
+.ansattesider h1 a {
+	color: #555;
+}
+
+.ansattesider p {
+	margin: 1em 0;
+}
+
+.alignright {
+	float: right;
+}
+
+.margin-left-5 { margin-left: 5px; }
+.margin-left-10 { margin-left: 10px; }
+.margin-left-15 { margin-left: 15px; }
+.margin-left-20 { margin-left: 20px; }
+.margin-left-25 { margin-left: 25px; }
+.margin-left-30 { margin-left: 30px; }
+.margin-left-35 { margin-left: 35px; }
+.margin-left-40 { margin-left: 40px; }
+.margin-left-45 { margin-left: 45px; }
+.margin-left-50 { margin-left: 50px; }
+.margin-left-60 { margin-left: 60px; }
+.margin-left-70 { margin-left: 70px; }
+.margin-left-75 { margin-left: 75px; }
+
+.margin-none,
+p.alignright.margin-none {
+	margin: 0;
+}
+
+
+/* TABLES */
+
+table.list th {
+	background: #ddd;
+	font-weight: bold;
+}
+
+table.list th,
+table.list td {
+	padding: 5px 12px;
+	border-bottom: 1px solid #bcbcbc;
+	border-right: 1px solid #bcbcbc;
+}
+
+
+table.list {
+	/*width: 100%;*/
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border: 1px solid #bcbcbc;
+	border-bottom: 0;
+	border-right: 0;
+	clear: both;
+}
+
+table tr.total td {
+	background-color: #eaeaea;
+}
+
+table td.number {
+	text-align: right;
+}
+
+/* Modules */
+
+.ansattesider {
+	margin: 3em auto 0;
+	width: 700px;
+}
+
+.logo {
+	float: right;
+	margin-right: 2em;
+}
+
+.logo.lillebageri {
+	margin-top: -2em;
+}
+
+.module {
+	margin: 4em 0;
+}
+
+div.report {
+	margin-top: 3em;
+}
+
+.clear {
+	clear: both;
+}
+
+/* Time tables */
+
+div.timetable {
+	float: left;
+	margin-top: 1em;
+	width: 300px;
+}
+
+div.timetable.margin-right {
+	margin-right: 50px;
+}
+
+img.timetable {
+	max-width: 300px;
+}
+
+/* Calendar*/
+
+table.calendar {
+	border-spacing: 0;
+	border-right: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+.component-content table.calendar {
+	border-collapse: separate;
+}
+
+table.calendar thead td {
+	height: 20px;
+}
+
+table.calendar td {
+	border-top: 1px solid gray;
+	border-left: 1px solid gray;
+	margin: 0;
+	height: 0px;
+	vertical-align: top;
+}
+
+table.calendar td a.show_hours {
+	text-decoration: none;
+	color: #000;
+}
+
+table.calendar td p.day_num {
+	color: gray;
+	font-size: .8em;
+	margin: 3px 0 0 3px;
+}
+
+table.calendar td p.hours {
+	display: block;
+	font-size: 1.4em;
+	font-weight: bold;
+	text-align: center;
+	width: 99px;
+	margin: 10px 0 0;
+}
+
+table.calendar td p.hour_label {
+	margin: 0 0 1.9em;
+	text-align: center;
+}
+
+table.calendar td.today {
+	background-color: #fcf8a4;
+}
+
+.calendar_view {
+	display: none;
+	position: absolute;
+	width: 130px;
+}
+
+.calendar_view .buttons {
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+}
+
+.calendar_view .left-arrow {
+	background: url(/ansatt/public/images/box-left-arrow.png) 0 25px no-repeat;
+	height: 60px;
+	margin-right: -1px;
+	position: absolute;
+	width: 11px;
+	z-index: 1;
+}
+
+.calendar_view .box {
+	margin-left: 10px;
+	padding: 1em 1.3em 1.2em;
+	position: absolute;
+	min-width: 200px;
+	z-index: 0;
+}
+
+.calendar_view p {
+	margin: 0;
+}
+
+.calendar_view .register_hours_box {
+	display: none;
+}
+
+.calendar_view .box.blue-with-border {
+	background-color: #fff;
+}
+
+
+/* MESSAGES */
+
+div.message {
+	background-color: #fab9a2;
+	border: 1px solid #f8a073;
+	margin: .5em 0;
+	padding: 1.4em 1.4em 0;
+}
+
+div.message h4 {
+	font-size: 1.4em;
+	margin: 0;
+	color: #3b3b3b;
+}
+
+
+div.message .metadata {
+	color: #818384;
+	font-size: .95em;
+	margin: .2em 0 .5em;
+}
+
+div.message p {
+	margin: 1em 0;
+}
+
+a.light {
+	font-weight: normal;
+}
+
+a.gray {
+	color: gray;
+}
+
+form.input input[type="text"],
+form.input input[type="email"],
+form.input input[type="password"],
+form.input textarea {
+	color: #4b4c4c;
+	font-family: Helvetica,Verdana,sans-serif;
+	font-size: 1em;
+	padding: .2em;
+	width: 250px;
+}
+
+form.input textarea {
+	padding: .3em;
+}
+
+form.input input#title {
+	font-size: 1.4em;
+	font-weight: bold;
+	width: 600px;
+}
+
+form.input textarea {
+	height: 150px;
+	width: 600px;
+}
+
+form.input input.date{
+	width: 70px;
+}
+
+input.time,
+form.input input.time {
+	width: 35px;
+}
+
+form.input input.number {
+	text-align: right;
+	width: 45px;
+}
+
+form.input input#city {
+	width: 194px;
+}
+
+form.input .report-type {
+	border: 1px solid #bcbcbc;
+	padding: 0 1.2em;
+}
+
+form.input a.forgot-password {
+	border: 1px solid #d15c44;
+	margin-left: 47px;
+	padding: 8px 13px;
+	
+}
+
+/* RESPONSE */
+
+div.notice {
+	background-color: #fcec9d;
+	padding: .5em 1.5em;
+	border: 1px solid #fad53c;
+	margin: 1em 0;
+}
+
+div.notice p {
+	margin: 0;
+}
+
+p.back {
+	margin-bottom: 2em;
+}
+
+/* BUTTONS */
+
+a.button {
+	background-color: #f9fbfb;
+	border: 1px solid #a1a3a3;
+	color: #000;
+	font-size: 1em;
+	font-weight: normal;
+	padding: 5px 8px;
+	text-decoration: none;
+	
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+
+input.button {
+	border: 1px solid #b6b6b6;
+	padding: 5px 8px;
+}
+
+a.button.large,
+input.button.large {
+	font-size: 1em;
+	padding: 6px 15px;
+}
+
+.blue-with-border {
+	background-color: #e5eeed; border: 1px solid #b1c5cf;
+}
+.blue-with-border tr.list td,
+.blue-with-border tr.empty td {
+	background-color: #fdfdfd;
+	border-bottom: 1px solid #c7dce8;
+}
+
+.blue-with-border tr.head td {
+	border-bottom: 1px solid #c7dce8;
+}
+
+.button.rounded-corners {
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+}
+
+.small-rounded-corners {
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+}
+
+.rounded-corners {
+	border-radius: 8px;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+}
+
+.box-shadow {
+	-moz-box-shadow: 0 0 5px #b4b4b4;
+	-webkit-box-shadow: 0 0 5px #b4b4b4;
+    box-shadow: 0 0 5px #b4b4b4;
+}
+
+.button:active {
+	background: #808080;
+	-moz-box-shadow: inset 0 0 10px #1e1e1e;
+	-webkit-box-shadow: inset 0 0 10px #1e1e1e;
+    box-shadow: inset 0 0 10px #1e1e1e;
+}
+
+.button.gray {	
+	background: -webkit-gradient(linear, left top, left bottom, from(#fefefe), to(#b8b8b8));
+	background: -moz-linear-gradient(top,  #fefefe,  #b8b8b8);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fefefe', endColorstr='#b8b8b8');
+}
+
+.button.gray:active {
+	background: -webkit-gradient(linear, left top, left bottom, from(#b8b8b8), to(#fefefe));
+	background: -moz-linear-gradient(top,  #b8b8b8,  #fefefe);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#b8b8b8', endColorstr='#fefefe');
+}

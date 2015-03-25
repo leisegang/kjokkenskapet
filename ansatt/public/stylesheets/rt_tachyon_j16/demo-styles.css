@@ -1,0 +1,83 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Frontpage Content */
+.compact-article .rt-joomla .rt-article {margin-bottom: 0;}
+.menu-tutorials #rt-main .box3.button2.nohover {display: none;}
+.bot-icon-link {line-height: 44px;}
+.bot-icon-text {line-height: 42px !important;}
+.bot-readon {margin-left: 30px !important;margin-bottom: 4px !important;}
+.bot-div {height: 12px !important;}
+.demo-rt-image {border-radius: 5px 5px 5px 5px;border: 3px solid #D7D7D8;padding: 1px;}
+.box4 .demo-rt-image {border-color: #3D3D3D;}
+.demo-rt-highlight .rt-block {padding: 5px 5px 5px 10px;margin-bottom: 10px;}
+.menu-home .mod_latestmembers img {width: 64px;height: 64px;}
+.fp-tabs-2 .rt-demo-grid-4 {margin-right: 40px;}
+.fp-tabs-2 .rt-demo-grid-4 ul.mod_latestgroupwalls li:first-child {padding-top: 0;}
+.menu-extensions .rt-articleinfo a {font-weight: normal;color: #fff;}
+
+/* Custom Grid */
+.rt-demo-grid-2, .rt-demo-grid-3, .rt-demo-grid-4, .rt-demo-grid-5, .rt-demo-grid-6, .rt-demo-grid-7 {float: left;margin-left: 10px;margin-right: 10px;}
+
+.rt-grid-4 .rt-block .rt-demo-grid-2 {width: 120px;}
+.rt-grid-8 .rt-demo-grid-2 {width: 120px;}
+.rt-grid-9 .rt-demo-grid-2 {width: 140px;}
+
+.rt-grid-6 .rt-block .rt-demo-grid-3 {width: 200px;}
+.rt-grid-8 .rt-demo-grid-3 {width: 170px;}
+.rt-grid-9 .rt-demo-grid-3 {width: 200px;}
+
+.rt-grid-8 .rt-demo-grid-4 {width: 270px;}
+.rt-grid-9 .rt-demo-grid-4 {width: 310px;}
+
+.rt-demo-grid-alpha {margin-left: 0;}
+.rt-demo-grid-omega {margin-right: 0;margin-left: 0;}
+
+/* Tutorials */
+.mod-var-link {text-transform: uppercase;}
+.ext-list {line-height: 30px;margin-bottom: 5px;}
+
+/* Standard Inline Structural Adjustments */
+body .floatleft {float: left;margin-right: 15px;margin-left: 0;}
+body .floatright {float: right;margin-left: 15px;margin-right: 0;}
+body .nomarginbottom, body .nomarginbottom .rt-block, body ul.nomarginbottom {margin-bottom: 0;}
+body .nomargintop, body .nomargintop .rt-block, body ul.nomargintop {margin-top: 0;}
+body .nomarginbottom, body .nomarginbottom .rt-block, body ul.nomarginbottom {margin-bottom: 0;}
+body .nomarginleft, body .nomarginleft .rt-block, body ul.nomarginleft {margin-left: 0;}
+body .nomarginright, body .nomarginright .rt-block, body ul.nomarginright {margin-right: 0;}
+body .nopaddingleft {padding-left: 0 !important;}
+body .nopaddingright {padding-right: 0 !important;}
+body .nopaddingbottom {padding-bottom: 0 !important;}
+body .nopaddingtop {padding-top: 0 !important;}
+.floatnone {float: none !important;}
+.clearnone {clear: none !important;}
+.floatleftlast {float: left;margin-right: 0;}
+.floatrightlast {float: right;margin-left: 0;}
+body .smallmarginbottom {margin-bottom: 5px;}
+body .smallmargintop {margin-top: 5px;}
+body .medmarginbottom {margin-bottom: 10px;}
+body .medmargintop {margin-top: 10px;}
+body .smallmarginleft {margin-left: 5px;}
+body .smallmarginright {margin-right: 5px;}
+body .medmarginleft {margin-left: 10px;}
+body .medmarginright {margin-right: 10px;}
+
+/* RTL Stuff */
+body.rtl .floatleft {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .floatright {float: left;margin-left: 0;margin-right: 15px;}
+body.rtl .nomarginleft, body.rtl .nomarginleft .rt-block, body.rtl ul.nomarginleft {margin-right: 0;}
+body.rtl .nomarginright, body.rtl .nomarginright .rt-block, body.rtl ul.nomarginright {margin-left: 0;}
+body.rtl .nopaddingleft {padding-right: 0 !important;}
+body.rtl .nopaddingright {padding-left: 0 !important;}
+body.rtl .floatleftlast {float: right;margin-left: 0;}
+body.rtl .floatrightlast {float: left;margin-right: 0;}
+body.rtl .smallmarginleft {margin-right: 5px;}
+body.rtl .smallmarginright {margin-left: 5px;}
+body.rtl .medmarginleft {margin-right: 10px;}
+body.rtl .medmarginright {margin-left: 10px;}
+body.rtl .rt-demo-grid-2, body.rtl .rt-demo-grid-3, body.rtl .rt-demo-grid-4, body.rtl .rt-demo-grid-5, body.rtl .rt-demo-grid-6, body.rtl .rt-demo-grid-7 {float: right;}

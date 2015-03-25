@@ -1,0 +1,30 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+ 
+ body.rtl ul.bullet-add, body.rtl ul.bullet-arrow, body.rtl ul.bullet-arrow2, body.rtl ul.bullet-briefcase, body.rtl ul.bullet-calendar, body.rtl ul.bullet-check, body.rtl ul.bullet-crank, body.rtl ul.bullet-delete, body.rtl ul.bullet-docs, body.rtl ul.bullet-email, body.rtl ul.bullet-home, body.rtl ul.bullet-key, body.rtl ul.bullet-lock, body.rtl ul.bullet-minus, body.rtl ul.bullet-monitor, body.rtl ul.bullet-notes, body.rtl ul.bullet-post, body.rtl ul.bullet-printer, body.rtl ul.bullet-rss, body.rtl ul.bullet-star, body.rtl ul.bullet-star2, body.rtl ul.bullet-unlock, body.rtl ul.bullet-warning, body.rtl ul.bullet-write, body.rtl ul.bullet-1, body.rtl ul.bullet-2, body.rtl ul.bullet-3, body.rtl ul.bullet-4, body.rtl ul.bullet-5, body.rtl ul.bullet-6, body.rtl ul.bullet-7, body.rtl ul.bullet-8, body.rtl ul.bullet-9, body.rtl ul.bullet-10 {padding: 0 5px 0 0;}
+ body.rtl ul.bullet-1 li, body.rtl ul.bullet-2 li, body.rtl ul.bullet-3 li, body.rtl ul.bullet-4 li, body.rtl ul.bullet-5 li, body.rtl ul.bullet-6 li, body.rtl ul.bullet-7 li, body.rtl ul.bullet-8 li, body.rtl ul.bullet-9 li, body.rtl ul.bullet-10 li {padding: 0 15px 3px 0;background-position: 100% 4px;}
+ body.rtl ul.bullet-add li, body.rtl ul.bullet-arrow li, body.rtl ul.bullet-arrow2 li, body.rtl ul.bullet-briefcase li, body.rtl ul.bullet-calendar li, body.rtl ul.bullet-check li, body.rtl ul.bullet-crank li, body.rtl ul.bullet-delete li, body.rtl ul.bullet-docs li, body.rtl ul.bullet-email li, body.rtl ul.bullet-home li, body.rtl ul.bullet-key li, body.rtl ul.bullet-lock li, body.rtl ul.bullet-minus li, body.rtl ul.bullet-monitor li, body.rtl ul.bullet-notes li, body.rtl ul.bullet-post li, body.rtl ul.bullet-printer li, body.rtl ul.bullet-rss li, body.rtl ul.bullet-star li, body.rtl ul.bullet-star2 li, body.rtl ul.bullet-unlock li, body.rtl ul.bullet-warning li, body.rtl ul.bullet-write li {padding: 0 26px 0 0;background-position: 100% 2px;}
+ body.rtl ul.bullet-1 li {background-image: url(../images/typography/bullet1-rtl.png);}
+ body.rtl ul.bullet-2 li {background-image: url(../images/typography/bullet2-rtl.png);}
+ body.rtl ul.bullet-3 li {background-image: url(../images/typography/bullet3-rtl.png);}
+ body.rtl ul.bullet-4 li {background-image: url(../images/typography/bullet4-rtl.png);}
+ body.rtl ul.bullet-5 li {background-image: url(../images/typography/bullet5-rtl.png);}
+ body.rtl ul.bullet-6 li {background-image: url(../images/typography/bullet6-rtl.png);}
+ body.rtl ul.bullet-7 li {background-image: url(../images/typography/bullet7-rtl.png);}
+ body.rtl ul.bullet-8 li {background-image: url(../images/typography/bullet8-rtl.png);}
+ body.rtl ul.bullet-9 li {background-image: url(../images/typography/bullet9-rtl.png);}
+ body.rtl ul.bullet-10 li {background-image: url(../images/typography/bullet9-rtl.png);}
+ body.rtl ul.bullet-no1 li, body.rtl ul.bullet-no2 li, body.rtl ul.bullet-no3 li, body.rtl ul.bullet-no4 li, body.rtl ul.bullet-no5 li, body.rtl ul.bullet-no6 li, body.rtl ul.bullet-no7 li, body.rtl ul.bullet-no8 li, body.rtl ul.bullet-no9 li, body.rtl ul.bullet-no10 li {background-position: 100% 2px;padding: 0 35px 2px 0;}
+ body.rtl span.dropcap {margin: 0 0 0 5px;float: right;}
+ body.rtl .typo-icon {padding: 8px 36px 0px 10px;margin: 15px 0;background-position: 99% 12px;}
+ body.rtl span.important-title {right: 10px;left: inherit;}
+ body.rtl span.inset-left {float: right;margin-left: 20px;margin-right: 0;}
+ body.rtl span.inset-right {float: left;margin-right: 20px;margin-left: 0;}
+ body.rtl span.inset-right-title, body.rtl span.inset-left-title {right: 10px;left: inherit;}
+ body.rtl .quote-l {padding: 8px 36px 0px 10px;background: url(../images/typography/quote-r.png) no-repeat 99% 12px;}
+ body.rtl .quote-r {padding: 0 0 0 25px;background: url(../images/typography/quote-l.png) no-repeat 10px 100%;}

@@ -1,0 +1,48 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Menus */
+.menutop #form-login .input .inputbox {width: 100%;}
+#rt-navigation {zoom: 1;}
+.menutop ul li > .daddy span {background-position: 100% -111px !important;background-repeat: no-repeat !important;}
+
+/* Modules */
+#rt-content-bottom .module-title .title {word-wrap: break-word;}
+.module-content ul.menu li {list-style-type: none !important;}
+.module-content ul.menu .subtext em {padding-left: 0;}
+
+/* Typography */
+.rokchecks.roksubscribe {display: inline-block;}
+#form-login .remember {zoom: 1;}
+.readon {zoom: 1;position: relative;}
+.readon .button {zoom: 1;}
+fieldset legend {color: inherit;}
+
+/* Joomla */
+.component-content .icon .hasTip img {display: none;}
+.component-content .icon .hasTip a {display: block;width: 16px;height: 16px;}
+.component-content .contact .rt-joomla-table img {width: 16px !important;height: 16px !important;}
+
+/* RTL */
+body.rtl ul.bullet-a li, body.rtl ul.bullet-d li {zoom: 1;}
+body.rtl .typo-icon, body.rtl .quote-r {line-height: 1.6em;}
+body.rtl span.inset-right-title, body.rtl span.inset-left-title {zoom: 1;position: relative;}
+body.rtl .rt-article-content p, body.rtl blockquote, body.rtl blockquote p, body.rtl .dropcap {direction: ltr;text-align: right;}
+body.rtl .fusion-submenu-wrapper li {text-align: right;}
+body.rtl ol li {direction: ltr;text-align: right;}
+body.rtl .title {direction: ltr;text-align: right;}
+body.rtl .rt-module-surround .module-content p {direction: ltr;text-align: right;}
+body.rtl ul.bullet-a, body.rtl ul.bullet-b, body.rtl ul.bullet-c, body.rtl ul.bullet-d, body.rtl ul.bullet-e, body.rtl ul.bullet-1, body.rtl ul.bullet-2, body.rtl ul.bullet-3, body.rtl ul.bullet-4, body.rtl ul.bullet-5, body.rtl ul.bullet-6, body.rtl ul.bullet-7, body.rtl ul.bullet-8, body.rtl ul.bullet-9, body.rtl ul.bullet-10 {direction: ltr;text-align: right;}
+body.rtl ul.bullet-monitor {direction: ltr;text-align: right;}
+body.rtl .alert, body.rtl .approved, body.rtl .attention, body.rtl .camera, body.rtl .cart, body.rtl .doc, body.rtl .download, body.rtl .media, body.rtl .note, body.rtl .notice, body.rtl .quote {direction: ltr;text-align: right;}
+body.rtl #form-login .inputbox {text-align: right;}
+body.rtl #form-login .input p {direction: ltr;}
+body.rtl .rt-demo-typo-block {direction: ltr;text-align: right;}
+body.rtl .rt-demo-grid-4 p {direction: ltr;text-align: right;}
+body.rtl p.nomarginbottom {direction: ltr;text-align: right;}
+body.rtl .menutop ul li > .daddy span {background-position: 0 -225px !important;}

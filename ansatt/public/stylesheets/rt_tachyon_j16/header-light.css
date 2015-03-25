@@ -1,0 +1,77 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Text Colors */
+#rt-top, #rt-header, #rt-navigation {color: #444;} 
+#rt-top a:hover, #rt-header a:hover, #rt-navigation a:hover {color: #fff;}
+#rt-header-surround .menutop li > .item, .menutop .fusion-submenu-wrapper li > .item {color: #444;text-shadow: 1px 1px 1px #eee;}
+#rt-header-surround .menutop ul li.root > .item, #rt-header-surround .menutop li.active.root > .item, #rt-header-surround .menutop li.active.root.f-mainparent-itemfocus > .item, #rt-header-surround .menutop li.root:hover > .item, #rt-header-surround .menutop li.root.f-mainparent-itemfocus > .item, #rt-header-surround .rt-splitmenu .menutop li.active > .item, #rt-header-surround .rt-splitmenu .menutop li:hover > .item, #rt-header-surround .rt-splicemenu .menutop li.active > .item, #rt-header-surround .rt-splicemenu .menutop li:hover > .item {color: #fff;text-shadow: -1px -1px 1px #484848;}
+#rt-header-surround .menupillstyle-default .menutop ul li.root > .item, #rt-header-surround .menupillstyle-default .menutop li.active.root > .item, #rt-header-surround .menupillstyle-default .menutop li.active.root.f-mainparent-itemfocus > .item, #rt-header-surround .menupillstyle-default .menutop li.root:hover > .item, #rt-header-surround .menupillstyle-default .menutop li.root.f-mainparent-itemfocus > .item, #rt-header-surround .menupillstyle-default .rt-splitmenu .menutop li.active > .item, #rt-header-surround .menupillstyle-default .rt-splitmenu .menutop li:hover > .item, #rt-header-surround .menupillstyle-default .rt-splicemenu .menutop li.active > .item, #rt-header-surround .menupillstyle-default .rt-splicemenu .menutop li:hover > .item, #rt-header-surround .rt-splicemenu-children .menu li.active > .item, #rt-header-surround .rt-splicemenu-children .menu li:hover > .item {color: #111;text-shadow: 1px 1px 1px #eee;}
+
+/* Logo */
+#rt-logo {background: url(../images/logo/light/logo.png) 0 0 no-repeat;}
+
+/* Structure */
+#rt-header-background {background: #fff url(../images/header/light/header-bg.png) 50% 100% repeat-x;}
+#rt-header-bottom {background: url(../images/header/light/header-bottom.png) 50% 100% repeat-x;}
+
+/* Top Menu */
+.rt-menubar {background: #eaeaea;border-top: 1px solid #ccc;border-bottom: 1px solid #fff;}
+#rt-navigation {background: #dadada;}
+.menutop .fusion-submenu-wrapper {background: #ddd;border: 1px solid #fff;}
+.fusion-pill-l {background: url(../images/header/light/pill-l.png) 0 0 no-repeat;}
+.fusion-pill-r {background: url(../images/header/light/pill-r.png) 100% 0 no-repeat;}
+.menupillstyle-blue .fusion-pill-l {background-image: url(../images/accents/blue/pill-l.png);}
+.menupillstyle-blue .fusion-pill-r {background-image: url(../images/accents/blue/pill-r.png);}
+.menupillstyle-brown .fusion-pill-l {background-image: url(../images/accents/brown/pill-l.png);}
+.menupillstyle-brown .fusion-pill-r {background-image: url(../images/accents/brown/pill-r.png);}
+.menupillstyle-darkgrey .fusion-pill-l {background-image: url(../images/accents/darkgrey/pill-l.png);}
+.menupillstyle-darkgrey .fusion-pill-r {background-image: url(../images/accents/darkgrey/pill-r.png);}
+.menupillstyle-darkorange .fusion-pill-l {background-image: url(../images/accents/darkorange/pill-l.png);}
+.menupillstyle-darkorange .fusion-pill-r {background-image: url(../images/accents/darkorange/pill-r.png);}
+.menupillstyle-green .fusion-pill-l {background-image: url(../images/accents/green/pill-l.png);}
+.menupillstyle-green .fusion-pill-r {background-image: url(../images/accents/green/pill-r.png);}
+.menupillstyle-lightblue .fusion-pill-l {background-image: url(../images/accents/lightblue/pill-l.png);}
+.menupillstyle-lightblue .fusion-pill-r {background-image: url(../images/accents/lightblue/pill-r.png);}
+.menupillstyle-orange .fusion-pill-l {background-image: url(../images/accents/orange/pill-l.png);}
+.menupillstyle-orange .fusion-pill-r {background-image: url(../images/accents/orange/pill-r.png);}
+.menupillstyle-purple .fusion-pill-l {background-image: url(../images/accents/purple/pill-l.png);}
+.menupillstyle-purple .fusion-pill-r {background-image: url(../images/accents/purple/pill-r.png);}
+.menupillstyle-red .fusion-pill-l {background-image: url(../images/accents/red/pill-l.png);}
+.menupillstyle-red .fusion-pill-r {background-image: url(../images/accents/red/pill-r.png);}
+.menupillstyle-yellow .fusion-pill-l {background-image: url(../images/accents/yellow/pill-l.png);}
+.menupillstyle-yellow .fusion-pill-r {background-image: url(../images/accents/yellow/pill-r.png);}
+.menutop li.active.root, .rt-splitmenu .menutop li.active, .rt-splicemenu .menutop li.active {background: url(../images/header/light/pill-l.png) 0 0 no-repeat;}
+.menutop li.active.root > .item, .rt-splitmenu .menutop li.active .item, .rt-splicemenu .menutop li.active .item {background: url(../images/header/light/pill-r.png) 100% 0 no-repeat;}
+.menupillstyle-blue .menutop li.active.root, .menupillstyle-blue .rt-splitmenu .menutop li.active, .menupillstyle-blue .rt-splicemenu .menutop li.active {background-image: url(../images/accents/blue/pill-l.png);}
+.menupillstyle-blue .menutop li.active.root > .item, .menupillstyle-blue .rt-splitmenu .menutop li.active .item, .menupillstyle-blue .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/blue/pill-r.png);}
+.menupillstyle-brown .menutop li.active.root, .menupillstyle-brown .rt-splitmenu .menutop li.active, .menupillstyle-brown .rt-splicemenu .menutop li.active {background-image: url(../images/accents/brown/pill-l.png);}
+.menupillstyle-brown .menutop li.active.root > .item, .menupillstyle-brown .rt-splitmenu .menutop li.active .item, .menupillstyle-brown .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/brown/pill-r.png);}
+.menupillstyle-darkgrey .menutop li.active.root, .menupillstyle-darkgrey .rt-splitmenu .menutop li.active, .menupillstyle-darkgrey .rt-splicemenu .menutop li.active {background-image: url(../images/accents/darkgrey/pill-l.png);}
+.menupillstyle-darkgrey .menutop li.active.root > .item, .menupillstyle-darkgrey .rt-splitmenu .menutop li.active .item, .menupillstyle-darkgrey .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/darkgrey/pill-r.png);}
+.menupillstyle-darkorange .menutop li.active.root, .menupillstyle-darkorange .rt-splitmenu .menutop li.active, .menupillstyle-darkorange .rt-splicemenu .menutop li.active {background-image: url(../images/accents/darkorange/pill-l.png);}
+.menupillstyle-darkorange .menutop li.active.root > .item, .menupillstyle-darkorange .rt-splitmenu .menutop li.active .item, .menupillstyle-darkorange .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/darkorange/pill-r.png);}
+.menupillstyle-green .menutop li.active.root, .menupillstyle-green .rt-splitmenu .menutop li.active, .menupillstyle-green .rt-splicemenu .menutop li.active {background-image: url(../images/accents/green/pill-l.png);}
+.menupillstyle-green .menutop li.active.root > .item, .menupillstyle-green .rt-splitmenu .menutop li.active .item, .menupillstyle-green .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/green/pill-r.png);}
+.menupillstyle-lightblue .menutop li.active.root, .menupillstyle-lightblue .rt-splitmenu .menutop li.active, .menupillstyle-lightblue .rt-splicemenu .menutop li.active {background-image: url(../images/accents/lightblue/pill-l.png);}
+.menupillstyle-lightblue .menutop li.active.root > .item, .menupillstyle-lightblue .rt-splitmenu .menutop li.active .item, .menupillstyle-lightblue .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/lightblue/pill-r.png);}
+.menupillstyle-orange .menutop li.active.root, .menupillstyle-orange .rt-splitmenu .menutop li.active, .menupillstyle-orange .rt-splicemenu .menutop li.active {background-image: url(../images/accents/orange/pill-l.png);}
+.menupillstyle-orange .menutop li.active.root > .item, .menupillstyle-orange .rt-splitmenu .menutop li.active .item, .menupillstyle-orange .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/orange/pill-r.png);}
+.menupillstyle-purple .menutop li.active.root, .menupillstyle-purple .rt-splitmenu .menutop li.active, .menupillstyle-purple .rt-splicemenu .menutop li.active {background-image: url(../images/accents/purple/pill-l.png);}
+.menupillstyle-purple .menutop li.active.root > .item, .menupillstyle-purple .rt-splitmenu .menutop li.active .item, .menupillstyle-purple .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/purple/pill-r.png);}
+.menupillstyle-red .menutop li.active.root, .menupillstyle-red .rt-splitmenu .menutop li.active, .menupillstyle-red .rt-splicemenu .menutop li.active {background-image: url(../images/accents/red/pill-l.png);}
+.menupillstyle-red .menutop li.active.root > .item, .menupillstyle-red .rt-splitmenu .menutop li.active .item, .menupillstyle-red .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/red/pill-r.png);}
+.menupillstyle-yellow .menutop li.active.root, .menupillstyle-yellow .rt-splitmenu .menutop li.active, .menupillstyle-yellow .rt-splicemenu .menutop li.active {background-image: url(../images/accents/yellow/pill-l.png);}
+.menupillstyle-yellow .menutop li.active.root > .item, .menupillstyle-yellow .rt-splitmenu .menutop li.active .item, .menupillstyle-yellow .rt-splicemenu .menutop li.active .item {background-image: url(../images/accents/yellow/pill-r.png);}
+.menutop li.parent.root .item span .daddyicon, .menutop li.root .daddy.item .daddyicon, .menutop ul li > .daddy span {background-image: url(../images/header/light/menu-arrows.png);}
+.menutop ul li > .item:hover, .menutop ul li.active > .item, .menutop ul li.f-menuparent-itemfocus > .item {background: #eee;border-top: 1px solid #ccc;border-bottom: 1px solid #fafafa;}
+.rt-menubar .arrow-indicator {background: url(../images/header/light/menu-active.png) 0 0 no-repeat;}
+#rt-navigation .menu li.active .item span, #rt-navigation .rt-splicemenu-children .menu li:hover > .item span, #rt-navigation .fusion-pill-l {background: #eee;border-top: 1px solid #ccc;border-bottom: 1px solid #fff;}
+
+/* Typography */
+#rt-login-button .buttontext, #rt-popupmodule-button .buttontext, #rt-accessibility, .rt-date-feature {background: #d0d0d0;border-bottom: 1px solid #f0f0f0;}

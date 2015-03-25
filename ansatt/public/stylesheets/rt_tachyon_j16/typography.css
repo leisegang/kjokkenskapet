@@ -1,0 +1,124 @@
+/* @override 
+	http://kjokkenskapet.dev/templates/rt_tachyon_j16/css/typography.css
+	http://kjokkenskapet.dev/ansatt/public/stylesheets/rt_tachyon_j16/typography.css
+*/
+
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* Bullet Styles */
+ul.bullet-add, ul.bullet-arrow, ul.bullet-arrow2, ul.bullet-briefcase, ul.bullet-calendar, ul.bullet-check, ul.bullet-crank, ul.bullet-delete, ul.bullet-docs, ul.bullet-email, ul.bullet-home, ul.bullet-key, ul.bullet-lock, ul.bullet-minus, ul.bullet-monitor, ul.bullet-notes, ul.bullet-post, ul.bullet-printer, ul.bullet-rss, ul.bullet-star, ul.bullet-star2, ul.bullet-unlock, ul.bullet-warning, ul.bullet-write, ul.bullet-1, ul.bullet-2, ul.bullet-3, ul.bullet-4, ul.bullet-5, ul.bullet-6, ul.bullet-7, ul.bullet-8, ul.bullet-9, ul.bullet-10 {padding: 0;margin: 0 0 15px;}
+ul.bullet-add a, ul.bullet-arrow a, ul.bullet-arrow2 a, ul.bullet-briefcase a, ul.bullet-calendar a, ul.bullet-check a, ul.bullet-crank a, ul.bullet-delete a, ul.bullet-docs a, ul.bullet-email a, ul.bullet-home a, ul.bullet-key a, ul.bullet-lock a, ul.bullet-minus a, ul.bullet-monitor a, ul.bullet-notes a, ul.bullet-post a, ul.bullet-printer a, ul.bullet-rss a, ul.bullet-star a, ul.bullet-star2 a, ul.bullet-unlock a, ul.bullet-warning a, ul.bullet-write a, ul.bullet-1 li a, ul.bullet-2 li a, ul.bullet-3 li a, ul.bullet-4 li a, ul.bullet-5 li a, ul.bullet-6 li a, ul.bullet-7 li a, ul.bullet-8 li a, ul.bullet-9 li a, ul.bullet-10 li a {font-size: 100%;line-height: 1.7;}
+
+ul.bullet-1 li, ul.bullet-2 li, ul.bullet-3 li, ul.bullet-4 li, ul.bullet-5 li, ul.bullet-6 li, ul.bullet-7 li, ul.bullet-8 li, ul.bullet-9 li, ul.bullet-10 li {list-style: none;padding: 0 0 0 15px;margin: 0 0 3px;background-repeat: no-repeat;background-position: 0 5px;}
+ul.bullet-1 li {background-image: url(../images/typography/bullet1.png);}
+ul.bullet-2 li {background-image: url(../images/typography/bullet2.png);}
+ul.bullet-3 li {background-image: url(../images/typography/bullet3.png);}
+ul.bullet-4 li {background-image: url(../images/typography/bullet4.png);}
+ul.bullet-5 li {background-image: url(../images/typography/bullet5.png);}
+ul.bullet-6 li {background-image: url(../images/typography/bullet6.png);}
+ul.bullet-7 li {background-image: url(../images/typography/bullet7.png);}
+ul.bullet-8 li {background-image: url(../images/typography/bullet8.png);}
+ul.bullet-9 li {background-image: url(../images/typography/bullet9.png);}
+ul.bullet-10 li {background-image: url(../images/typography/bullet10.png);}
+
+ul.bullet-add li, ul.bullet-arrow li, ul.bullet-arrow2 li, ul.bullet-briefcase li, ul.bullet-calendar li, ul.bullet-check li, ul.bullet-crank li, ul.bullet-delete li, ul.bullet-docs li, ul.bullet-email li, ul.bullet-home li, ul.bullet-key li, ul.bullet-lock li, ul.bullet-minus li, ul.bullet-monitor li, ul.bullet-notes li, ul.bullet-post li, ul.bullet-printer li, ul.bullet-rss li, ul.bullet-star li, ul.bullet-star2 li, ul.bullet-unlock li, ul.bullet-warning li, ul.bullet-write li {background-position: 0 2px;padding: 0 0 0 26px;background-repeat: no-repeat;list-style: none;margin: 0 0 3px;}
+ul.bullet-add li {background-image: url(../images/icons/icon-add.png);}
+ul.bullet-arrow li {background-image: url(../images/icons/icon-arrow.png);}
+ul.bullet-arrow2 li {background-image: url(../images/icons/icon-arrow2.png);}
+ul.bullet-briefcase li {background-image: url(../images/icons/icon-briefcase.png);}
+ul.bullet-calendar li {background-image: url(../images/icons/icon-calendar.png);}
+ul.bullet-check li {background-image: url(../images/icons/icon-check.png);}
+ul.bullet-crank li {background-image: url(../images/icons/icon-crank.png);}
+ul.bullet-delete li {background-image: url(../images/icons/icon-delete.png);}
+ul.bullet-docs li {background-image: url(../images/icons/icon-docs.png);}
+ul.bullet-email li {background-image: url(../images/icons/icon-email.png);}
+ul.bullet-home li {background-image: url(../images/icons/icon-home.png);}
+ul.bullet-key li {background-image: url(../images/icons/icon-key.png);}
+ul.bullet-lock li {background-image: url(../images/icons/icon-lock.png);}
+ul.bullet-minus li {background-image: url(../images/icons/icon-minus.png);}
+ul.bullet-monitor li {background-image: url(../images/icons/icon-monitor.png);}
+ul.bullet-notes li {background-image: url(../images/icons/icon-notes.png);}
+ul.bullet-post li {background-image: url(../images/icons/icon-post.png);}
+ul.bullet-printer li {background-image: url(../images/icons/icon-printer.png);}
+ul.bullet-rss li {background-image: url(../images/icons/icon-rss.png);}
+ul.bullet-star li {background-image: url(../images/rating_star.png);}
+ul.bullet-star2 li {background-image: url(../images/rating_star_blank.png);}
+ul.bullet-unlock li {background-image: url(../images/icons/icon-unlock.png);}
+ul.bullet-warning li {background-image: url(../images/icons/icon-warning.png);}
+ul.bullet-write li {background-image: url(../images/icons/icon-write.png);}
+
+/* Emphasis Styles*/
+em.italic {font-style: italic;font-weight: bold;}
+em.bold {font-size: 120%;font-weight: bold;line-height: 145%;font-style: normal;}
+em.bold2 {font-size: 135%;font-weight: bold;line-height: 120%;font-style: normal;}
+em.normal {font-style: normal;}
+em.nobold {font-weight: normal;}
+.rt-upper {text-transform: uppercase;}
+.rt-center {text-align: center;}
+.rt-justify {text-align: justify;}
+
+/* Drop Cap */
+p.dropcap {overflow: hidden;}
+span.dropcap {font-size: 400%;margin: 0 5px 0 0;line-height: 110%;float: left;display: block;}
+
+/* Notice Styles */
+pre {font-style:italic;overflow: auto;padding: 10px;margin-bottom: 15px;}
+
+.typo-icon, .quote .quote-l {display: block;padding: 8px 10px 0px 36px;margin: 15px 0;background-repeat: no-repeat; background-position: 10px 12px;}
+.quote-l {padding: 8px 0 0 26px;margin: 15px 0;background: no-repeat 0px 12px;}
+.quote .quote-r {display: block;padding: 0 25px 0 0;}
+.quote-r {display: block;padding: 0 15px 0 0;}
+.approved .typo-icon {background-image: url(../images/typography/approved-icon.png);}
+.alert .typo-icon {background-image: url(../images/typography/alert-icon.png);}
+.attention .typo-icon {background-image: url(../images/typography/attention-icon.png);}
+.camera .typo-icon {background-image: url(../images/typography/camera-icon.png);}
+.cart .typo-icon {background-image: url(../images/typography/cart-icon.png);}
+.doc .typo-icon {background-image: url(../images/typography/doc-icon.png);}
+.download .typo-icon {background-image: url(../images/typography/download-icon.png);}
+.media .typo-icon {background-image: url(../images/typography/media-icon.png);}
+.note .typo-icon {background-image: url(../images/typography/note-icon.png);}
+.notice .typo-icon {background-image: url(../images/typography/notice-icon.png);}
+
+/* Light Notice Styles */
+pre {background: #F9F1ED;border: 1px solid #DCD7D4;color: #AC3400;}
+.quote-l {background-image: url(../images/typography/quote-l.png);}
+.quote-r {background: url(../images/typography/quote-r.png) no-repeat 100% 100%;}
+.alert {color: #D0583F;background-image: url(../images/typography/alert.png);background-color: #FFFBFB;border-bottom: 1px solid #F8C9BB;border-right: 1px solid #F8C9BB;}
+.approved {color: #6CB656;background-image: url(../images/typography/approved.png);background-color: #FAFDF9;border-bottom: 1px solid #C1CEC1;border-right: 1px solid #C1CEC1;}
+.attention {color: #E1B42F;background-image: url(../images/typography/attention.png);background-color: #FFFDF6;border-bottom: 1px solid #E4E4D5;border-right: 1px solid #E4E4D5;}
+.camera {color: #55A0B4;background-image: url(../images/typography/camera.png);background-color: #F6FBFB;border-bottom: 1px solid #C9D5D8;border-right: 1px solid #C9D5D8;}
+.cart {color: #559726;background-image: url(../images/typography/cart.png);background-color: #FCFCFC;border-bottom: 1px solid #D3D3D3;border-right: 1px solid #D3D3D3;}
+.doc {color: #666666;background-image: url(../images/typography/doc.png);background-color: #FFFFFF;border-bottom: 1px solid #E5E5E5;border-right: 1px solid #E5E5E5;}
+.download {color: #666666;background-image: url(../images/typography/download.png);background-color: #FCFCFC;border-bottom: 1px solid #D3D3D3;border-right: 1px solid #D3D3D3;}
+.media {color: #8D79A9;background-image: url(../images/typography/media.png);background-color: #FBF9FD;border-bottom: 1px solid #DBE1E6;border-right: 1px solid #DBE1E6;}
+.note {color: #B76F38;background-image: url(../images/typography/note.png);background-color: #FFFAF6;border-bottom: 1px solid #E6DAD2;border-right: 1px solid #E6DAD2;}
+
+.quote {color: #727272;background-image: url(../images/typography/quote.png);background-color: #F3F3F3;border-bottom: 1px solid #D4D4D4;border-right: 1px solid #D4D4D4;}
+
+/* Dark Notice Style */
+.headerstyle-dark pre, .footerstyle-dark pre {background: #333;border: 1px solid #353535;color: #bbb;}
+.headerstyle-dark .alert, .footerstyle-dark .alert {color: #b74c34;background-image: url(../images/typography/dark/alert.png);background-color: #64403E;border-bottom: 1px solid #382121;border-right: 1px solid #382121;}
+.headerstyle-dark .approved, .footerstyle-dark .approved {color: #6CB656;background-image: url(../images/typography/dark/approved.png);background-color: #436750;border-bottom: 1px solid #314C2D;border-right: 1px solid #314C2D;}
+.headerstyle-dark .attention, .footerstyle-dark .attention {color: #a4966f;background-image: url(../images/typography/dark/attention.png);background-color: #675C3D;border-bottom: 1px solid #383221;border-right: 1px solid #383221;}
+.headerstyle-dark .camera, .footerstyle-dark .camera {color: #55A0B4;background-image: url(../images/typography/dark/camera.png);background-color: #436668;border-bottom: 1px solid #213038;border-right: 1px solid #213038;}
+.headerstyle-dark .cart, .footerstyle-dark .cart {color: #86977c;background-image: url(../images/typography/dark/cart.png);background-color: #58693C;border-bottom: 1px solid #303821;border-right: 1px solid #303821;}
+.headerstyle-dark .doc, .footerstyle-dark .doc {color: #ccc;background-image: url(../images/typography/dark/doc.png);background-color: #7E7E7E;border-bottom: 1px solid #444;border-right: 1px solid #444;}
+.headerstyle-dark .download, .footerstyle-dark .download {color: #80AC75;background-image: url(../images/typography/dark/download.png);background-color: #47683F;border-bottom: 1px solid #253621;border-right: 1px solid #253621;}
+.headerstyle-dark .media, .footerstyle-dark .media {color: #8D79A9;background-image: url(../images/typography/dark/media.png);background-color: #5E3C69;border-bottom: 1px solid #322037;border-right: 1px solid #322037;}
+.headerstyle-dark .note, .footerstyle-dark .note {color: #B76F38;background-image: url(../images/typography/dark/note.png);background-color: #664B3F;border-bottom: 1px solid #382621;border-right: 1px solid #382621;}
+.headerstyle-dark .notice, .footerstyle-dark .notice {color: #6087b3;background-image: url(../images/typography/dark/notice.png);background-color: #415167;border-bottom: 1px solid #212E38;border-right: 1px solid #212E38;}
+.headerstyle-dark .quote, .footerstyle-dark .quote {color: #ccc;background-image: url(../images/typography/dark/quote.png);background-color: #878787;border-bottom: 1px solid #444;border-right: 1px solid #444;}
+.headerstyle-dark .quote-l, .footerstyle-dark .quote-l {background-image: url(../images/typography/dark/quote-l.png);}
+.headerstyle-dark .quote-r, .footerstyle-dark .quote-r {background: url(../images/typography/dark/quote-r.png) no-repeat 100% 100%;}
+
+/* Inset Styles */
+span.inset-left {float: left;margin-right: 20px;}
+span.inset-right {float: right;margin-left: 20px;}
+span.inset-right-title, span.inset-left-title {display: block;font-size: 100%;font-weight: bold;}
+span.inset-left, span.inset-right {display: block;padding: 10px;width: 20%;font-size: 100%;font-style: italic;margin-top: 15px;position: relative;text-align: justify; margin-bottom: 15px;}

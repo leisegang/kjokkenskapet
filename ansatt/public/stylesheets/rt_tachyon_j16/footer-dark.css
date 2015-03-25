@@ -1,0 +1,54 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Text Colors */
+#rt-bottom, #rt-footer, #rt-copyright {color: #aaa;}
+#gantry-totop .totop-desc {color: #888;}
+#rt-bottom a:hover, #rt-footer a:hover, #rt-copyright a:hover, #gantry-totop:hover .totop-desc {color: #fff;}
+
+/* Module Variations - Text Colors */
+#rt-footer-surround .title, #rt-footer-surround .rt-polltitle {color: #ddd;text-shadow: -1px -1px 1px #111;}
+#rt-footer-surround .box1 .title {color: #ddd;text-shadow: -1px -1px 1px #333;}
+#rt-footer-surround .box2 .title {color: #ddd;text-shadow: -1px -1px 1px #111;}
+#rt-footer-surround .box3 .title {color: #ddd;text-shadow: -1px -1px 1px #000;}
+#rt-footer-surround .box5 {color: #555;}
+#rt-footer-surround .box5 .title {color: #333;text-shadow: 1px 1px 1px #eee;}
+#rt-footer-surround .box5 a:hover {color: #333}
+#rt-footer-surround .box9 {color: #555;}
+#rt-footer-surround .box9 .title {color: #333;text-shadow: 1px 1px 1px #eee;}
+#rt-footer-surround .box9 a:hover {color: #333}
+
+/* Structure */
+#rt-bottom {background: #2E2F2D;}
+body, #rt-footer, #rt-copyright {background: #252525 url(../images/footer/dark/footer-bg.png);}
+#rt-footer {border-top: 1px solid #222;}
+.bodylevel-high #rt-bottom .rt-grid-1, .bodylevel-high #rt-bottom .rt-grid-2, .bodylevel-high #rt-bottom .rt-grid-3, .bodylevel-high #rt-bottom .rt-grid-4, .bodylevel-high #rt-bottom .rt-grid-5, .bodylevel-high #rt-bottom .rt-grid-6, .bodylevel-high #rt-bottom .rt-grid-7, .bodylevel-high #rt-bottom .rt-grid-8, .bodylevel-high #rt-bottom .rt-grid-9, .bodylevel-high #rt-bottom .rt-grid-10, .bodylevel-high #rt-bottom .rt-grid-11 {background: url(../images/footer/dark/bottomdiv-l.png) 100% -25px no-repeat;}
+.bodylevel-high .bottomdiv-r {background: url(../images/footer/dark/bottomdiv-r.png) 0 -25px no-repeat;}
+
+/* Module Variations */
+#rt-footer-surround .box1 .rt-block, body #rt-footer-surround .box1.nohover .rt-block:hover {background: #555;border: 1px solid #666;}
+.modulehover-1 #rt-footer-surround .box1 .rt-block:hover {background: #666;border: 1px solid #777;}
+#rt-footer-surround .box2 .rt-block, body #rt-footer-surround .box2.nohover .rt-block:hover {background: #333;border: 1px solid #444;}
+.modulehover-1 #rt-footer-surround .box2 .rt-block:hover {background: #444;border: 1px solid #555;}
+#rt-footer-surround .box3 .rt-block, body #rt-footer-surround .box3.nohover .rt-block:hover {background: #000;border: 1px solid #000;}
+.modulehover-1 #rt-footer-surround .box3 .rt-block:hover {background: #202020;border: 1px solid #000;}
+#rt-body-background .box4 .rt-block {background: #2E2F2D;}
+#rt-footer-surround .box6 .rt-block, body #rt-footer-surround .box6.nohover .rt-block:hover {border-top: 1px solid #303030;border-bottom: 1px solid #444;border-left: 1px solid #303030;border-right: 1px solid #444;}
+.modulehover-1 #rt-footer-surround .box6 .rt-block:hover {background: #303030;border-top: 1px solid #292929;border-left: 1px solid #292929;}
+#rt-footer-surround .box7 .rt-block, body #rt-footer-surround .box6.nohover .rt-block:hover {background: #363835 url(../images/header/dark/header-bg.png) 50% 105% repeat-x;border: 1px solid #222;}
+#rt-footer-surround .box8 .rt-block {background: #252525 url(../images/footer/dark/footer-bg.png);border: 1px solid #444;}
+#rt-footer-surround .box9 .rt-block {background: #fff;border: 1px solid #fff;}
+#rt-footer-surround .title5 .module-title {background: url(../images/body/dark-div.png) 50% 100% repeat-x;}
+#rt-footer-surround .module-content ul.menu li {background: url(../images/body/dark-div.png) 50% 100% repeat-x;}
+#rt-footer-surround .module-content ul.menu li > a:hover, #rt-footer-surround .module-content ul.menu li > .separator:hover, #rt-footer-surround .module-content ul.menu li > .item:hover, #rt-footer-surround .module-content ul.menu li.active > a, #rt-footer-surround .module-content ul.menu li.active > .separator, #rt-footer-surround .module-content ul.menu li.active > .item {background: #444;}
+
+/* Typography */
+#rocket {background-image: url(../images/footer/dark/branding.png);}
+#rt-footer-surround .rt-pollrow:hover {background: #444;}
+#gantry-totop {background: #252525 url(../images/footer/dark/footer-bg.png);border-top: 1px solid #222;}
+#gantry-totop .totop-desc {background-image: url(../images/footer/dark/totop.png);}

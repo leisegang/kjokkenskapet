@@ -1,0 +1,150 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Module Varations - Text Colors */
+.title, .rt-polltitle, .contentheading {color: #444;text-shadow: 1px 1px 1px #fff;}
+.promo .module-content p {color: #777;text-shadow: 1px 1px 1px #fff;}
+.promo .rt-module-surround:hover p {color: #444}
+.title3 .module-title .title, .title4 .module-title .title {color: #ddd;text-shadow: -1px -1px 1px #111;}
+.box4 {color: #aaa;}
+.box4 .title, .box4 .rt-polltitle {color: #ddd;text-shadow: -1px -1px 1px #000;}
+
+/* Side Menu - Text Colors */
+.module-content ul.menu li > a, .module-content ul.menu li > .separator, .module-content ul.menu li > .item {color: #666;}
+.module-content ul.menu li a:hover, .module-content ul.menu li .separator:hover, .module-content ul.menu li .item:hover, .module-content ul.menu li.active > a, .module-content ul.menu li.active > .separator, .module-content ul.menu li.active > .item {color: #000;}
+.box4 .module-content ul.menu li > a, .box4 .module-content ul.menu li > .separator, .box4 .module-content ul.menu li > .item {color: #aaa;}
+.box4 .module-content ul.menu li a:hover, .box4 .module-content ul.menu li .separator:hover, .box4 .module-content ul.menu li .item:hover, .box4 .module-content ul.menu li.active > a, .box4 .module-content ul.menu li.active > .separator, .box4 .module-content ul.menu li.active > .item {color: #fff;}
+
+/* Typography - Text Colors */
+.readon span, .readon .button, .search .button {color: #ddd;text-shadow: 1px 1px 1px #222;}
+.readon:hover span, .readon:hover .button, .search .button:hover {color: #fff;}
+.button2 .readon span, .button2 .readon .button {color: #555;text-shadow: 1px 1px 1px #e0e0e0;}
+.button2 .readon:hover span, .button2 .readon:hover .button {color: #222;text-shadow: 1px 1px 1px #ddd;}
+.roktabs-links ul li span {color: #999;text-shadow: 1px 1px 1px #fff;}
+.roktabs-links ul li:hover span {color: #222;}
+.rokminievents-date, .rokminievents-time {color: #666;text-shadow: 1px 1px 1px #fff;}
+#rt-login-button .desc, #rt-popupmodule-button .desc, #rt-accessibility .rt-desc, .rt-date-feature {color: #333;text-shadow: 1px 1px 1px #e0e0e0;}
+.timeline-dates .date, #rt-breadcrumbs, .rokminievents-title-nolink {text-shadow: 1px 1px 1px #fff;}
+.timeline-dates .date:hover {color: #333;}
+.component-content .rt-author, .component-content .rt-date-posted, .component-content .rt-date-modified, .component-content .rt-date-published, .component-content .rt-hits {color: #fff;text-shadow: -1px -1px 1px #888;}
+
+/* Background */
+.bodylevel-high #rt-body-background {background: #E8EAEB url(../images/body/body-bg.png);border-bottom: 1px solid #fafafa;}
+.bodylevel-low #rt-body-background {background: #E8EAEB;}
+
+/* Module Variations */
+.box1 .rt-block, body .box1.nohover .rt-block:hover {background: #DEE1E3;border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+.modulehover-1 .box1 .rt-block:hover {background: #F6F9FA;border: 1px solid #D9DBDC;}
+.box2 .rt-block, body .box2.nohover .rt-block:hover {background: #F6F9FA;border: 1px solid #D9DBDC;}
+.modulehover-1 .box2 .rt-block:hover {background: #DEE1E3;border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+.box3 .rt-block, body .box3.nohover .rt-block:hover {background: #fff;border: 1px solid #cecece;}
+.modulehover-1 .box3 .rt-block:hover {background: #DEE1E3;border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+.box4 .rt-block {background: #2E2F2D;}
+.box5 .rt-block, body .box5.nohover .rt-block:hover {background: #B3B7BA url(../images/body/module-gradient.png) 50% 0 repeat-x;border-top: 1px solid #bbb;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #bbb;border-right: 1px solid #f9f9f9;}
+.modulehover-1 .box5 .rt-block:hover {background: #DEE1E3;}
+.box6 .rt-block, body .box6.nohover .rt-block:hover {border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+.modulehover-1 .box6 .rt-block:hover {background: #DEE1E3;}
+.box7 .rt-block {background: #E5E7E8 url(../images/body/module-gradient2.png) 50% 0 repeat-x;border: 1px solid #D1D4D6;}
+.box8 .rt-block {background: #E5E7E8 url(../images/body/module-gradient3.png) 50% 100% repeat-x;border: 1px solid #D1D4D6;}
+.box9 .rt-block, body .box9.nohover .rt-block:hover {background: #D0D3D5;border-top: 1px solid #C5C9CB;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #C5C9CB;border-right: 1px solid #f9f9f9;}
+.modulehover-1 .box9 .rt-block:hover {background: #F6F9FA;border: 1px solid #D9DBDC;}
+.icon1 .module-icon, .icon2 .module-icon, .icon3 .module-icon, .icon4 .module-icon, .icon5 .module-icon, .icon6 .module-icon, .icon7 .module-icon, .icon8 .module-icon, .icon9 .module-icon, .icon10 .module-icon, .noticebox1 .module-icon, .noticebox2 .module-icon, .noticebox3 .module-icon, .noticebox4 .module-icon, .alert2 .module-icon, .approved2 .module-icon, .attention2 .module-icon, .notice2 .module-icon {background-image: url(../images/body/notice-icons.png);}
+.title3 .module-title, .title4 .module-title {background: url(../images/body/title-dark-r.png) 100% 0 no-repeat;}
+.title3 .module-title .title, .title4 .module-title .title {background: url(../images/body/title-dark-l.png) 0 0 no-repeat;}
+.title5 .module-title {background: url(../images/body/light-div.png) 50% 100% repeat-x;}
+.box4.title5 .module-title {background: url(../images/body/dark-div.png) 50% 100% repeat-x;}
+.noticebox1 .rt-block, .alert2 {color: #D0583F;background: #FFFBFB;border: 1px solid #EDD2D1;}
+.noticebox2 .rt-block, .approved2 {color: #6CB656;background: #FAFDF9;border: 1px solid #CDE5C6;}
+.noticebox3 .rt-block, .attention2 {color: #E1B42F;background: #FFFDF6;border: 1px solid #E4D8B9;}
+.noticebox4 .rt-block, .notice2 {color: #6187B3;background: #ECF5F8;border: 1px solid #C6E0E7;}
+
+/* Side Menu */
+.module-content ul.menu li {background: url(../images/body/light-div.png) 50% 100% repeat-x;}
+.module-content ul.menu li > a:hover, .module-content ul.menu li > .separator:hover, .module-content ul.menu li > .item:hover, .module-content ul.menu li.active > a, .module-content ul.menu li.active > .separator, .module-content ul.menu li.active > .item {background: #DEE1E3;}
+.box4 .module-content ul.menu li {background: url(../images/body/dark-div.png) 50% 100% repeat-x;}
+.box4 .module-content ul.menu li > a:hover, .box4 .module-content ul.menu li > .separator:hover, .box4 .module-content ul.menu li > .item:hover, .box4 .module-content ul.menu li.active > a, .box4 .module-content ul.menu li.active > .separator, .box4 .module-content ul.menu li.active > .item {background: #444;}
+
+/* Typography */
+.inputbox, #form-login .inputbox, #com-form-login .inputbox, #josForm .inputbox, .component-content .search_result .inputbox, .component-content .contact .inputbox, .component-content .user input#email, .component-content .user input#name, .component-content .user input#username, .component-content .user input#password, .component-content .user input#passwd, .component-content .user input#password2 {background: #F3F4F4;border: 1px solid #bbb;}
+.inputbox:focus {background: #fff;}
+.component-content .rt-article-icons ul li a, #breadcrumbs-home {background-image: url(../images/body/utility-icons.png);}
+.component-content .rt-joomla-table tr.even td, .component-content .rt-joomla-table th {background: #fafafa;}
+.component-content .rt-joomla-table tr.odd td {background: #fff;}
+.readon {background-image: url(../images/body/readon-r.png);}
+.readon span, .readon .button {background-image: url(../images/body/readon-l.png);}
+.readonstyle-button .button4 .readon span, .readonstyle-button .button4 .readon button {background: #444;}
+.readonstyle-button .button4 .readon:hover span, .readonstyle-button .button4 .readon:hover button {background: #666;}
+.controls .up, .controls .down {border-top: 1px solid #ccc;border-bottom: 1px solid #fff;border-left: 1px solid #ccc;border-right: 1px solid #fff;}
+.controls .up:hover, .controls .down:hover {background-color: #fafafa;}
+#rt-breadcrumbs {background: #DEE1E3;border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+span.breadcrumbs img {background: url(../images/body/rokminievent-page.png) 50% 50% no-repeat;}
+#rt-breadcrumbs img[src $="arrow.png"] {background: url(../images/body/rokminievent-page.png) 50% 50% no-repeat;}
+.rt-pollrow:hover {background: #eaeaea;}
+.box4 .rt-pollrow:hover {background: #444;}
+#rt-accessibility .button {background-image: url(../images/body/fontsizer.png);}
+.search .button {background: url(../images/body/search-button.png);}
+.rt-articleinfo {background: #eee;border: 1px solid #ddd;}
+.rt-articleinfo:hover {background: #fafafa;border: 1px solid #eee;}
+.component-content .rt-author, .component-content .rt-date-posted, .component-content .rt-date-modified, .component-content .rt-date-published, .component-content .rt-hits {background: #bbb;border: 1px solid #aaa;}
+
+/* RokAjaxSearch */
+.roksearch-wrapper {background: #F3F4F4;border: 1px solid #bbb;}
+body #roksearch_search_str {background: url(../images/body/rokajaxsearch-icon.png) 100% 0 no-repeat;}
+body #roksearch_results {background: #eee;border: 1px solid #ccc;}
+body .roksearch_wrapper1 {border: 1px solid #fff;}
+body #roksearch_results span {color: #666;}
+body #roksearch_results .roksearch_row_btm {background: #eee;}
+body #roksearch_results span.small {color: #777;}
+body #roksearch_results span.highlight {background: #fff;color: #333;}
+body #roksearch_results a:hover {color: #000;}
+body #roksearch_results .roksearch_odd, body #roksearch_results .roksearch_even, body #roksearch_results .roksearch_header {background: url(../images/body/light-div.png) 50% 100% repeat-x;}
+body #roksearch_results .roksearch_odd-hover, body #roksearch_results .roksearch_even-hover {background-color: #ddd;}
+body #roksearch_results .rokajaxsearch-overlay {background-color: #eee;}
+
+/* RokTabs */
+.roktabs-links ul li {border-left: 1px solid #D1D4D6;}
+.roktabs-links ul li.last.active {border-right: 1px solid #D1D4D6;}
+.roktabs-wrapper .active-arrows .roktabs-links ul li.first.active, body.rtl .roktabs-wrapper .roktabs-links ul li.first {border-left: 1px solid #D1D4D6;}
+.roktabs-wrapper .roktabs-links ul, .roktabs-wrapper .active-arrows {background: #FEFEFE url(../images/body/roktabs-gradient.png) 0 100% repeat-x;}
+.roktabs-wrapper .bottom .roktabs-links ul, .roktabs-wrapper .bottom .active-arrows {background: #E5E7E8 url(../images/body/roktabs-gradient2.png) 0 0 repeat-x;}
+.roktabs-links ul li.active {background: #fff;}
+.box1 .roktabs-links ul li.active {background: #DEE1E3;}
+.box2 .roktabs-links ul li.active {background: #F6F9FA;}
+.box3 .roktabs-links ul li.active {background: #fff;}
+.box5 .roktabs-links ul li.active {background: #C9CACC;}
+.box7 .roktabs-links ul li.active {background: #F6F6F6;}
+.box8 .roktabs-links ul li.active {background: #E7E8EA;}
+.box9 .roktabs-links ul li.active {background: #D0D3D5;}
+
+/* RokMiniEvents */
+.rokminievents-item:hover {background: #DEE1E3;border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+.rokminievents-badge {background: url(../images/body/event-badge.png);text-shadow: 1px 1px 1px #ddd;}
+.rokminievents-title {text-shadow: 1px 1px 1px #fff;}
+.rokminievents-wrapper .left-arrow, .rokminievents-wrapper .right-arrow {border-top: 1px solid #ccc;border-bottom: 1px solid #fff;border-left: 1px solid #ccc;border-right: 1px solid #fff;}
+.rokminievents-wrapper .left-arrow:hover, .rokminievents-wrapper .right-arrow:hover {background-color: #fafafa;}
+.rokminievents-wrapper .timeline .progress-wrapper {background: #DEE1E3;border-top: 1px solid #D1D4D6;border-bottom: 1px solid #f9f9f9;border-left: 1px solid #D1D4D6;border-right: 1px solid #f9f9f9;}
+.rokminievents-wrapper .timeline .progress-wrapper:hover {background: #D7D9DA;border-top: 1px solid #c0c0c0;border-bottom: 1px solid #fff;border-left: 1px solid #c0c0c0;border-right: 1px solid #fff;}
+.rokminievents-wrapper .rokminievent-page {background-image: url(../images/body/rokminievent-page.png);}
+.timeline-dates .date:hover {background: #D7D9DA;border-top: 1px solid #c0c0c0;border-bottom: 1px solid #fff;border-left: 1px solid #c0c0c0;border-right: 1px solid #fff;}
+
+/* RokNewsPager */
+body .roknewspager-li, body .roknewspager-wrapper ul li {background: url(../images/body/light-div.png) 50% 100% repeat-x;}
+body .active .roknewspager-li2, body .roknewspager-li2:hover {background: url(../images/body/light-gradient.png) 50% 0 repeat-x;}
+body .roknewspager-toggle, body .roknewspager-toggle-active {background-image: url(../images/body/newspager-toggle-light.png);}
+body .box4 .roknewspager-li, body .box4 .roknewspager-wrapper ul li {background: url(../images/body/dark-div.png) 50% 100% repeat-x;}
+body .box4 .active .roknewspager-li2, body .box4 .roknewspager-li2:hover {background: url(../images/body/light-gradient.png) 50% 0 repeat-x;}
+body .box4 .roknewspager-toggle, body .box4 .roknewspager-toggle-active {background-image: url(../images/body/newspager-toggle-dark.png);}
+body .box4 .roknewspager-overlay {background: #2E2F2D;}
+
+/* RTL */
+body.rtl .rokminievents-badge {background: url(../images/body/rtl/event-badge.png);}
+body.rtl .readon {background-image: url(../images/body/rtl/readon-r.png);}
+body.rtl .readon span, body.rtl .readon .button {background-image: url(../images/body/rtl/readon-l.png);}
+body.rtl .title3 .module-title, body.rtl .title4 .module-title {background: url(../images/body/rtl/title-dark-r.png) 0 0 no-repeat;}
+body.rtl .title3 .module-title .title, body.rtl .title4 .module-title .title {background: url(../images/body/rtl/title-dark-l.png) 100% 0 no-repeat;}
+body.rtl .search .button {background-image: url(../images/body/rtl/search-button.png);}

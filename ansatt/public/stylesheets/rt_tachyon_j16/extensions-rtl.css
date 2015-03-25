@@ -1,0 +1,53 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+ */
+
+/* RokAjaxSearch */
+body.rtl .rokajaxsearch {direction: ltr;text-align: right;}
+body.rtl .roksearch_option {float: right !important;}
+body.rtl .search_options {float: right;}
+body.rtl .search_options label {margin-right: 0 !important;margin-left: 15px !important;}
+body.rtl #rokajaxsearch #roksearch_search_str.loading {background-position: 0 50% !important;}
+body.rtl #roksearch_results {direction: ltr;text-align: right;}
+body.rtl #roksearch_results .viewall {float: right;}
+body.rtl #roksearch_results .estimated_res, body.rtl #roksearch_results .pagination_res {float: right;}
+body.rtl #roksearch_results a#roksearch_link {float: left;padding-right: 0;margin-left: 5px;}
+body.rtl #roksearch_results .container-arrows {float: right;margin-right: 0;margin-left: 5px;}
+body.rtl #roksearch_results span.small {direction: rtl;}
+
+/* RokTabs */
+body.rtl .roktabs-wrapper {direction: ltr;text-align: right;}
+body.rtl .roktabs-wrapper .roktabs-links ul li {float: right;}
+body.rtl .roktabs-wrapper .roktabs-links ul li span {padding: 0 26px 0 25px;}
+body.rtl .roktabs-wrapper .tab-icon {margin-right: 0;margin-left: 8px;float: right;margin-top: 0px;}
+body.rtl .roktabs-wrapper .roktabs-links ul {text-align: right;}
+body.rtl .roktabs-wrapper .roktabs-links ul li.first {border-top-left-radius: 0;border-top-right-radius: 5px;-moz-border-radius-topleft: 0;-moz-border-radius-topright: 5px;}
+body.rtl .roktabs-wrapper .roktabs-links ul li.last {border-right: 0;}
+body.rtl .roktabs-wrapper .bottom .roktabs-links ul li.first {border-bottom-left-radius: 0;border-bottom-right-radius: 5px;-moz-border-radius-bottomleft: 0;-moz-border-radius-bottomright: 5px;}
+body.rtl .roktabs-wrapper .active-arrows .roktabs-links ul li.first {border-top-right-radius: 0;-moz-border-radius-topright: 0;}
+body.rtl .roktabs-wrapper .bottom .active-arrows .roktabs-links ul li.first {border-bottom-right-radius: 0;-moz-border-radius-bottomright: 0;}
+body.rtl .roktabs-wrapper .active-arrows .roktabs-links ul li.first.active span {padding-right: 25px;}
+
+/* RokMiniEvents */
+body.rtl .rokminievents-item {float: right;}
+body.rtl .rokminievents-badge {float: right;margin-right: 0;margin-left: 15px;}
+body.rtl .rokminievents-wrapper .arrows {float: left;}
+body.rtl .rokminievents-wrapper .left-arrow, body.rtl .rokminievents-wrapper .right-arrow {float: left;}
+body.rtl .rokminievents-wrapper .arrows-on .timeline {margin-right: 0;margin-left: 45px;}
+
+/* RokNewsPager */
+body.rtl .roknewspager-toggle {right: inherit;left: 15px;background-position: 0 -64px;}
+body.rtl .roknewspager-toggle:hover {background-position: -35px -64px;}
+body.rtl .roknewspager-toggle-active, body.rtl .roknewspager-toggle-active:hover {background-position: -35px -32px;}
+body.rtl .roknewspager-pages {right: inherit;left: 0;}
+body.rtl .roknewspager-pages2 {margin-left: 0;margin-right: 10px;}
+body.rtl .roknewspager-pages3 {margin-left: 0;margin-right: -10px;padding: 5px 15px 0 10px;}
+body.rtl .roknewspager-next {background-position: 0 -13px;right: inherit;left: 8px;}
+body.rtl .roknewspager-next-disabled {background-position: -14px -13px;right: inherit;left: 8px;}
+body.rtl .roknewspager-prev {background-position: 0 0;left: inherit;right: 4px;}
+body.rtl .roknewspager-prev-disabled {background-position: -14px 0;left: inherit;right: 4px;}
+body.rtl .roknewspager-spinner {float: right;}

@@ -1,0 +1,25 @@
+/**
+ * @package   Tachyon Template - RocketTheme
+ * @version   1.6.0 March 18, 2011
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Text Colors */
+#rt-bottom, #rt-footer, #rt-copyright {color: #444;}
+#gantry-totop .totop-desc {color: #666;}
+#rt-bottom a:hover, #rt-footer a:hover, #rt-copyright a:hover, #gantry-totop:hover .totop-desc {color: #000;}
+
+/* Structure */
+#rt-bottom {background: #E3E5E6;border-top: 1px solid #dadada;}
+body, #rt-footer, #rt-copyright {background: #D6D8DB url(../images/footer/light/footer-bg.png);}
+#rt-footer {border-top: 1px solid #ccc;}
+.bodylevel-high #rt-bottom .rt-grid-1, .bodylevel-high #rt-bottom .rt-grid-2, .bodylevel-high #rt-bottom .rt-grid-3, .bodylevel-high #rt-bottom .rt-grid-4, .bodylevel-high #rt-bottom .rt-grid-5, .bodylevel-high #rt-bottom .rt-grid-6, .bodylevel-high #rt-bottom .rt-grid-7, .bodylevel-high #rt-bottom .rt-grid-8, .bodylevel-high #rt-bottom .rt-grid-9, .bodylevel-high #rt-bottom .rt-grid-10, .bodylevel-high #rt-bottom .rt-grid-11 {background: url(../images/footer/light/bottomdiv-l.png) 100% -25px no-repeat;}
+.bodylevel-high .bottomdiv-r {background: url(../images/footer/light/bottomdiv-r.png) 0 -25px no-repeat;}
+
+/* Typography */
+#rocket {background-image: url(../images/footer/light/branding.png);}
+#rt-footer-surround .rt-pollrow:hover {background: #444;}
+#gantry-totop {background: #D6D8DB url(../images/footer/light/footer-bg.png);border-top: 1px solid #ccc;}
+#gantry-totop .totop-desc {background-image: url(../images/footer/light/totop.png);}
