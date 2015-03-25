@@ -23,7 +23,9 @@
 							<?php
 							if ($user->last_login == null || $user->last_login == "0000-00-00 00:00:00")
 							{
-								echo '<a href="<?= $settings->base_url; ?>/brukere/rediger/<?= $user->id ?>"><span style="color: red">Aldri</span></a>';
+								echo '<span style="color: red">Aldri</span>';
+								echo "<a href='<?= $settings->base_url; ?>/brukere/rediger/<?= $user->id ?>'><span style="color: red">Aldri</span></a>";
+								
 							}
 							else
 							{
