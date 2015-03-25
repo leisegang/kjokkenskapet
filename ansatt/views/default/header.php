@@ -93,8 +93,7 @@ body, .bodylevel-high #rt-body-background, #rt-footer, #rt-copyright {
 				
 <div class="rt-article"> 
 	
-	<img src="<?= $settings->base_url; ?>/public/images/lillebageri_logo.png" alt="Lille Bageri" width="82" height="100" class="logo lillebageri" />
-		<img src="<?= $settings->base_url; ?>/public/images/kjokkenskapet-logo.png" alt="Kj&oslash;kkenskapet" width="250" height="58" class="logo kjokkenskapet" />
+		<img src="<?= $settings->base_url; ?>/public/images/kjokkenskapet-logo.png" alt="Kj&oslash;kkenskapet" width="220" class="logo kjokkenskapet" />
 	
 	<div class="ansattesider">
 		
