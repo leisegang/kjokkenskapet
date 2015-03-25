@@ -8,7 +8,7 @@
 			<?php 	$url = "?startdato=" . date("01.m.Y");
 					$url .= "&sluttdato=" . date("t.m.Y");
 			?>
-			
+			<a href="<?= $settings->base_url; ?>">Forsiden</a> |
 			<a href="<?= $settings->base_url; ?>/rapporter<?= $url ?>">Se rapporter</a> |
 			<?php if ($current_user->access_level >= 3) : ?>
 				<a href="<?= $settings->base_url; ?>/brukere">Administrer ansatte</a> |
