@@ -23,8 +23,7 @@
 							<?php
 							if ($user->last_login == null || $user->last_login == "0000-00-00 00:00:00")
 							{
-								echo = $user->id .'<span style="color: red">Aldri</span>';
-								
+								echo '<span style="color: red">Aldri</span>';
 							}
 							else
 							{
@@ -56,9 +55,5 @@
 		<?php endif; ?>
 		
 		<p><a href="<?= $settings->base_url; ?>/brukere/ny">Ny ansatt &rarr;</a></p>
-		
-		<p class="back">
-			<a href="<?= $settings->base_url ?>">&larr; Tilbake til hovedsiden</a>
-		</p>
 		
 	</div>
