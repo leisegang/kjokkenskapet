@@ -11,13 +11,20 @@ Layout: Sidebar right
 .page .site-content { 
    /* background: #313131; 
     background: hsl(0, 0%, 19%);*/
+      max-width: 1080px;
+  margin: 0 auto;
 }
 
 .site-content .widget-area {
 float: right;
 width: 300px;
-padding: 3em 2em 2em 2em;
+padding: 2em 2em 0em 2em;
 background: #fff;
+margin: 4em 0 0 2em;
+}
+
+.page .site-content .widget-area {
+padding: 2em 2em 0em 2em;
 margin: 4em 0 0 2em;
 }
 
@@ -93,6 +100,7 @@ margin: 4em 0 0 2em;
         width: 100%;
         margin-left: -380px;
         padding-left: 380px;
+        /*padding-top: 4em;*/
     }
     
     .index-box,

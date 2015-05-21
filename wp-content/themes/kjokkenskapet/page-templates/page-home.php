@@ -15,13 +15,13 @@
 get_header(); ?>
 
 	<div class="column-box-1">  
-	<div id="side">
+	<div class="frontpage" id="side" >
 		<main id="featured" class="featured-posts" role="main">
 
-             <?php $query = new WP_Query( 'cat=194&posts_per_page=3&orderby=ID&order=ASC' ); ?>
-			<?php $countposts = 0; while ( $query->have_posts() ) : $query->the_post(); $countposts++;?>
+             <?php $query = new WP_Query( 'cat=194&posts_per_page=1&orderby=ID&order=ASC' ); ?>
+			<?php while ( $query->have_posts() ) : $query->the_post();?>
 
-				<article id="<?php if($countposts == 3) { ?>last<?php } ?>" <?php post_class(); ?>>
+				<article <?php post_class(); ?>>
                         <?php 
                     if (has_post_thumbnail()) {
                         echo '<div class="single-post-thumbnail clear">';
@@ -31,11 +31,58 @@ get_header(); ?>
                     ?>
                     <div class="featured-box">
                     <header class="entry-header">
-                        <h2 class="entry-title"><?php the_title(); ?></h2>
+                        <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
                     </header><!-- .entry-header -->
 
                     <div class="entry-content">
-                        <?php the_content(); ?>
+                        <?php the_content('Les mer >'); ?>
+                    </div><!-- .entry-content -->
+                    
+                    </div>
+                </article><!-- #post-## -->
+			<?php endwhile; // end of the loop. ?>
+			
+			             <?php $query = new WP_Query( 'cat=1&posts_per_page=1&orderby=ID&order=ASC' ); ?>
+			<?php while ( $query->have_posts() ) : $query->the_post();?>
+
+				<article <?php post_class(); ?>>
+                        <?php 
+                    if (has_post_thumbnail()) {
+                        echo '<div class="single-post-thumbnail clear">';
+                        the_post_thumbnail();
+                        echo '</div>';
+                    }
+                    ?>
+                    <div class="featured-box">
+                    <header class="entry-header">
+                        <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                    </header><!-- .entry-header -->
+
+                    <div class="entry-content">
+                        <?php the_content('Les mer >'); ?>
+                    </div><!-- .entry-content -->
+                    </div>
+                </article><!-- #post-## -->
+			<?php endwhile; // end of the loop. ?>
+			
+			             <?php $query = new WP_Query( 'cat=196&posts_per_page=1&orderby=ID&order=ASC' ); ?>
+			<?php while ( $query->have_posts() ) : $query->the_post();?>
+
+				<article id="last" <?php post_class(); ?>>
+                        <?php 
+                    if (has_post_thumbnail()) {
+                        echo '<div class="single-post-thumbnail clear">';
+                        the_post_thumbnail();
+                        echo '</div>';
+                    }
+                    ?>
+                    <div class="featured-box">
+                    <header class="entry-header">
+                        <h2 class="entry-title"><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>
+                    </header><!-- .entry-header -->
+
+                    <div class="entry-content">
+                        <?php the_content('Les mer >'); ?>
                     </div><!-- .entry-content -->
                     </div>
                 </article><!-- #post-## -->
@@ -82,33 +129,6 @@ get_header(); ?>
 
 
 <div class="clear"></div>  
-
-	<div class="column-box-3">  
-<div id="side">
-             <?php $query = new WP_Query( 'page_id=1843' ); ?>
-			<?php while ( $query->have_posts() ) : $query->the_post();?>
-
-				<article <?php post_class(); ?>>
-                        <?php 
-                    if (has_post_thumbnail()) {
-                        echo '<div class="single-post-thumbnail clear">';
-                        the_post_thumbnail( 'medium' );
-                        echo '</div>';
-                    }
-                    ?>
-                    <div class="column-box-inside">  
-                    <header class="entry-header-box">
-                        <h2 class="entry-title"><?php the_title(); ?></h2>
-                    </header><!-- .entry-header -->
-<br>
-                    <div class="entry-content-box">
-                        <?php the_content(); ?>
-                    </div><!-- .entry-content -->
-                    </div>
-                </article><!-- #post-## -->
-			<?php endwhile; // end of the loop. ?>
-			</div><!-- #side -->
-    </div>
 
 
 <?php get_footer(); ?>
